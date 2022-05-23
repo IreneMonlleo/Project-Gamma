@@ -1,0 +1,5 @@
+.header{
+    padding: var(--ds-spacing, 8px);
+    border-bottom: 1px solid var(--ds-border-color, lightgray);
+    background-color: var(--color-green);
+}

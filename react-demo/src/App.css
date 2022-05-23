@@ -1,3 +1,14 @@
+:root{
+  --color-green:#A9B59D;
+  --color-red:#DD723A;
+  --color-orange: #FDAC39;
+  --color-purple:#95BAF3;
+  --color-bottom: #F8F1E8;
+  --color-black:#000000;
+
+
+}
+
 .App {
   text-align: center;
 }
