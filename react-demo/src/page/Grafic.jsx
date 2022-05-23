@@ -1,7 +1,7 @@
 import Header from './components/Header';
 
 
-function Grafico() {
+function Grafic() {
     // const userList = [
     //   { name: 'Diseño Gráfico', feature: false,  picture: '../public/img/ManchaGrafic.png' },
     //   { name: 'UX / UI', feature: false,  picture: '../public/img/ManchaUX.png' },
