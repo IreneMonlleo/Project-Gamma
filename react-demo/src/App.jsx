@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Contact from './components/Header';
+import Header from './Components/Header';
 
 function App() {
   const userList = [
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      { userList.map((user) => <Contact feature={user.feature} name={ user.name } img={ user.picture }></Contact>) }
+      { userList.map((user) => <Header feature={user.feature} name={ user.name } img={ user.picture }></Header>) }
     </div>
   );
 }

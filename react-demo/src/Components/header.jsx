@@ -1,4 +1,4 @@
-import './Header.css';
+import './Contact.css';
 
 export default function Header(props) {
   let classList = 'header';
