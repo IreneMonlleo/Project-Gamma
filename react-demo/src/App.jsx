@@ -1,23 +1,28 @@
 import React from 'react';
+import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Header from './Components/Header';
-import Link from './Components/Link';
+import Grafic from './page/Grafic';
+
 
 function App() {
   
   return (
     <div className="App">
-      <nav>
+      <nav className='menu'>
         <Link to ="/">Home</Link>
         <Link to ="/grafic">Diseño Gráfico</Link>
+        <Link to ="/Ux">Ux/Ui</Link>
+        <Link to ="/Front ">Front-end</Link>
+        <Link to ="/Footer">Contact</Link>
       </nav>
-      {/* <Routes>
-				// Cuando la url sea '/' se visualizará el elemento HOME
-        <Route path="/" element={<Home />} />
-        <Route path="/grafic" element={<Grafic />}></Route>
-				// Cuando la url sea cualquier otra cosa, se visualizará NOMATCH
-        <Route path="/ux" element={<Ux />} />
-      </Routes> */}
+      <Routes>
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Grafic />}></Route>
+        {/* <Route path="/ux" element={<Ux />} /> */}
+        
+        {/* <Route path="/front" element={<Front />} /> */}
+        {/* <Route path="/project" element={<Project />} /> */}
+      </Routes>
     </div>
   );
 }
