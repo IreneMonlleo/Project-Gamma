@@ -1,7 +1,7 @@
 .header{
     padding: var(--ds-spacing, 8px);
     background-color: var(--color-green);
-
+    height: 50%;
 }
 
 .header__title{
