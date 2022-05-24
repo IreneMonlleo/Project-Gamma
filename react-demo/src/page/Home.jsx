@@ -2,6 +2,8 @@ import React from "react";
 import './Home.css';
 import Mon_lleo from '../img/Mon_lleo.gif';
 import Irene from '../img/IreneMonlleo.png';
+import logohome from '../img/LogoHome.jpg';
+import Footer from "../components/Footer";
 
 
 
@@ -38,10 +40,11 @@ export default function Home(props) {
             <button className="buttons">Contactar</button>
           </div>
         </article>
-        
+
 
 
       </main>
+      <Footer img={logohome} name="Puedes contactar conmigo en:" email="irene.monlleo@gmail.com" rrss= "@Mon_lleo"></Footer>
     </div>
     
     

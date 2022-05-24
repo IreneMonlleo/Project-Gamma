@@ -12,7 +12,7 @@ export default  function Grafic() {
     
     return <div className="Grafico">
         <Header title="Diseño Gráfico" img={ManchaGrafic} description={description}></Header>
-        <main>
+        <main className="container__grid">
             
         </main>
     </div>
