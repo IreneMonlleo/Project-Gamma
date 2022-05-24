@@ -1,8 +1,12 @@
 .beginning{
     background-color: var(--color-orange);
     width: 50%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
 .title__beginning{
     text-align: left;
+    
    
 }
