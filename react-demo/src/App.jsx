@@ -9,6 +9,7 @@ function App() {
   
   return (
     <div className="App">
+      <p className='name'>Irene Monlleó</p>
 
       <nav className='menu'>
         <Link to ="/">Home</Link>

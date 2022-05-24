@@ -1,12 +1,27 @@
-.beginning{
+
+.beginning {
     background-color: var(--color-orange);
-    width: 50%;
+    height: 50%;
+    display: flex;
     align-items: center;
     justify-content: center;
     justify-items: center;
 }
-.title__beginning{
-    text-align: left;
-    
-   
+    .title__beginning {
+        text-align: left;
+        font-size: 60px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .gif{
+        width: 90px;
+    }
+.quest__container {
+    background-color: var(--color-orange);
+
+}
+.about__image {
+ width: 253px;
 }

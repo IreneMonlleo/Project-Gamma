@@ -13,14 +13,14 @@ export default function Home(props) {
 
 
     return ( 
-    <div>
+    <div className="container">
       <section className='beginning'>
           <h1 className='title__beginning'>MON <br></br>LLE</h1> 
           <img className="gif"  src={Mon_lleo} alt=''/>
       </section>
 
       <main className="home">
-        <section>
+        <section className="quest__container">
           <p className="home__text">Hola!!<br></br> 
               Soy <b>Irene Monlleó</b> y soy una profesional multidisciplinar por lo que eres libre de elegir que trabajos quieres ojear </p>
           <h3 className="quest">¿Que estas buscando?</h3>
