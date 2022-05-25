@@ -12,7 +12,7 @@ code {
     monospace;
 }
 @media all and (min-width: 600px) {
-  .body {
+  body {
     margin:5%;
   }
 }

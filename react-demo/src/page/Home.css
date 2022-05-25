@@ -1,6 +1,6 @@
 
 .beginning {
-    background-color: var(--color-orange);
+    background-color: var(--color-home);
     height: 50%;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@
         width: 90px;
     }
 .quest__container {
-    background-color: var(--color-orange);
+    background-color: var(--color-home);
 
 }
 .about__image {

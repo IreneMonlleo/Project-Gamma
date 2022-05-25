@@ -1,11 +1,11 @@
 .header{
     padding: var(--ds-spacing, 8px);
-    background-color: var(--color-green);
+    background-color: var(--color-grafic);
     height: 50%;
 }
 
 .header__title{
     font-size: 24px;
     font-family:'Century Gothic' ;
-    color:var(--color-black);
+    color:var(--color-typography);
 }

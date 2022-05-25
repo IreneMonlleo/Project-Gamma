@@ -1,11 +1,12 @@
 :root{
    /*Colores*/
-  --color-green:#A9B59D;
-  --color-red:#DD723A;
-  --color-orange: #FDAC39;
-  --color-purple:#95BAF3;
-  --color-bottom: #F8F1E8;
-  --color-black:#000000;
+  --color-grafic:#A9B59D;
+  --color-ux:#DD723A;
+  --color-home: #FDAC39;
+  --color-front:#95BAF3;
+  --color-bg: #F8F1E8;
+  --color-typography:#000000;
+  --color-margin: #FFFFFF;
 
   /*Typography*/
 
@@ -16,13 +17,13 @@
 
 .App {
   text-align: center;
-  background-color: var(--color-bottom);
+  background-color: var(--color-bg);
 }
 
 .menu {
   text-align: right; 
   margin: 24px;
-  color: var(--color-black);
+  color: var(--color-typography);
 
 }
 
