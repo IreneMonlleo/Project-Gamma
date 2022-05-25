@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Grafic from './page/Grafic';
 import Home from './page/Home';
 
+
+useEffect(()=>{
+  axios.get('jsons/data.json'),
+  .then((response)=>{(respose.data);});
+}, []);
 
 function App() {
   
@@ -24,7 +29,7 @@ function App() {
         {/* <Route path="/ux" element={<Ux />} /> */}
         
         {/* <Route path="/front" element={<Front />} /> */}
-        {/* <Route path="/project" element={<Project />} /> */}
+        {/* <Route path="/project/:id" element={<Project />} /> */}
       </Routes>
     </div>
   );
