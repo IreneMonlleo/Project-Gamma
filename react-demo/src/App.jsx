@@ -5,10 +5,10 @@ import Grafic from './page/Grafic';
 import Home from './page/Home';
 
 
-useEffect(()=>{
-  axios.get('jsons/data.json'),
-  .then((response)=>{(respose.data);});
-}, []);
+// useEffect(()=>{
+//   axios.get('jsons/data.json'),
+//   .then((response)=>{(respose.data);});
+// }, []);
 
 function App() {
   
