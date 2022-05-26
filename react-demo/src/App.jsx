@@ -3,6 +3,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Grafic from './page/Grafic';
 import Home from './page/Home';
+import Ux from './page/Ux';
 
 
 // useEffect(()=>{
@@ -26,9 +27,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/grafic" element={<Grafic />}></Route>
-        {/* <Route path="/ux" element={<Ux />} /> */}
-        
-        {/* <Route path="/front" element={<Front />} /> */}
+        <Route path="/ux" element={<Ux />}></Route>
+        {/* <Route path="/front" element={<Front />}></Route> */}
         {/* <Route path="/project/:id" element={<Project />} /> */}
       </Routes>
     </div>
