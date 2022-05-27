@@ -17,15 +17,20 @@
 
 .App {
   text-align: center;
-  background-color: var(--color-bg);
+  
 }
+  .name{
+    text-align: left;
+    color: var(--color-bg);
+    margin: 20px;
+  }
 
-.menu {
-  text-align: right; 
-  margin: 24px;
-  color: var(--color-typography);
+  .menu {
+    text-align: right; 
+    margin: 24px;
+    color: var(--color-typography);
 
-}
+  }
 
 
 

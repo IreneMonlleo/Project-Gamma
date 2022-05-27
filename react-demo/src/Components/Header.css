@@ -1,11 +1,39 @@
 .header{
     padding: var(--ds-spacing, 8px);
-    background-color: var(--color-grafic);
+    
     height: 50%;
 }
 
-.header__title{
-    font-size: 24px;
-    font-family:'Century Gothic' ;
-    color:var(--color-typography);
-}
+    .header__container{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+        .header__container::before{
+             content: "";
+             background-color: var(--color-grafic);
+             position: absolute;  
+             top: 0px;
+             left: 0px;
+             bottom:80vh;
+             right: 0px;
+             z-index: -1;
+        }
+
+        .header__title{
+            font-size: 30px;
+            text-align:left;
+            font-family:'Century Gothic' ;
+            color:var(--color-typography);
+            margin: 0; 
+        }
+
+        .header__image{
+            height: 13vh;
+            margin:12px;
+        }
+
+        .header__description{
+            margin:48px;
+            text-align: left;
+        }
