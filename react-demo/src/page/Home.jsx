@@ -1,10 +1,14 @@
-import React from "react";
 import './Home.css';
+import Footer from "../components/Footer";
+import Card from "../components/Card";
+
 import Mon_lleo from '../img/Mon_lleo.gif';
 import Irene from '../img/IreneMonlleo.png';
 import logohome from '../img/LogoHome.jpg';
-import Footer from "../components/Footer";
-import Card from "../components/Card";
+import StainGrafic from '../img/ManchaGrafic.png';
+import StainUX from '../img/ManchaUx.png';
+import StainFront from '../img/ManchaFront.png';
+
 
 
 
@@ -38,12 +42,15 @@ export default function Home(props) {
            <img className="about" src={Irene} alt="Irene Monlleó"></img>
         </Card>
         <Card title="Diseño Gráfico" description="Proyectos de branding, manual de identidad, maquetación editorial, cartelería, folletos, etc. Descubre todos los proyectos de Diseño Grafico que he desarrollado hasta ahora.">
-           <img className="Diseño" src={Irene} alt="Irene Monlleó"></img>
+          <img className="about" src={Irene} alt="Irene Monlleó"></img>
+          <img className="card__stain" src={StainGrafic} alt="Mancha corporativa"></img>
         </Card>
         <Card title="UX / UI" description="La experiencia de usuario es un tema muy importante en el diseño web hecha un vistazo a la metodología empleada en mis proyectos">
+          <img className="card__stain" src={StainUX} alt="Mancha corporativa"></img>
         </Card>
         <Card title="Front-end developer" description="HTML, CSS, SASS, JS… son los diferentes lenguajes que he desarrollado en estos proyectos.">
            <img className="about" src={Irene} alt="Irene Monlleó"></img>
+           <img className="card__stain" src={StainFront} alt="Mancha corporativa"></img>
         </Card>
         
 

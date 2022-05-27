@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Front from './page/Front';
 import Grafic from './page/Grafic';
 import Home from './page/Home';
 import Ux from './page/Ux';
@@ -28,7 +29,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/grafic" element={<Grafic />}></Route>
         <Route path="/ux" element={<Ux />}></Route>
-        {/* <Route path="/front" element={<Front />}></Route> */}
+        <Route path="/front" element={<Front />}></Route>
         {/* <Route path="/project/:id" element={<Project />} /> */}
       </Routes>
     </div>

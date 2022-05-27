@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../components/Header";
 import ManchaGrafic from '../img/ManchaGrafic.png';
 

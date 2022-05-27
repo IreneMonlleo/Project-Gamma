@@ -1,4 +1,6 @@
-import Header from "../components/Header"
+import Header from "../components/Header";
+import ManchaFront from '../img/ManchaFront.png';
+
 
 
 
@@ -7,7 +9,7 @@ export default  function Front() {
     const description=""
     
     return <div className="Grafico">
-        <Header title="Front-end developer" img="./img/ManchaFront.png" description={description}></Header>
+        <Header title="Front-end Developer" img={ManchaFront} description={description}></Header>
         <main>
             
         </main>
