@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Navbar from './components/Navbar';
 import Front from './page/Front';
 import Grafic from './page/Grafic';
 import Home from './page/Home';
@@ -16,15 +17,10 @@ function App() {
   
   return (
     <div className="App">
-      <p className='name'>Irene Monlleó</p>
+      
+      <Navbar></Navbar>
+      
 
-      <nav className='menu'>
-        <Link to ="/">Home</Link>
-        <Link to ="/Grafic">Diseño Gráfico</Link>
-        <Link to ="/Ux">Ux/Ui</Link>
-        <Link to ="/Front ">Front-end</Link>
-        <Link to ="/Footer">Contact</Link>
-      </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/grafic" element={<Grafic />}></Route>
