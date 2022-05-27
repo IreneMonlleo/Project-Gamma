@@ -1,5 +1,10 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+
 import ManchaGrafic from '../img/ManchaGrafic.png';
+import logografic from '../img/LogoGrafic.jpg';
+
+
 
 
 
@@ -14,5 +19,6 @@ export default  function Grafic() {
         <main className="container__grid">
             
         </main>
+        <Footer img={logografic} name="Puedes contactar conmigo en:" ></Footer> 
     </div>
   }

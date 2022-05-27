@@ -1,3 +1,33 @@
-.footer{
+.footer {
     background-color: var(--color-margin);
+    margin-top: 60px;
+    
+}
+    .footer__logo {
+     height: 100px;       
+    }
+    .footer__title {
+     
+        font-size:24px;
+        margin-bottom: 48px;
+    }
+        .title--top{
+            display:block;
+        } 
+    .contact {
+        margin-bottom: 84px;
+        
+    }
+        .footer__email {
+            display:block;
+            padding-bottom: 24px;
+        }
+
+@media all and (min-width: 600px){
+    .footer{
+        display:flex;
+        justify-content: space-around;
+
+    }
+
 }

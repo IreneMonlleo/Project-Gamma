@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
@@ -17,10 +17,9 @@ function App() {
   
   return (
     <div className="App">
-      
-      <Navbar></Navbar>
-      
+      <p className='name'>Irene Monlleó</p>
 
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/grafic" element={<Grafic />}></Route>

@@ -15,6 +15,6 @@ export default  function Front() {
         <main>
             
         </main>
-        <Footer img={logofront} name="Puedes contactar conmigo en:" email="irene.monlleo@gmail.com" rrss= "@Mon_lleo"></Footer> 
+        <Footer img={logofront} name="Puedes contactar conmigo en:"></Footer> 
     </div>
   }

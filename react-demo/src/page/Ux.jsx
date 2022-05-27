@@ -1,5 +1,8 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
+
 import ManchaUX from '../img/ManchaUx.png';
+import logoUx from '../img/LogoUx.jpg';
 
 
 
@@ -12,6 +15,6 @@ export default  function Ux() {
         <main>
             
         </main>
-
+        <Footer img={logoUx} name="Puedes contactar conmigo en:" ></Footer>
     </div>
   }

@@ -1,8 +1,8 @@
-[
+{
    
-        {"name": "Diseño Gráfico",
+        "name": "Diseño Gráfico",
         "id": "grafic",
-        "elements":} [
+        "elements": [
             {
                 "id": "mujeres-migrantes",
                 "name": "Mujeres Migrantes",
@@ -31,9 +31,9 @@
         ],
     
    
-        {"name": "ux/ui",
+        "name": "ux/ui",
         "id": "ux-ui",
-        "elements":} [
+        "elements": [
             {
                 "id": "about-me",
                 "name": "About me",
@@ -58,6 +58,6 @@
            
         ]
     
-]
+}
     
     
