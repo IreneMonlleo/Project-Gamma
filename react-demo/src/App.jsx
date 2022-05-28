@@ -17,8 +17,6 @@ function App() {
   
   return (
     <div className="App">
-      <p className='name'>Irene Monlleó</p>
-
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />

@@ -41,16 +41,34 @@ export default function Home(props) {
          Valencia con su postgrado especializado en UX/UI, Marketin digital y Desarrollo Web Front-end.">
            <img className="about" src={Irene} alt="Irene Monlleó"></img>
         </Card>
-        <Card title="Diseño Gráfico" description="Proyectos de branding, manual de identidad, maquetación editorial, cartelería, folletos, etc. Descubre todos los proyectos de Diseño Grafico que he desarrollado hasta ahora.">
+        <Card  description="Proyectos de branding, manual de identidad, maquetación editorial, cartelería, folletos, etc. Descubre todos los proyectos de Diseño Grafico que he desarrollado hasta ahora.">
           <img className="about" src={Irene} alt="Irene Monlleó"></img>
-          <img className="card__stain" src={StainGrafic} alt="Mancha corporativa"></img>
+          <div className='container__title'>
+            <img className="card__stain" src={StainGrafic} alt="Mancha corporativa"></img>
+            <h2 className='card__title'>
+              <span className='title-section'> Diseño </span>
+              <span className='subtitle-section'> Gráfico </span>
+            </h2>
+          </div>
         </Card>
         <Card title="UX / UI" description="La experiencia de usuario es un tema muy importante en el diseño web hecha un vistazo a la metodología empleada en mis proyectos">
-          <img className="card__stain" src={StainUX} alt="Mancha corporativa"></img>
+          <div className='container__title'> 
+            <img className="card__stain" src={StainUX} alt="Mancha corporativa"></img>
+            <h2 className='card__title'>
+                <span className='title-section'> UX / </span>
+                <span className='subtitle-section'> UI </span>
+              </h2>
+          </div>    
         </Card>
         <Card title="Front-end developer" description="HTML, CSS, SASS, JS… son los diferentes lenguajes que he desarrollado en estos proyectos.">
            <img className="about" src={Irene} alt="Irene Monlleó"></img>
-           <img className="card__stain" src={StainFront} alt="Mancha corporativa"></img>
+           <div className='container__title'>
+              <img className="card__stain" src={StainFront} alt="Mancha corporativa"></img>
+              <h2 className='card__title'>
+                  <span className='title-section'> Front-end </span>
+                  <span className='subtitle-section'> Developer </span>
+              </h2>
+           </div>     
         </Card>
         
 

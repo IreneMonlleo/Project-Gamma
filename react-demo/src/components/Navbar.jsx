@@ -8,7 +8,7 @@ export default function Navbar(props) {
 
 
     return (<nav className='menu'>
-        <p className='name'>Irene Monlleó</p>
+        <p className='name'><Link to ="/">Irene Monlleó</Link></p>
         <ul>
           <li className=''><Link to ="/">Home</Link></li>
           <li><Link to ="/Grafic">Diseño Gráfico</Link></li>

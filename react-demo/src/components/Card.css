@@ -1,0 +1,28 @@
+.card-home{
+    margin:48px;
+}
+    .about{
+        height: 267px;
+    }
+    .container__title{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+    }
+        .card__stain{
+            height: 80px; 
+            width: 74px;
+        }
+        .card__title{
+            font-size: 24px;
+            padding: 24px;
+            
+        }
+            .title-section{
+                display: block;
+            }
+
+@media all and (min-width: 600px){
+
+}
