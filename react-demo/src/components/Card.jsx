@@ -8,7 +8,7 @@ export default function Card(props) {
      {props.children}
     <div className="card__text">
       <p className="card__description">{ props.description }</p>
-      <Button className="card__buttons">Contactar</Button>
+      <Button >{ props.text }</Button>
     </div>
 </article>
 }

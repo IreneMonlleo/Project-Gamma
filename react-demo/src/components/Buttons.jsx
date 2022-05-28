@@ -1,13 +1,35 @@
 import styled from 'styled-components';
 
+const SecondButton = `
 
- export const Button = styled.button`
-	padding: 8px 16px;
-	border: 3px solid var(--color-orange);
+    border-color: var(--color-bg); 
+    color:var(--color-bg); 
+    background-color:var(--color-home);
+    
+        &:hover{
+            background-color: var(--color-bg);
+            color:var(--color-typography);
+        }
+`;
+
+export const Button = styled.button`
+	padding: 12px 24px;
+    margin: 12px;
+	border: 3px solid var(--color-home);
     border-radius: 50px;
-    cursor: pointer;
+    background-color: var(--color-bg);
+    color: var(--color-home);
+   
 
-     ${props => props.primary ? `border-color: var(--color-bg);` : `border-color: var(--color-orange);`}
+        &:hover{
+            background-color: var(--color-home);
+            color: var(--color-bg);
+        }
+
+ 
+
+
+     ${props => props.secondary ? SecondButton :''};
 
   
 `;

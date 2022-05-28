@@ -1,7 +1,7 @@
 .card-home{
     margin:48px;
 }
-    .about{
+    .img__section {
         height: 267px;
     }
     .container__title{
@@ -10,24 +10,28 @@
        align-items: center;
        justify-content: center;
     }
-        .card__stain{
+        .card__stain {
             height: 80px; 
             width: 74px;
         }
-        .card__title{
+        .card__title {
             font-size: 24px;
             padding: 24px;
             
         }
-            .title-section{
+            .title-section {
                 display: block;
             }
 
-@media all and (min-width: 600px){
+            .card__description{
+                text-align: left;
+            }
+
+@media all and (min-width: 600px) {
 .card-home{
     display:flex;
 }
-    .about{
+    .img__section {
         height: 600px;
     }
 

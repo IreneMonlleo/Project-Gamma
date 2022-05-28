@@ -23,4 +23,9 @@
     background-color: var(--color-home);
     
 }
-  
+    .quest__buttons{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        margin: 0 auto;
+    }
