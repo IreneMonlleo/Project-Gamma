@@ -24,5 +24,11 @@
             }
 
 @media all and (min-width: 600px){
+.card-home{
+    display:flex;
+}
+    .about{
+        height: 600px;
+    }
 
 }

@@ -18,10 +18,9 @@
     .gif{
         width: 90px;
     }
+
 .quest__container {
     background-color: var(--color-home);
-
+    
 }
-.about__image {
- width: 253px;
-}
+  

@@ -1,3 +1,4 @@
+import { Button } from './Buttons';
 import './Card.css';
 
 export default function Card(props) {
@@ -7,7 +8,7 @@ export default function Card(props) {
      {props.children}
     <div className="card__text">
       <p className="card__description">{ props.description }</p>
-      <button className="card__buttons">Contactar</button>
+      <Button className="card__buttons">Contactar</Button>
     </div>
 </article>
 }
