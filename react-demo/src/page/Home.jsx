@@ -29,7 +29,7 @@ export default function Home(props) {
     <div className="container">
       <section className='beginning'>
           <h1 className='title__beginning'>MON <br></br>LLE</h1> 
-          <img className="gif"  src={Mon_lleo} alt=''/>
+          <img className="gif"  src={Mon_lleo} alt='Logo'/>
       </section>
 
       <main className="home">

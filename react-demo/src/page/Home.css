@@ -20,7 +20,7 @@
     }
 
 .quest__container {
-    /* background-color: var(--color-home); */
+    background-color: var(--color-home);
     
 }
     .quest__buttons{
