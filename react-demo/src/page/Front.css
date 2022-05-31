@@ -1,0 +1,26 @@
+:root{
+    --color-header:#95BAF3;
+}
+
+.skills__section-title{
+    color: var(--color-home);
+    display:flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+.skills__section-description{
+    margin:48px 60px;
+    font-size: 14px;
+    text-align: left;
+}
+
+ @media all and (min-width: 600px){
+    .skills__front{
+        display:flex;
+    }
+
+    .skills__section{
+        display: flex;
+    }
+        
+ }

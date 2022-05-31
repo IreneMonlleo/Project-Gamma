@@ -6,11 +6,12 @@ import Front from './page/Front';
 import Grafic from './page/Grafic';
 import Home from './page/Home';
 import Ux from './page/Ux';
-
+// //Con esto repintamos
+// let [cards, setCards]=useState([]);
 
 // useEffect(()=>{
-//   axios.get('jsons/data.json'),
-//   .then((response)=>{(respose.data);});
+//   axios.get('jsons/data.json')
+//   .then((response)=>cards = response.data.results);
 // }, []);
 
 function App() {

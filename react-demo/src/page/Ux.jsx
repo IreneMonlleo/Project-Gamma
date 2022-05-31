@@ -1,8 +1,10 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import './Ux.css';
 
 import ManchaUX from '../img/ManchaUx.png';
 import logoUx from '../img/LogoUx.jpg';
+
 
 
 

@@ -2,6 +2,7 @@ import './Home.css';
 import Footer from "../components/Footer";
 import Card from "../components/Card";
 import { Button } from '../components/Buttons';
+import { Link } from 'react-router-dom';
 
 import Mon_lleo from '../img/Mon_lleo.gif';
 import Irene from '../img/IreneMonlleo.png';
@@ -10,6 +11,7 @@ import StainGrafic from '../img/ManchaGrafic.png';
 import StainUX from '../img/ManchaUx.png';
 import StainFront from '../img/ManchaFront.png';
 import Mujeres from '../img/MujeresMigrantes.jpg';
+
 
 
 
@@ -38,9 +40,9 @@ export default function Home(props) {
               Soy <b>Irene Monlleó</b> y soy una profesional multidisciplinar por lo que eres libre de elegir que trabajos quieres ojear </p>
           <h3 className="quest">¿Que estas buscando?</h3>
           <div className="quest__buttons">
-            <Button type="button" secondary>Diseño Gráfico</Button>
-            <Button type="button" secondary>UX / UI</Button>
-            <Button type="button" secondary>Front-end Developer</Button>
+            <Button type="button" secondary><Link to ="/Grafic">Diseño Gráfico</Link></Button>
+            <Button type="button" secondary><Link to ="/Ux">Ux / Ui</Link></Button>
+            <Button type="button" secondary><Link to ="/Front">Front-end Developer</Link></Button>
             
           </div>
         </section>

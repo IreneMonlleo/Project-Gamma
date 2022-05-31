@@ -14,7 +14,7 @@
    return <NavContainer className='menu'>
         <Wrapper>
           <Logo className='name'><Link to ="/">Irene Monlleó</Link></Logo>
-          <Mobile classsName='buerger' onClick ={handleClick}>
+          <Mobile role="button" classsName='buerger' onClick ={handleClick}>
             <BurguerButton clicked={showMobileMenu} handleClick={handleClick} />
           </Mobile>
 

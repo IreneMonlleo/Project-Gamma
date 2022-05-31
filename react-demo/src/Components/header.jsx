@@ -6,7 +6,7 @@ export default function Header(props) {
   return <header className="header">
     <div className='header__container'>
       <img className='header__image' src={ props.img } alt="Mancha corporativa" />
-      <h1 className='container__title'>
+      <h1 className='header__container-title'>
         <span className='header__title'> { props.title }</span>
         <span className='header__title'>{ props.secondtitle }</span>
       </h1>
