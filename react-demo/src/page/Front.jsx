@@ -14,6 +14,7 @@ export default  function Front() {
         <Header title="Front-end" secondtitle="Developer" img={ManchaFront} description={description}></Header>
         <main>
             
+            
         </main>
         <Footer img={logofront} name="Puedes contactar conmigo en:"></Footer> 
     </div>

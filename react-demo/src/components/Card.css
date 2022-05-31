@@ -27,7 +27,7 @@
                 text-align: left;
             }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 800px) {
 .card-home{
     display:flex;
 }
