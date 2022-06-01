@@ -1,8 +1,8 @@
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
-import ManchaGrafic from '/img/ManchaGrafic.png';
-import logografic from '/img/LogoGrafic.jpg';
+import ManchaGrafic from '../img/ManchaGrafic.png';
+import logografic from '../img/LogoGrafic.jpg';
 
 
 

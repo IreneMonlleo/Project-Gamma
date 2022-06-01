@@ -1,8 +1,8 @@
-import Header from "../../components/Header/Header";
-import ManchaFront from '/img/ManchaFront.png';
-import logofront from '/img/LogoFront.jpg';
-import Footer from "../../components/Footer/Footer";
-import Skills from "../../components/Skills";
+import Header from "../components/Header/Header";
+import ManchaFront from '../img/ManchaFront.png';
+import logofront from '../img/LogoFront.jpg';
+import Footer from "../components/Footer/Footer";
+import Skills from "../components/Skills";
 
 import './Front.css';
 

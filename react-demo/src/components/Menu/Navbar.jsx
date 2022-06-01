@@ -48,7 +48,6 @@ export const Wrapper = styled.div`
 export const Logo = styled.div`
   display: flex;
   font-size: 1.2rem;
-  }
 
 `;
 
@@ -92,7 +91,7 @@ export const MenuItemLink = styled(Link)`
   justify-content: center;
   align-items: center;
   height: 100%;
-  
+  padding: 0.5rem 1.5rem;
   color: var(--color-typography);
   font-size: 1rem;
   font-weight: bold;

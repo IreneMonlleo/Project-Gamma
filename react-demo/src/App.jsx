@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Front from './page/Front/Front';
-import Grafic from './page/Grafic/Grafic';
-import Ux from './page/Ux/Ux';
-import Home from './page/Home/Home';
+import Front from './page/Front';
+import Grafic from './page/Grafic';
+import Ux from './page/Ux';
+import Home from './page/Home';
 import Navbar from './components/Menu/Navbar';
 
 // //Con esto repintamos
