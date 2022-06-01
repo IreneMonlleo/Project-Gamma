@@ -11,15 +11,16 @@ import './Front.css';
 
 
 export default  function Front() {
-    const description=""
+    
     
     return <div className="Grafico">
-        <Header title="Front-end" secondtitle="Developer" img={ManchaFront} description={description} ></Header>
+        <Header title="Front-end" secondtitle="Developer" img={ManchaFront}  ></Header>
         <main className="skills__front">
-            <div>
+            <div >
                 <h2 className="skills__section-title">
                     <span>Lenguajes de</span>
-                    <span>Programación</span></h2>
+                    <span>Programación</span>
+                </h2>
                 <p className="skills__section-description">Estos son los lenguajes de programación con los que día a día me voy abriendo camino al mundo del desarrollo web y su  comunidad.</p>
             </div>
             <section className="skills__section">

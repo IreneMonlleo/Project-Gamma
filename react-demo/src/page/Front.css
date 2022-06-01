@@ -16,11 +16,15 @@
 
  @media all and (min-width: 600px){
     .skills__front{
-        display:flex;
+        display: flex;
+        justify-content: end;
     }
 
     .skills__section{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-gap: -6vw;
+    
     }
         
  }
