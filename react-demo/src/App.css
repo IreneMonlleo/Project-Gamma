@@ -18,6 +18,8 @@
   text-align: center;
   background-color: var(--color-bg);
   
+  
+  
 }
   .name{
     text-align: left;
@@ -26,9 +28,7 @@
   }
 
   .menu {
-    text-align: right; 
-    margin: 24px;
-    color: var(--color-typography);
+  color: var(--color-typography);
 
   }
 

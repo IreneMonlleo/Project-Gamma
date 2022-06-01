@@ -28,6 +28,7 @@ export const SkillsContainer = styled.div`
     .skills__description{
         font-size: 14px;
         text-align:left;
+        width:200px;
     }
 
     

@@ -1,4 +1,5 @@
-import { Button } from './Buttons';
+
+import { Button } from '../Buttons';
 import './Card.css';
 
 export default function Card(props) {

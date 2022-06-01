@@ -1,7 +1,7 @@
 import './Home.css';
-import Footer from "../components/Footer";
-import Card from "../components/Card";
-import { Button } from '../components/Buttons';
+import Footer from "../../components/Footer/Footer";
+import Card from "../../components/Card/Card";
+import { Button } from '../../components/Buttons';
 import { Link } from 'react-router-dom';
 
 import Mon_lleo from '../img/Mon_lleo.gif';
