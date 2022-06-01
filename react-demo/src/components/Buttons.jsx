@@ -22,8 +22,8 @@ export const Button = styled.button`
 	display: inline-block;
 	padding: 12px 24px;
     margin: 12px;
-	border: 3px solid var(--color-home);
-	border-radius: 50px;
+	border: var(--stroke) var(--color-home);
+	border-radius: var(--stroke-radius);
     font-weight: bold;
 	overflow: hidden;
     color:var(--color-home);
@@ -44,7 +44,7 @@ export const Button = styled.button`
             border-radius: 50px;
         }
             &::before{
-                border-radius: 50px;
+                border-radius: var(--stroke-radius);
                 margin-left: -100%;
                 box-shadow: inset 0 0 0 20px var(--color-home);
                 z-index:-1;

@@ -9,8 +9,11 @@
 
   /*Typography*/
 
-  --font-family:
 
+
+  /* Border buttons*/
+  --stroke: 3px solid;
+  --stroke-radius: 50px;
 
 }
 
@@ -28,7 +31,7 @@
   }
 
   .menu {
-  color: var(--color-typography);
+    color: var(--color-typography);
 
   }
 

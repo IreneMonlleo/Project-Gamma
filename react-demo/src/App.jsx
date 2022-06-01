@@ -1,11 +1,12 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Menu/Navbar';
 import Front from './page/Front/Front';
-import Grafic from './page/Grafic';
+import Grafic from './page/Grafic/Grafic';
+import Ux from './page/Ux/Ux';
 import Home from './page/Home/Home';
-import Ux from './page/Ux';
+import Navbar from './components/Menu/Navbar';
+
 // //Con esto repintamos
 // let [cards, setCards]=useState([]);
 
