@@ -12,13 +12,13 @@
      setShowMobileMenu(!showMobileMenu);
    }
    return <NavContainer className='menu'>
-        <Wrapper className='caca'>
+        <Wrapper >
           <Logo className='name'><Link to ="/">Irene Monlleó</Link></Logo>
-          <Mobile role="button" classsName='buerger' onClick ={handleClick}>
+          <Mobile role="button" classsName='burger' onClick ={handleClick}>
             <BurguerButton clicked={showMobileMenu} handleClick={handleClick} />
           </Mobile>
 
-          <Menu className="culo"open= {showMobileMenu}>
+          <Menu open= {showMobileMenu}>
                 <MenuItem className='links'><MenuItemLink to ="/">Home</MenuItemLink></MenuItem>
                 <MenuItem className='links'><MenuItemLink to ="/Grafic">Diseño Gráfico</MenuItemLink></MenuItem>
                 <MenuItem className='links'><MenuItemLink to ="/Ux">Ux/Ui</MenuItemLink></MenuItem>
@@ -60,7 +60,7 @@ export const Menu = styled.ul`
  
 
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 700px) {
     background-color: var(--color-margin);
     position: absolute;
     margin:-24px;
@@ -77,7 +77,7 @@ export const Menu = styled.ul`
 export const MenuItem = styled.li`
   height: 100%;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 700px) {
     width: 100%;
     height: 70px;
     display: flex;
@@ -99,7 +99,7 @@ export const MenuItemLink = styled(Link)`
   transition: all .5s ease;
  
  
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 700px) {
     div {
       width: 40%;
       justify-content: left;
@@ -111,9 +111,10 @@ export const MenuItemLink = styled(Link)`
 
 export const Mobile = styled.div`
   display: none;
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 700px) {
     position: relative;
-    left:-10%;
+    top:10%;
+    left:-5%;
     display: flex;
     cursor: pointer;
     z-index:6;
