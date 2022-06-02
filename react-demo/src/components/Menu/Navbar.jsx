@@ -40,9 +40,11 @@ export const Wrapper = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
+  justify-content:right;
 
-  justify-content: space-between;
-
+  @media screen and (max-width: 700px) {
+    justify-content: space-between;
+  }
 `;
 
 export const Logo = styled.div`
@@ -54,12 +56,10 @@ export const Logo = styled.div`
 export const Menu = styled.ul`
   height: 100%;
   display: flex;
-  justify-content: space-between;
   list-style: none;
+  justify-content: right;
   
- 
 
-  
   @media screen and (max-width: 700px) {
     background-color: var(--color-margin);
     position: absolute;

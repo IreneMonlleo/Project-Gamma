@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const SecondButton = `
-
+    width: 250px;
     border-color: var(--color-bg); 
     color:var(--color-bg); 
     

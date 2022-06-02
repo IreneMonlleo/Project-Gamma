@@ -1,10 +1,11 @@
 import './Home.css';
 import Footer from "../components/Footer/Footer";
 import Card from "../components/Card/Card";
+import Headboard from '../components/Headboard/Headboard';
 import { Button } from '../components/Buttons.jsx';
 import { Link } from 'react-router-dom';
 
-import Mon_lleo from '../img/Mon_lleo.gif';
+
 import Irene from '../img/IreneMonlleo.png';
 import logohome from '../img/LogoHome.jpg';
 import StainGrafic from '../img/ManchaGrafic.png';
@@ -15,16 +16,14 @@ import Mujeres from '../img/MujeresMigrantes.jpg';
 
 
 
+
+
 export default function Home(props) {
 
 
     return ( 
-    <div className="container">
-      <section className='beginning'>
-          <h1 className='title__beginning'>MON <br></br>LLE</h1> 
-          <img className="gif"  src={Mon_lleo} alt='Logo'/>
-      </section>
-
+    <div className="home__container">
+      <Headboard></Headboard>
       <main className="home">
         <section className="quest__container">
           <p className="home__text">Hola!!<br></br> 

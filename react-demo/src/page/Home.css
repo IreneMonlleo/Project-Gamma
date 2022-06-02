@@ -1,41 +1,30 @@
 
-.beginning {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-} 
-        .beginning::after{
-            content:'';
-            background-color: var(--color-home);
-            width: 100%;
-            height: 5em;
-            justify-content: end;
-            
-           
-        }
-
-    .title__beginning {
-        text-align: left;
-        font-size: 60px;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-    
-    }
-
-        
-    .gif{
-        width: 90px;
-    }
 
 .quest__container {
     background-color: var(--color-home);
+    
     
 }
     .quest__buttons{
         display: flex;
         flex-direction: column;
-        width: 250px;
-        margin: 0 auto;
+        padding: 2rem;
+        align-items: center;
+        justify-content: center;
     }
+
+.home__text{
+    display: inline-block;
+    justify-content: center; 
+
+    text-align: left;
+}
+
+
+@media all and (min-width:850px){
+    .quest__buttons{
+        flex-direction: row;
+        
+    }
+
+}

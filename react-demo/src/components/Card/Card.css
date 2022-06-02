@@ -28,7 +28,7 @@
                 
             }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 950px) {
 .card-home{
     display:flex;
 }

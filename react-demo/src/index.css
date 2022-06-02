@@ -15,7 +15,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-@media all and (min-width: 600px) {
+@media all and (min-width: 700px) {
   body {
     margin:5%;
   }

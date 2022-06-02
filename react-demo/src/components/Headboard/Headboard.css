@@ -1,0 +1,29 @@
+
+
+.headboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+} 
+        .headboard::after{
+            content:'';
+            background-color: var(--color-home);
+            width: 100%;
+            height: 5em;
+            justify-content: end;
+        }
+
+    .title__headboard {
+        text-align: left;
+        font-size: 60px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+        
+    .gif{
+        width: 90px;
+    }
