@@ -2,9 +2,15 @@
 
 .quest__container {
     background-color: var(--color-home);
+    height: 700px;
+    width: 100%;
     
     
 }
+
+    .quest{
+        color:var(--color-bg);
+    }
     .quest__buttons{
         display: flex;
         flex-direction: column;
@@ -16,7 +22,7 @@
 .home__text{
     display: inline-block;
     justify-content: center; 
-
+    max-width: 255px;
     text-align: left;
 }
 

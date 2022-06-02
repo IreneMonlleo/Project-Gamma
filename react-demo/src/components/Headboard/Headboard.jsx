@@ -4,8 +4,14 @@ import Mon_lleo from '../../img/Mon_lleo.gif';
 
 export default function Headboard(props) {
 
-    <div className='headboard'>
-            <h1 className='title__headboard'>MON<br></br>LLE</h1> 
-            <img className="gif"  src={Mon_lleo} alt='Logo'/>
+
+    return (
+        <div className ='headboard'>
+            <div className ='headboard__element'>
+                <h1 className ='first-title'>MON<br></br>LLE</h1> 
+                <img className ="gif"  src={Mon_lleo} alt='Logo'/>
+            </div>
         </div>
-}
+    )
+        
+    }

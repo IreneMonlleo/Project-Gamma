@@ -4,7 +4,6 @@ export default function Footer(props) {
   
 
     return <div className='footer'>
-      {props.children}
       <img className="footer__logo" src={props.img} alt="logo Monlleo" />
       <h2 className="footer__title">
         <span className="title--top">Puedes contactar</span>

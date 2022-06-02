@@ -2,9 +2,10 @@ import './Home.css';
 import Footer from "../components/Footer/Footer";
 import Card from "../components/Card/Card";
 import Headboard from '../components/Headboard/Headboard';
+import Title from '../components/Title';
+
 import { Button } from '../components/Buttons.jsx';
 import { Link } from 'react-router-dom';
-
 
 import Irene from '../img/IreneMonlleo.png';
 import logohome from '../img/LogoHome.jpg';
@@ -12,9 +13,6 @@ import StainGrafic from '../img/ManchaGrafic.png';
 import StainUX from '../img/ManchaUx.png';
 import StainFront from '../img/ManchaFront.png';
 import Mujeres from '../img/MujeresMigrantes.jpg';
-
-
-
 
 
 
@@ -48,13 +46,7 @@ export default function Home(props) {
         </Card>
         <Card  text="Ver mas" description="Proyectos de branding, manual de identidad, maquetación editorial, cartelería, folletos, etc. Descubre todos los proyectos de Diseño Grafico que he desarrollado hasta ahora.">
           <img className='img__section' src={Mujeres} alt="Irene Monlleó"></img>
-          <div className='container__title'>
-            <img className='card__stain' src={StainGrafic} alt="Mancha corporativa"></img>
-            <h2 className='card__title'>
-              <span className='title-section'> Diseño </span>
-              <span className='subtitle-section'> Gráfico </span>
-            </h2>
-          </div>
+          {/* <Title img={StainGrafic} title="Diseño" secondtitle="Gráfico"></Title>  */}
         </Card>
         <Card text="Ver mas" description="La experiencia de usuario es un tema muy importante en el diseño web hecha un vistazo a la metodología empleada en mis proyectos">
           <div className='container__title'> 

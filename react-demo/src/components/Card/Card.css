@@ -4,7 +4,7 @@
     .img__section {
         height: 70vw;
     }
-    .container__title{
+    /* .container__title{
        display: flex;
        flex-direction: row;
        align-items: center;
@@ -21,12 +21,12 @@
         }
             .title-section {
                 display: block;
-            }
+            } */
 
-            .card__description{
-                text-align: left;
+        .card__description{
+             text-align: left;
                 
-            }
+        }
 
 @media all and (min-width: 950px) {
 .card-home{

@@ -1,63 +1,180 @@
-{
-   
-        "name": "Diseño Gráfico",
-        "id": "grafic",
-        "elements": [
-            {
-                "id": "mujeres-migrantes",
-                "name": "Mujeres Migrantes",
-                "alt": "Ilustración mujeres",
-                "hrefcheckout":"checkout.html?section=furniture&product=f1",
-                "href": "decor.html?section=furniture&product=f1",
-                "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
-                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
-                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-                "image": "resources/img/F__sillascajones.jpg",
-                "price": "185€"
-            },
-            {
-                "id": "f2",
-                "name": "Por la boca vive el pez",
-                "alt": "silla de perchas",
-                "hrefcheckout":"checkout.html?section=furniture&product=f2",
-                "href": "decor.html?section=furniture&product=f2",
-                "description": "Hoy en día consumimos muchísima ropa y a un ritmo vertiginoso, ¿Y que va acompañado siempre de una prenda de ropa? Una percha, ¿Qué es lo que hacemos con todas estas cuando nos sobran? En REFER, pensando en darle un nuevo uso, hemos creado esta silla de lo más peculiar y única. Esta pieza quedara espectacular en cualquier rincón de tu salón o negocio, aportando un punto de distinción. Sus materiales robustos pero flexibles le aportan un leve balanceo, produciendo una agradable sensación de comodidad. Ancho: 57 cm, Altura: 117 cm. ",
-                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
-                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-                "image": "resources/img/F__esqueleto.jpg",
-                "price": "159€"
-            }
+  
+[
+
+    
+    {   
+        "category":"diseño-grafico",
+        "name": "Mujeres Migrantes",
+        "id": "mujeres-migrantes",
+        "alt": "Ilustración mujeres",
+                    
+        "href": "decor.html?section=furniture&product=f1",
+        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
+        "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
+        "conclution":"",
+        "img-main": "../img/MujeresMigrantes.jpg",
+        "img-1":"",
+        "img-2":"",
+        "img-3":""
+                
+    },
+    {   
+        "category":"diseño-grafico",
+        "name": "Mujeres Migrantes",
+        "id": "mujeres-migrantes",
+        "alt": "Ilustración mujeres",
+                    
+        "href": "decor.html?section=furniture&product=f1",
+        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
+        "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
+        "conclution":"",
+        "img-main": "../img/MujeresMigrantes.jpg",
+        "img-1":"",
+        "img-2":"",
+        "img-3":""
+                    
+    },
+    {   
+        "category":"diseño-grafico",
+        "name": "Mujeres Migrantes",
+        "id": "mujeres-migrantes",
+        "alt": "Ilustración mujeres",
+                    
+        "href": "decor.html?section=furniture&product=f1",
+        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
+        "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
+        "conclution":"",
+        "img-main": "../img/MujeresMigrantes.jpg",
+        "img-1":"",
+        "img-2":"",
+        "img-3":""
+                    
+    },
+    {   
+        "category":"diseño-grafico",
+        "name": "Mujeres Migrantes",
+        "id": "mujeres-migrantes",
+        "alt": "Ilustración mujeres",
+                    
+        "href": "decor.html?section=furniture&product=f1",
+        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
+        "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
+        "conclution":"",
+        "img-main": "../img/MujeresMigrantes.jpg",
+        "img-1":"",
+        "img-2":"",
+        "img-3":""
+                    
+    },
+    {   
+        "category":"diseño-grafico",
+        "name": "Mujeres Migrantes",
+        "id": "mujeres-migrantes",
+        "alt": "Ilustración mujeres",
+                    
+        "href": "decor.html?section=furniture&product=f1",
+        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
+        "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
+        "conclution":"",
+        "img-main": "../img/MujeresMigrantes.jpg",
+        "img-1":"",
+        "img-2":"",
+        "img-3":""
+                    
+    },
+
+
+
+
+
+
+
+    {   
+        "category":"ux-ui",
+        "name": "About Me",
+        "id": "about-me",
+        "alt": "Ilustración mujeres",
+                    
+        
+        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
+        "user-persona":"",
+        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
+        "conclution":"",
+        "img-main": "../img/LogoUx.jpg",
+        "img-1":"",
+        "img-2":"",
+        "img-3":""
+                    
+    },
+    {   
+        "category":"ux-ui",
+        "name": "About Me",
+        "id": "about-me",
+        "alt": "Ilustración mujeres",
+                    
+        
+        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
+        "user-persona":"",
+        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
+        "conclution":"",
+        "img-main": "../img/LogoUx.jpg",
+        "img-1":"",
+        "img-2":"",
+        "img-3":""
+                    
+    },
+    {   
+        "category":"ux-ui",
+        "name": "About Me",
+        "id": "about-me",
+        "alt": "Ilustración mujeres",
+                    
+        
+        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
+        "user-persona":"",
+        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
+        "conclution":"",
+        "img-main": "../img/LogoUx.jpg",
+        "img-1":"",
+        "img-2":"",
+        "img-3":""
+                    
+    },
+
+
+
+
+
+
+
+
+    {   
+        "category":"Front-end",
+        "name": "About Me",
+        "id": "about-me",
+        "alt": "Proyecto about me",
+        "img-main": "../img/LogoUx.jpg"
+        
+                    
+    },
+    {   
+        "category":"Front-end",
+        "name": "About Me",
+        "id": "about-me",
+        "alt": "Proyecto about me",
+        "img-main": "../img/LogoUx.jpg"
+        
+                    
+    }
+            
            
-        ],
+]
     
    
-        "name": "ux/ui",
-        "id": "ux-ui",
-        "elements": [
-            {
-                "id": "about-me",
-                "name": "About me",
-                "alt": "About me",
-                "href": "decor.html?section=illumination&product=i1",
-                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-                "description": "El primer café de la mañana es sagrado para poder empezar el día con buen pie. Encontramos estas latas de café viejas que son muy vintage, pero que hace años que termino su utilidad. En REFER consideramos darles una segunda vida ensamblándolas a una lampara de techo que le faltaban algunas piezas, obteniendo como resultado una lampara de diferentes colores muy alegre y juvenil, con un pasado y una historia propia.  ",
-                "image": "resources/img/I__coffe.jpg",
-                "price": "200€"
-            },
-            {
-                "id": "refer",
-                "name": "Eccomercer Refer",
-                "alt": "Eccomercer Refer",
-                "href": "decor.html?section=illumination&product=i2",
-                "description": "¿Quién no recuerda las antiguas cintas de casete? Fueron el vínculo musical de una generación. ¿Qué ha pasado con esas cintas?  En REFER las hemos reciclado creando una lampara de mesa totalmente cuadrada. Solamente sobresale un cable con su interruptor para encenderla y apagarla. Desprende una luz bohemia, que proyectando unas sombras de lo más interesantes y acogedoras, otorga una tranquilida y un ambiente perfecto para escuchar relajadamente tus canciones favoritas. Sus dimensiones son de 50x50cm.",
-                "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
-                "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-                "image": "resources/img/I__casets.jpg",
-                "price": "35€"
-            }
-           
-        ]
-    
-}
-    
+        
     
