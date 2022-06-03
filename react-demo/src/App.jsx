@@ -1,6 +1,6 @@
-// import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
-// import axios from 'axios';
+import axios from 'axios';
 
 import './App.css';
 
@@ -16,14 +16,14 @@ import Project from './page/Project';
 
 function App() {
 
-  // const [info, setInfo] = useState([]);
+  const [info, setInfo] = useState([]);
 
 
 
-  // useEffect(() => {
-  //   axios.get('/jsons/data.json')
-  //     .then(response => setInfo(response.data.results));
-  // }, [])
+  useEffect(() => {
+    axios.get('/jsons/data.json')
+      .then(response => setInfo(response.data.results));
+  }, [])
 
 
   return (
@@ -32,7 +32,7 @@ function App() {
       
       <Routes>
       <Route path='/' element={<Home/>} />
-      <Route path='/grafic' element={<Grafic />} />
+      <Route path='/grafic' element={<Grafic data={info}/>} />
       <Route path='/ux' element={<Ux />} />
       <Route path='/front' element={<Front/>}/>
       <Route path='/:category/:id' element={<Project/>}/>

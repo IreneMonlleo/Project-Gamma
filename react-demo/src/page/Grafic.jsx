@@ -10,7 +10,8 @@ import logografic from '../img/LogoGrafic.jpg';
 
 
 
-export default  function Grafic() {
+export default  function Grafic(props) {
+    console.log(props.data);
     const description= `Un diseñador es aquel que sabe un poquito de todo, pues cada proyecto es diferente 
     y requiere de una investigación y análisis previo. De este modo, podemos encontrar la solución más adecuada.`
     

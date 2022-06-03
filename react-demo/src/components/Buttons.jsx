@@ -1,4 +1,8 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+
+
+
 
 const SecondButton = `
     width: 250px;
@@ -16,7 +20,7 @@ const SecondButton = `
         
 `;
 
-export const Button = styled.button`
+export const Button = styled(Link)`
 	cursor: pointer;
 	position: relative;
 	display: inline-block;

@@ -30,9 +30,9 @@ export default function Home(props) {
           <h3 className="quest">¿Que estas buscando?</h3>
           
           <div className="quest__buttons">
-            <Button type="button" secondary>
-              <Link to ="/Grafic">Diseño Gráfico</Link>
-            </Button>
+           
+            {/* <Link type="button" secondary to ="/Grafic">Diseño Gráfico</Link>
+          
 
             <Button type="button" secondary>
               <Link to ="/Ux">Ux / Ui</Link>
@@ -40,7 +40,7 @@ export default function Home(props) {
 
             <Button type="button" secondary>
               <Link to ="/Front">Front-end Developer</Link>
-            </Button>
+            </Button> */}
           </div>
           
         </section>
@@ -60,7 +60,7 @@ export default function Home(props) {
         </Card>
 
         <Card text="Ver mas" description="La experiencia de usuario es un tema muy importante en el diseño web hecha un vistazo a la metodología empleada en mis proyectos">
-          <StainTitle img={StainUX} title="UX /" subtitle="UI"></StainTitle>   
+          <StainTitle img={StainUX} title="Diseño" subtitle="Gráfico"></StainTitle> 
         </Card>
 
         <Card text="Ver mas" description="HTML, CSS, SASS, JS… son los diferentes lenguajes que he desarrollado en estos proyectos.">
