@@ -22,6 +22,6 @@ export default  function Grafic() {
             }
             <img src={info.img-main} alt=""></img> */}
         </main>
-        <Footer img={logografic} name="Puedes contactar conmigo en:" ></Footer> 
+        <Footer img={logografic} ></Footer> 
     </div>
  ) }
