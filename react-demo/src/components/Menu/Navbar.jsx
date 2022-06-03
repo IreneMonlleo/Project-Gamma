@@ -19,11 +19,11 @@
           </Mobile>
 
           <Menu open= {showMobileMenu}>
-                <MenuItem className='links'><MenuItemLink to ="/">Home</MenuItemLink></MenuItem>
-                <MenuItem className='links'><MenuItemLink to ="/Grafic">Diseño Gráfico</MenuItemLink></MenuItem>
-                <MenuItem className='links'><MenuItemLink to ="/Ux">Ux/Ui</MenuItemLink></MenuItem>
-                <MenuItem className='links'><MenuItemLink to ="/Front ">Front-end</MenuItemLink></MenuItem>
-                <MenuItem className='links'><MenuItemLink to ="/Footer">Contact</MenuItemLink></MenuItem>
+                <MenuItem className='links'><MenuItemLink onClick ={handleClick} to ="/">Home</MenuItemLink></MenuItem>
+                <MenuItem className='links'><MenuItemLink onClick ={handleClick} to ="/Grafic">Diseño Gráfico</MenuItemLink></MenuItem>
+                <MenuItem className='links'><MenuItemLink onClick ={handleClick} to ="/Ux">Ux/Ui</MenuItemLink></MenuItem>
+                <MenuItem className='links'><MenuItemLink onClick ={handleClick} to ="/Front ">Front-end</MenuItemLink></MenuItem>
+                <MenuItem className='links'><MenuItemLink onClick ={handleClick} to ="/Footer">Contact</MenuItemLink></MenuItem>
           </Menu>
         
          </Wrapper>

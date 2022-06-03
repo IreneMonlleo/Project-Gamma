@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export default function Title(props) {
+export default function StainTitle(props) {
   
 
     return(
@@ -8,7 +8,7 @@ export default function Title(props) {
             <StainCard src={ props.img } alt="Mancha corporativa"></StainCard>
             <TitleCard className='card__title'>
                 <span className='title-section'> { props.title }</span>
-                <span className='subtitle-section'>{ props.secondtitle }</span>
+                <span className='subtitle-section'>{ props.subtitle }</span>
             </TitleCard>
         </ContainerTitleCard >
         ) 
@@ -27,7 +27,7 @@ export const ContainerTitleCard = styled.div`
         width: 74px;
 
     `
-    export const TitleCard = styled.img`
+    export const TitleCard = styled.h2`
         height: 80px; 
         width: 74px;
 
