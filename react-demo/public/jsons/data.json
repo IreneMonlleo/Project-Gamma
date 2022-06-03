@@ -156,7 +156,7 @@
         "title": "About Me",
         "id": "about-me",
         "alt": "Proyecto about me",
-        "img-main": "../img/IreneMonlleo.jpg",
+        "img-main": "../img/IreneMonlleo.jpg"
         
                     
     },
@@ -165,7 +165,7 @@
         "title": "Ecommercer Refer",
         "id": "about-me",
         "alt": "Proyecto about me",
-        "img-main": "../img/IreneMonlleo",
+        "img-main": "../img/IreneMonlleo"
         
                     
     }
