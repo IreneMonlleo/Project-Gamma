@@ -1,9 +1,6 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-
-
-
 const SecondButton = `
     width: 250px;
     border-color: var(--color-bg); 

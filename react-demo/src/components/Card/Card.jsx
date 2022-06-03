@@ -1,5 +1,5 @@
 
-import { Button } from '../Buttons';
+// import { Button } from '../Buttons';
 import './Card.css';
 
 export default function Card(props) {
@@ -18,7 +18,7 @@ export default function Card(props) {
     <div className="card__text">
       { children || props.children }
       <p className="card__description">{ props.description }</p>
-      <Button >{ props.text }</Button>
+      {/* <Button >{ props.text }</Button> */}
     </div>
 </article>
 }

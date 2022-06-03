@@ -31,16 +31,10 @@ export default function Home(props) {
           
           <div className="quest__buttons">
            
-            {/* <Link type="button" secondary to ="/Grafic">Diseño Gráfico</Link>
-          
-
-            <Button type="button" secondary>
-              <Link to ="/Ux">Ux / Ui</Link>
-            </Button>
-
-            <Button type="button" secondary>
-              <Link to ="/Front">Front-end Developer</Link>
-            </Button> */}
+            <Button secondary to ="/grafic">Diseño Gráfico</Button>
+            <Button secondary to ="/ux">Ux / Ui</Button>
+            <Button secondary to ="/front">Front-end Developer</Button>
+            
           </div>
           
         </section>

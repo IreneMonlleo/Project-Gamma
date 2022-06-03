@@ -13,7 +13,7 @@
    }
    return <NavContainer className='menu'>
         <Wrapper >
-          <Logo className='name'><Link to ="/">Irene Monlleó</Link></Logo>
+          <Logo role="button" className='name'><Link to ="/">Irene Monlleó</Link></Logo>
           <Mobile role="button" classsName='burger' onClick ={handleClick}>
             <BurguerButton clicked={showMobileMenu} handleClick={handleClick} />
           </Mobile>
