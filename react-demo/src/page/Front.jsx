@@ -13,7 +13,7 @@ import './Front.css';
 export default  function Front() {
     
     
-    return <div className="Grafico">
+    return <div className="Front">
         <Header title="Front-end" secondtitle="Developer" img={ManchaFront}  ></Header>
         <main className="skills__front">
             <div >

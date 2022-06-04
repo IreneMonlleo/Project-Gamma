@@ -23,7 +23,7 @@
                 <MenuItem className='links'><MenuItemLink onClick ={handleClick} to ="/Grafic">Diseño Gráfico</MenuItemLink></MenuItem>
                 <MenuItem className='links'><MenuItemLink onClick ={handleClick} to ="/Ux">Ux/Ui</MenuItemLink></MenuItem>
                 <MenuItem className='links'><MenuItemLink onClick ={handleClick} to ="/Front ">Front-end</MenuItemLink></MenuItem>
-                <MenuItem className='links'><MenuItemLink onClick ={handleClick} to ="/Footer">Contact</MenuItemLink></MenuItem>
+                <MenuItem className='links'><MenuItemA onClick ={handleClick} href="#contact">Contact</MenuItemA></MenuItem>
           </Menu>
         
          </Wrapper>
@@ -84,6 +84,27 @@ export const MenuItem = styled.li`
     justify-content: center;
     align-items: center;
   }
+`;
+export const MenuItemA= styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0.5rem 1.5rem;
+  color: var(--color-typography);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .5s ease;
+
+
+@media screen and (max-width: 700px) {
+  div {
+    width: 40%;
+    justify-content: left;
+   
+  }
+}
 `;
 
 export const MenuItemLink = styled(Link)`

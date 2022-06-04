@@ -3,7 +3,7 @@ import './Footer.css';
 export default function Footer(props) {
   
 
-    return <div className='footer'>
+    return <div className='footer' id="contact">
       <img className="footer__logo" src={props.img} alt="logo Monlleo" />
       <h2 className="footer__title">
         <span className="title--top">Puedes contactar</span>
