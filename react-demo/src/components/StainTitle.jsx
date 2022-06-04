@@ -6,7 +6,7 @@ export default function StainTitle(props) {
     return(
         <ContainerTitleCard >
             <StainCard src={ props.img } alt="Mancha corporativa"></StainCard>
-            <TitleCard className='card__title'>
+            <TitleCard >
                 <span className='title-section'> { props.title }</span>
                 <span className='subtitle-section'>{ props.subtitle }</span>
             </TitleCard>

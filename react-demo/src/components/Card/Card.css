@@ -29,11 +29,19 @@
         }
 
 @media all and (min-width: 950px) {
-.card-home{
+/* .card-home{
     display:flex;
-}
+    
+} */
     .img__section {
         height: 600px;
     }
+    .digital{
 
+        justify-content: center;
+    }
+   .about{
+       display: flex;
+       flex-direction: row-reverse;
+   }
 }

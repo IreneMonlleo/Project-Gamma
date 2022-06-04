@@ -16,8 +16,11 @@ export default  function Project(props) {
 
 let params = useParams();
 
+
 const project = props.info.find(project => project.category === params.category && project.id === params.id);
+
 return (<>
+
     <Header title={project.title} secondtitle={project.secondtitle} img={project.stain} description={project.description}></Header>
     
     

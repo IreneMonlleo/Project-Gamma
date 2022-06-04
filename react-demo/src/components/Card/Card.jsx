@@ -13,7 +13,7 @@ export default function Card(props) {
     children.splice(imgIndex, 1);
   }
 
-  return <article className="card-home">
+  return <article className="card">
     {img}
     <div className="card__text">
       { children || props.children }

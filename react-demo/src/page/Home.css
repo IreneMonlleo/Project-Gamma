@@ -1,30 +1,15 @@
 
 
-.quest__container {
-    background-color: var(--color-home);
-    height: 700px;
-    width: 100%;
-    
-    
-}
 
-    .quest{
-        color:var(--color-bg);
-    }
-    .quest__buttons{
-        display: flex;
-        flex-direction: column;
-        padding: 2rem;
-        align-items: center;
-        justify-content: center;
-    }
 
-.home__text{
-    display: inline-block;
-    justify-content: center; 
-    max-width: 255px;
-    text-align: left;
+.card__title{
+    text-align: center;
+
 }
+    .title-section {
+        display: block;
+        
+    }
 
 
 @media all and (min-width:850px){
@@ -32,5 +17,12 @@
         flex-direction: row;
         
     }
+    .card__title{
+        text-align: left;
+    }
 
+    .img__section{
+        display:flex;
+
+    }
 }
