@@ -37,8 +37,11 @@ h3{
 }
 p{
   font-size: 14px;
+font-weight: ;
 }
-
+a{
+  color:var(--color-typography)
+}
 
 
 
@@ -48,7 +51,20 @@ p{
   overflow: hidden;
  
 }
+.frame-top{
+  background-color: var(--color-margin);
+  position:fixed;
+  top:0;
+  width: 100%;
+  z-index:4;
 
+}
+.frame-bottom{
+  background-color: var(--color-margin);
+  position:fixed;
+  bottom:0;
+  width: 100%;
+}
   .name{
     text-align: left;
     

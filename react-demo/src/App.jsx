@@ -28,8 +28,11 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar></Navbar>
-      
+      <div className="frame-top">
+        <Navbar></Navbar>
+      </div>
+      <div className="frame-bottom">
+      </div>
       <Routes>
       <Route path='/' element={<Home/>} />
       <Route path='/grafic' element={<Grafic data={info}/>} />

@@ -33,7 +33,7 @@
 export const NavContainer = styled.div`
   width: 100%;
   height: 70px;
-  background-color: transparent;
+ 
 `;
 
 export const Wrapper = styled.div`
@@ -41,6 +41,7 @@ export const Wrapper = styled.div`
   height: 100%;
   display: flex;
   justify-content:right;
+  
 
   @media screen and (max-width: 700px) {
     justify-content: space-between;
@@ -50,27 +51,34 @@ export const Wrapper = styled.div`
 export const Logo = styled.div`
   display: flex;
   font-size: 1.2rem;
-
 `;
 
 export const Menu = styled.ul`
-  height: 100%;
   display: flex;
   list-style: none;
   justify-content: right;
+  position: fixed;
+  top: 0px;
+  right: 80px;
+  margin-top:20px;
+ 
+  
+ 
   
 
   @media screen and (max-width: 700px) {
     background-color: var(--color-margin);
     position: absolute;
-    margin:-24px;
+    margin:-100px;
     top:${({ open }) => (open ? "0" : "-200%")}; //Import;
     width: 100%;
-    height: 90vh;
+    height: 100%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     transition: all .5s ease;
+    
+
   }
 `;
 
@@ -91,9 +99,8 @@ export const MenuItemA= styled.a`
   align-items: center;
   height: 100%;
   padding: 0.5rem 1.5rem;
-  color: var(--color-typography);
   font-size: 1rem;
-  font-weight: bold;
+  font-weight:800;
   cursor: pointer;
   transition: all .5s ease;
 
