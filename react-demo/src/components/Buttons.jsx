@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+
+
 const SecondButton = `
     width: 250px;
     border-color: var(--color-bg); 
@@ -22,13 +24,13 @@ export const Button = styled(Link)`
 	position: relative;
 	display: inline-block;
 	padding: 12px 24px;
-    margin: 12px;
 	border: var(--stroke) var(--color-home);
 	border-radius: var(--stroke-radius);
     font-weight: bold;
 	overflow: hidden;
     color:var(--color-home);
     background-color: transparent;
+    text-decoration:none;
 
         &:hover{
             color:var(--color-bg);
@@ -62,6 +64,7 @@ export const Button = styled(Link)`
 
 
      ${props => props.secondary ? SecondButton :''};
+     
 
   
 `;

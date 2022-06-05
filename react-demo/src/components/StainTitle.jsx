@@ -19,20 +19,21 @@ export const ContainerTitleCard = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding:30px;
 
 `
 
     export const StainCard = styled.img`
         height: 80px; 
         width: 74px;
+       
 
     `
     export const TitleCard = styled.h2`
-        height: 80px; 
-        width: 74px;
-
+     
         .title-section {
             display: block;
+
         }
 
     `
