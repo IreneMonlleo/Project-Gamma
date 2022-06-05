@@ -7,7 +7,7 @@ import Quest from '../components/Quest/Quest';
 
 import { Button } from '../components/Buttons.jsx';
 // import { Link } from 'react-router-dom';
-
+import About from '../img/projectAbout.jpg';
 import Irene from '../img/IreneMonlleo.png';
 import logohome from '../img/LogoHome.jpg';
 import StainGrafic from '../img/ManchaGrafic.png';
@@ -27,14 +27,14 @@ export default function Home(props) {
       <Headboard></Headboard>
       <Quest></Quest>
       <main className="home">
-            <article className="card__container">
-            <img className='img__section about' src={Irene} alt="Irene Monlleó"></img>
+            <article className="card__container row-desktop about">
+            <img className='img__section ' src={Irene} alt="Irene Monlleó"></img>
             <div className='card-text '>
                 <h2 className='card-title'>
                     <span className='title-section'> Bienvenidos a</span>
                     <span className='subtitle-section'>mi portfolio</span>
                 </h2>
-                <p className="card-description left">Como ya sabeis me llamo Irene Monlleo. Estoy graduada en Bellas Artes en la Universidad Politécnica de Valencia. Seguidamente me especialice en Grafica Publicitaria en la EASD de Castellón y por último he dado el salto al mundodigital de la mano de ESAT
+                <p className="card-description left ">Como ya sabeis me llamo Irene Monlleo. Estoy graduada en Bellas Artes en la Universidad Politécnica de Valencia. Seguidamente me especialice en Grafica Publicitaria en la EASD de Castellón y por último he dado el salto al mundodigital de la mano de ESAT
                     Valencia con su postgrado especializado en UX/UI, Marketin digital y Desarrollo Web Front-end.</p>
                 <a role='button' className='button-contact' href="#contact">Contacto</a>
             </div> 
@@ -43,7 +43,7 @@ export default function Home(props) {
             Valencia con su postgrado especializado en UX/UI, Marketin digital y Desarrollo Web Front-end."> */}
             
             {/* </Card> */}
-            <article className="card__container">
+            <article className="card__container row-desktop">
                 <img className='img__section' src={Mujeres} alt="proyecto de diseño"></img>
                 <div className='card-text '>
                     <StainTitle img={StainGrafic} title="Diseño" subtitle="Gráfico"></StainTitle> 
@@ -58,7 +58,7 @@ export default function Home(props) {
             <StainTitle img={StainGrafic} title="Diseño" subtitle="Gráfico"></StainTitle> 
             </Card> */}
             <article className="card__container">
-                <div className='card-text '>
+                <div className='card-text digital-design'>
                     <StainTitle img={StainUX} title="Ux/" subtitle="Ui"></StainTitle> 
                     <p className="card-description left">La experiencia de usuario es un tema muy importante en el diseño web hecha un vistazo a la metodología empleada en mis proyectos</p>
                     <Button  to ="/ux">Ver más</Button>
@@ -69,9 +69,9 @@ export default function Home(props) {
             <StainTitle img={StainUX} title="Diseño" subtitle="Gráfico"></StainTitle> 
             </Card> */}
 
-            <article className="card__container">
-                <img className='img__section digital' src={Irene} alt="proyecto about"></img>
-                <div className='card-text '>
+            <article className="card__container ">
+                <img className='img__section digital' src={About} alt="proyecto about"></img>
+                <div className='card-text digital-design'>
                     <StainTitle img={StainFront} title="Front-end" subtitle="Developer"></StainTitle> 
                     <p className="card-description left">HTML, CSS, SASS, JS… son los diferentes lenguajes que he desarrollado en estos proyectos.</p>
                     <Button  to ="/front">Ver más</Button>
