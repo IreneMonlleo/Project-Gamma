@@ -13,7 +13,7 @@ const SecondButton = `
         }
 
         &::before{
-            box-shadow: inset 0 0 0 20px var(--color-bg);
+            box-shadow: inset 0 0 0 40px var(--color-bg);
         }
         
         
@@ -31,9 +31,12 @@ export const Button = styled(Link)`
     color:var(--color-home);
     background-color: transparent;
     text-decoration:none;
+    
+   
 
         &:hover{
             color:var(--color-bg);
+            
         }
 
         &::before, &::after{
@@ -49,8 +52,8 @@ export const Button = styled(Link)`
             &::before{
                 border-radius: var(--stroke-radius);
                 margin-left: -100%;
-                box-shadow: inset 0 0 0 20px var(--color-home);
-                z-index:-1;
+                box-shadow: inset 0 0 0 40px var(--color-home);
+                z-index:1;
                 
             }
             

@@ -37,7 +37,7 @@ h3{
 }
 p{
   font-size: 14px;
-font-weight: ;
+
 }
 a{
   color:var(--color-typography)
@@ -47,7 +47,6 @@ a{
 
 .App {
   text-align: center;
-  /* background-color: var(--color-bg); */
   overflow: hidden;
  
 }

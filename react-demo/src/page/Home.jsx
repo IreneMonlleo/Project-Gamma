@@ -57,8 +57,8 @@ export default function Home(props) {
             <img className='img__section' src={Mujeres} alt="Irene Monlleó"></img>
             <StainTitle img={StainGrafic} title="Diseño" subtitle="Gráfico"></StainTitle> 
             </Card> */}
-            <article className="card__container">
-                <div className='card-text digital-design'>
+            <article className="card__container bg-img">
+                <div className='card-text digital-design '>
                     <StainTitle img={StainUX} title="Ux/" subtitle="Ui"></StainTitle> 
                     <p className="card-description left">La experiencia de usuario es un tema muy importante en el diseño web hecha un vistazo a la metodología empleada en mis proyectos</p>
                     <Button  to ="/ux">Ver más</Button>

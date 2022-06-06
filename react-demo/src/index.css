@@ -34,6 +34,7 @@ html{
 }
 body {
   margin:0;
+  background-color: var(--color-bg);
   font-family:'CenturyGothic','Roboto', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -48,8 +49,9 @@ code {
 
 
 @media all and (min-width: 700px) {
-  body {
-    margin:5%;
+  html {
+    margin:80px;
+    background-color: var(--color-margin);
   }
   
 }
