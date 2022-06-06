@@ -145,7 +145,7 @@ export const Mobile = styled.div`
     left:-5%;
     display: flex;
     cursor: pointer;
-    z-index:6;
+    z-index:var(--top);
 
   }
 `;

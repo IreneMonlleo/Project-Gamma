@@ -3,7 +3,7 @@ import Footer from "../components/Footer/Footer";
 
 import ManchaGrafic from '../img/ManchaGrafic.png';
 import logografic from '../img/LogoGrafic.jpg';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
@@ -23,7 +23,7 @@ export default  function Grafic(props) {
         
         <Header title="Diseño" secondtitle="Gráfico" img={ManchaGrafic} description={description}></Header>
         <main className="container__grid">
-            {/* { info && info.map((info => 
+            {/* { info.map((info => 
             <Link to={`/${props.category}/${info.id}`}>
                    
                     <div className="content-card">

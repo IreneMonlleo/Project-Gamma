@@ -1,13 +1,9 @@
-.header{
-    padding: var(--ds-spacing, 8px);
-    
-    height: 50%;
-}
 
     .header__container{
         display: flex;
         justify-content: center;
         align-items: center; 
+        margin-top: 11vh;
     }
         .header__container::before{
              content: "";
@@ -15,29 +11,28 @@
              position: absolute;  
              top: 0px;
              left: 0px;
-             bottom:80vh;
+             bottom:70vh;
              right: 0px;
-             z-index: -1;
         }
-        .header__container-title{
-            display: flex;
-            flex-direction:column ;
-        }
-
-        .header__title{
-            font-size: 30px;
-            text-align:left;
-            font-family:'Century Gothic' ;
-            color:var(--color-typography);
-            margin: 0; 
-        }
-
+    
         .header__image{
             height: 13vh;
             margin:12px;
         }
 
         .header__description{
-            margin:48px;
+            margin:48px 25vw;
             text-align: left;
+            
+        }
+
+        @media all and (min-width:700px){
+
+            .header__container{
+                margin-top: 30vh;
+            }
+                .header__container::before{
+                    margin: 0 80px;
+                    bottom: 50vh;
+                }
         }

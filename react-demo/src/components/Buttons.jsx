@@ -53,7 +53,7 @@ export const Button = styled(Link)`
                 border-radius: var(--stroke-radius);
                 margin-left: -100%;
                 box-shadow: inset 0 0 0 40px var(--color-home);
-                z-index:1;
+                z-index:var(--bottom-medium);
                 
             }
             
