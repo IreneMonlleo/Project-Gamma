@@ -23,7 +23,7 @@ export default  function Grafic(props) {
             
             { props.data.filter((elem) => elem.category === 'diseño-grafico').map((info =>
             
-            <div className="grid-container">
+            <section className="grid-container">
                 <article id="3691" class="location-listing">
                     <Link className="location-title"to={`/${props.category}/${info.id}`}>
                         {info.title}<br></br>{info.secondtitle}            
@@ -34,7 +34,7 @@ export default  function Grafic(props) {
                         </Link>     
                     </div>         
                 </article>
-            </div>
+            </section>
                 
                 
         ))}

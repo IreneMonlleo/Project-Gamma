@@ -5,7 +5,7 @@ import Headboard from '../components/Headboard/Headboard';
 import StainTitle from '../components/StainTitle';
 import Quest from '../components/Quest/Quest';
 
-import { Button } from '../components/Buttons.jsx';
+
 // import { Link } from 'react-router-dom';
 import About from '../img/projectAbout.jpg';
 import Irene from '../img/IreneMonlleo.png';
@@ -14,6 +14,8 @@ import StainGrafic from '../img/ManchaGrafic.png';
 import StainUX from '../img/ManchaUx.png';
 import StainFront from '../img/ManchaFront.png';
 import Mujeres from '../img/MujeresMigrantes.jpg';
+import { ButtonA } from '../components/ButtonA';
+import { ButtonsLink } from '../components/ButtonsLink';
 
 
 
@@ -36,7 +38,7 @@ export default function Home(props) {
                 </h2>
                 <p className="card-description left ">Como ya sabeis me llamo Irene Monlleo. Estoy graduada en Bellas Artes en la Universidad Politécnica de Valencia. Seguidamente me especialice en Grafica Publicitaria en la EASD de Castellón y por último he dado el salto al mundodigital de la mano de ESAT
                     Valencia con su postgrado especializado en UX/UI, Marketin digital y Desarrollo Web Front-end.</p>
-                <a role='button' className='button-contact' href="#contact">Contacto</a>
+                <ButtonA role='button' className='button-contact' href="#contact">Contacto</ButtonA>
             </div> 
             </article>
             {/* <Card   text="Contactar" description="Como ya sabeis me llamo Irene Monlleo. Estoy graduada en Bellas Artes en la Universidad Politécnica de Valencia. Seguidamente me especialice en Grafica Publicitaria en la EASD de Castellón y por último he dado el salto al mundodigital de la mano de ESAT
@@ -48,7 +50,7 @@ export default function Home(props) {
                 <div className='card-text '>
                     <StainTitle img={StainGrafic} title="Diseño" subtitle="Gráfico"></StainTitle> 
                     <p className="card-description left">Proyectos de branding, manual de identidad, maquetación editorial, cartelería, folletos, etc. Descubre todos los proyectos de Diseño Grafico que he desarrollado hasta ahora.</p>
-                    <Button  to ="/grafic">Ver más</Button>
+                    <ButtonsLink  to ="/grafic">Ver más</ButtonsLink>
                 </div> 
             </article>
             
@@ -61,7 +63,7 @@ export default function Home(props) {
                 <div className='card-text digital-design '>
                     <StainTitle img={StainUX} title="Ux/" subtitle="Ui"></StainTitle> 
                     <p className="card-description left">La experiencia de usuario es un tema muy importante en el diseño web hecha un vistazo a la metodología empleada en mis proyectos</p>
-                    <Button  to ="/ux">Ver más</Button>
+                    <ButtonsLink  to ="/ux">Ver más</ButtonsLink>
                 </div> 
             </article>
 
@@ -74,7 +76,7 @@ export default function Home(props) {
                 <div className='card-text digital-design'>
                     <StainTitle img={StainFront} title="Front-end" subtitle="Developer"></StainTitle> 
                     <p className="card-description left">HTML, CSS, SASS, JS… son los diferentes lenguajes que he desarrollado en estos proyectos.</p>
-                    <Button  to ="/front">Ver más</Button>
+                    <ButtonsLink  to ="/front">Ver más</ButtonsLink>
                 </div> 
             </article>
 

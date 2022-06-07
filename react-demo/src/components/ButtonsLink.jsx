@@ -19,7 +19,7 @@ const SecondButton = `
         
 `;
 
-export const Button = styled(Link)`
+export const ButtonsLink = styled(Link)`
 	cursor: pointer;
 	position: relative;
 	display: inline-block;

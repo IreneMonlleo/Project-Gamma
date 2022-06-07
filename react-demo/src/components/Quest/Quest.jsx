@@ -1,4 +1,5 @@
-import { Button } from "../Buttons";
+
+import { ButtonsLink } from '../ButtonsLink';
 import './Quest.css'
 
 
@@ -15,9 +16,9 @@ export default function Quest(props) {
           
           <div className="quest__buttons">
            
-            <Button secondary to ="/grafic">Diseño Gráfico</Button>
-            <Button secondary to ="/ux">Ux / Ui</Button>
-            <Button secondary to ="/front">Front-end Developer</Button>
+            <ButtonsLink secondary to ="/grafic">Diseño Gráfico</ButtonsLink>
+            <ButtonsLink secondary to ="/ux">Ux / Ui</ButtonsLink>
+            <ButtonsLink secondary to ="/front">Front-end Developer</ButtonsLink>
             
           </div>
           

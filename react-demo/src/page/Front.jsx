@@ -10,7 +10,7 @@ import './Front.css';
 
 
 
-export default  function Front() {
+export default  function Front(props) {
     
     
     return <div className="Front">
@@ -31,6 +31,16 @@ export default  function Front() {
                 <Skills title="PHP" text="Estructuración del código html y preparación del código de las plantillas de wordpress."></Skills>
                 <Skills title="WordPress" text="Creación de plantillas personalizadas para cada cliente y proyecto."></Skills>
             </section>
+            
+            { props.data.filter((elem) => elem.category === 'ux-ui').map((info =>
+                <article>
+                    <img className="front-img" src={info['img-main']} alt={info.alt} ></img>
+                <div className="container-buttons">
+                    
+                </div>
+                </article>
+            ))
+            }
             
         </main>
         <Footer img={logofront} name="Puedes contactar conmigo en:"></Footer> 
