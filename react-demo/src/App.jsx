@@ -18,11 +18,9 @@ function App() {
 
   const [info, setInfo] = useState([]);
 
-
-
   useEffect(() => {
     axios.get('/jsons/data.json')
-      .then(response => setInfo(response.data.results));
+      .then(response => setInfo(response.data));
   }, [])
 
 
@@ -38,7 +36,7 @@ function App() {
       <Route path='/grafic' element={<Grafic data={info}/>} />
       <Route path='/ux' element={<Ux />} />
       <Route path='/front' element={<Front/>}/>
-      <Route path='/:category/:id' element={<Project/>}/>
+      <Route path='/:category/:id' element={<Project data={info}/>}/>
       {/* <Route path="*" element={<Error />} /> */}
       </Routes>
      
