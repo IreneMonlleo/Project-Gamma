@@ -5,7 +5,7 @@ import ManchaGrafic from '../img/ManchaGrafic.png';
 import logografic from '../img/LogoGrafic.jpg';
 import { Link } from "react-router-dom";
 
-
+import './Grafic.css';
 
 
 
@@ -20,16 +20,24 @@ export default  function Grafic(props) {
     return (<div className="grafico">
         <Header title="Diseño" secondtitle="Gráfico" img={ManchaGrafic} description={description}></Header>
         <main className="container__grid">
+            
             { props.data.filter((elem) => elem.category === 'diseño-grafico').map((info =>
-            <Link to={`/${props.category}/${info.id}`}>
-                   
-                    <div className="content-card">
-                        <h3 className='title-grid'>{info.title}</h3>
-                        <p className='text-grid'>{info.secondtitle}</p>
-                    </div>
-                    <img src={info['img-main']} alt={info.alt} className="grid__img"></img>
-                </Link>
-            ))}
+            
+            <div className="grid-container">
+                <article id="3691" class="location-listing">
+                    <Link className="location-title"to={`/${props.category}/${info.id}`}>
+                        {info.title}<br></br>{info.secondtitle}            
+                    </Link> 
+                    <div class="location-image">
+                        <Link to={`/${props.category}/${info.id}`}>
+                            <img className="grid-img" src={info['img-main']} alt={info.alt} ></img>
+                        </Link>     
+                    </div>         
+                </article>
+            </div>
+                
+                
+        ))}
             
         </main>
         <Footer img={logografic} ></Footer> 
