@@ -102,7 +102,8 @@ img{
     background-color: var(--color-margin);
     position:fixed;
     top:0;
-    width: 100%;
+    left:0;
+    right: 0;
     z-index:var(--top-medium);
   
   }
@@ -110,7 +111,8 @@ img{
     background-color: var(--color-margin);
     position:fixed;
     bottom:0;
-    width: 100%;
+    left:0;
+    right: 0;
     height: 80px;
     z-index:var(--top-medium);
   }

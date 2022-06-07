@@ -1,4 +1,5 @@
 
+  
 
 .headboard {
     display: flex;
@@ -7,47 +8,78 @@
     justify-items: center;
     height: 667px;
 } 
-        .headboard::after{
+        .headboard::before{
             content:'';
             background-color: var(--color-home);
             position:absolute;
-            top:60%;
-            bottom: 0;
+            top:0;
+            bottom:0 ;
             left:0;
             right: 0;
-            margin: 0 5%;
-            /* width: 100%;
-            height: 5em; */
             justify-content: end;
+            animation: slide-bottom 3.0s linear ;
+            animation-fill-mode: forwards;
           
         }
+        @keyframes slide-bottom {
+            0% {
+              transform: translateY(0);
+            }
+            100% {
+              transform: translateY(60%);
+            }
+          }
+    
+        
     
 
         .first-title {
             text-align: left;
             font-size: 60px;
-            display:flex;
-            align-items: center;
-            justify-content: center;
+            white-space: nowrap;
+            display:block;
             margin: 0;
-            
+            position:absolute;
+            width:6ch;
+
+            animation: typing 5s steps(6);
+            overflow: hidden;
+           
         }
-        .gif{
+        @keyframes typing{
+            from {width:0;}
+        }
+ 
+        
+        .gif {
             width: 90px;
             position:absolute;
             bottom:26%;
             right: 25vw;
         }
 
-    @media all and (min-width:700px){
-        .headboard::after{
+    @media all and (min-width:700px) {
+        .headboard::before{
             position:absolute;
             top:0;
             bottom: 0;
             left:0;
-            right: 50%;
-            margin: 5% 5%;
+            right: 38vw;
+            margin:80px;
+            animation: slide-right 1.0s linear ;
         }
-    
 
+        @keyframes slide-right {
+            0% {
+              width: 100%;
+            }
+            100% {
+              width:50%;
+            }
+        }    
+            
+            
+            
+            
     }
+       

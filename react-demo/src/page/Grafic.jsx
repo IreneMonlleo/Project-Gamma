@@ -34,6 +34,7 @@ export default  function Grafic(props) {
 
                 </Link>
             ))} */}
+            
         </main>
         <Footer img={logografic} ></Footer> 
     </div>

@@ -51,6 +51,7 @@ export const Wrapper = styled.div`
 export const Logo = styled.div`
   display: flex;
   font-size: 1.2rem;
+  z-index:var(--bottom-medium)
 `;
 
 export const Menu = styled.ul`
@@ -62,21 +63,21 @@ export const Menu = styled.ul`
   right: 80px;
   margin-top:20px;
  
-  
- 
-  
 
   @media screen and (max-width: 700px) {
     background-color: var(--color-margin);
     position: absolute;
     margin:-100px;
     top:${({ open }) => (open ? "0" : "-200%")}; //Import;
-    width: 100%;
+    
+    width:100%;
     height: 100%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     transition: all .5s ease;
+
+    z-index:var(--medium);
     
 
   }
