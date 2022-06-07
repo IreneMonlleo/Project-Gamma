@@ -153,20 +153,25 @@
 
 
     {   
-        "category":"Front-end",
+        "category":"front-end",
         "title": "About Me",
         "id": "about-me",
         "alt": "Proyecto about me",
-        "img-main": "../img/IreneMonlleo.jpg"
-        
+        "img-main": "../img/IreneMonlleo.jpg",
+        "github":"https://github.com/IreneMonlleo/aboutme/tree/main/AboutMe",
+        "href":"https://frontend.esatid3-2021.com/irenemonlleo/proyect-alpha/"
+       
                     
     },
     {   
-        "category":"Front-end",
+        "category":"front-end",
         "title": "Ecommercer Refer",
         "id": "about-me",
         "alt": "Proyecto about me",
-        "img-main": "../img/IreneMonlleo"
+        "img-main": "../img/IreneMonlleo",
+        "github":"https://github.com/IreneMonlleo/Proyecto-Beta",
+        "href":"https://frontend.esatid3-2021.com/irenemonlleo/proyect-beta/"
+        
         
                     
     }

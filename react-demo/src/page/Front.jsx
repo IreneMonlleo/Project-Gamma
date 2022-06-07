@@ -5,6 +5,7 @@ import Footer from "../components/Footer/Footer";
 import Skills from "../components/Skills";
 
 import './Front.css';
+import { ButtonA } from "../components/ButtonA";
 
 
 
@@ -32,11 +33,13 @@ export default  function Front(props) {
                 <Skills title="WordPress" text="Creación de plantillas personalizadas para cada cliente y proyecto."></Skills>
             </section>
             
-            { props.data.filter((elem) => elem.category === 'ux-ui').map((info =>
+            { props.data.filter((elem) => elem.category === 'front-end').map((info =>
                 <article>
                     <img className="front-img" src={info['img-main']} alt={info.alt} ></img>
                 <div className="container-buttons">
-                    
+                <ButtonA role='button' className='button-contact' href= {info.github} >GitHub</ButtonA>
+                <ButtonA role='button' className='button-contact' href= {info.href} >Ver web</ButtonA>
+
                 </div>
                 </article>
             ))
