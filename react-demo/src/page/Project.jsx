@@ -1,3 +1,5 @@
+import axios from "axios";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 import Footer from "../components/Footer/Footer";
@@ -5,7 +7,12 @@ import Header from "../components/Header/Header";
 
 
 
+// const [info, setInfo] = useState([]);
 
+// useEffect(() => {
+//   axios.get('/jsons/data.json')
+//     .then(response => setInfo(response.data));
+// }, [])
 
 
 
@@ -22,8 +29,7 @@ const project = props.info.find(project => project.category === params.category 
 return (<>
 
     <Header title={project.title} secondtitle={project.secondtitle} img={project.stain} description={project.description}></Header>
-    
-    
+ 
     <Footer img={project.logo} ></Footer>
     </>
 )};

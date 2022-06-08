@@ -25,11 +25,11 @@ export default  function Grafic(props) {
             
         
                 <article id="3691" class="location-listing">
-                    <Link className="location-title"to={`/${props.category}/${info.id}`}>
+                    <Link className="location-title"to={`/${info.category}/${info.id}`}>
                         {info.title}<br></br>{info.secondtitle}            
                     </Link> 
                     <div class="location-image">
-                        <Link to={`/${props.category}/${info.id}`}>
+                        <Link to={`/${info.category}/${info.id}`}>
                             <img className="grid-img" src={info['img-main']} alt={info.alt} ></img>
                         </Link>     
                     </div>         

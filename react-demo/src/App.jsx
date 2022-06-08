@@ -34,8 +34,8 @@ function App() {
       <Routes>
       <Route path='/' element={<Home/>} />
       <Route path='/grafic' element={<Grafic data={info}/>} />
-      <Route path='/ux' element={<Ux />} />
-      <Route path='/front' element={<Front/>}/>
+      <Route path='/ux' element={<Ux data={info}/>} />
+      <Route path='/front' element={<Front data={info}/>}/>
       <Route path='/:category/:id' element={<Project data={info}/>}/>
       {/* <Route path="*" element={<Error />} /> */}
       </Routes>

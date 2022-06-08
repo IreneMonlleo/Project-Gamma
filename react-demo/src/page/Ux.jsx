@@ -15,10 +15,9 @@ export default  function Ux(props) {
     
     return <div className="Ux">
         <Header title="UX / " secondtitle="UI" img={ManchaUX} description={description}></Header>
-        <main>
-        {/* { props.data.filter((elem) => elem.category === 'ux-ui').map((info =>
+        <main className="grid-container">
+        { props.data.filter((elem) => elem.category === 'ux-ui').map((info =>
             
-            <section className="grid-container">
                 <article id="3691" class="location-listing">
                     <Link className="location-title"to={`/${props.category}/${info.id}`}>
                         {info.title}<br></br>{info.secondtitle}            
@@ -29,10 +28,10 @@ export default  function Ux(props) {
                         </Link>     
                     </div>         
                 </article>
-            </section> 
+         
 
             ))
-        } */}
+        }
         </main>
         <Footer img={logoUx} name="Puedes contactar conmigo en:" ></Footer>
     </div>
