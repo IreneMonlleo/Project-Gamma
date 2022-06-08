@@ -104,6 +104,7 @@ img{
     top:0;
     left:0;
     right: 0;
+
     z-index:var(--top-medium);
   
   }
@@ -118,6 +119,11 @@ img{
   }
 }
 
-
-
+/* @media all and (min-width:1000px){}
+.frame-top{
+  height: 80px;
+}
+.frame-bottom{
+  height: 80px;
+} */
 

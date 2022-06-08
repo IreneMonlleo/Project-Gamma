@@ -6,9 +6,11 @@
 }
  
   .grid-container {
+    margin-top: 48px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1em;
+    margin: 0 1em;
   }
   
 
@@ -40,7 +42,7 @@
     left: 0;
     opacity: 0;
     transition: opacity .5s;
-    background: rgb(169, 181, 157,0.7);
+    background: rgb(28, 27, 23, 0.4);
     color: var(--color-margin);
     
     /* position the text in t’ middle*/
@@ -56,15 +58,14 @@
   .location-listing:hover .location-image img {
     filter: blur(2px);
   }
+
   
-@media all and (min-width:850px){
-    .grid-container {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
-        grid-gap: 1em;
-    }
-  
-  
-    /*for touch screen devices */
+@media all and (min-width:600px){ 
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin:0;
+  }
+   /*for touch screen devices */
    
   @media (hover: none) { 
     .location-title {
@@ -73,5 +74,16 @@
     .location-image img {
       filter: blur(2px);
     }
+  }
+
 }
+@media all and (min-width:850px){
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+     
+    }
+  
+  
+   
 }

@@ -19,11 +19,11 @@ export default  function Grafic(props) {
     
     return (<div className="grafico">
         <Header title="Diseño" secondtitle="Gráfico" img={ManchaGrafic} description={description}></Header>
-        <main className="container__grid">
+        <main className="grid-container">
             
             { props.data.filter((elem) => elem.category === 'diseño-grafico').map((info =>
             
-            <section className="grid-container">
+        
                 <article id="3691" class="location-listing">
                     <Link className="location-title"to={`/${props.category}/${info.id}`}>
                         {info.title}<br></br>{info.secondtitle}            
@@ -34,9 +34,7 @@ export default  function Grafic(props) {
                         </Link>     
                     </div>         
                 </article>
-            </section>
-                
-                
+            
         ))}
             
         </main>
