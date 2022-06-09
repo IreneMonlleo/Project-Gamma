@@ -7,7 +7,7 @@ export default  function Skills(props) {
     
     
     return <SkillsContainer>
-            <h3 className="skills__title">{props.title}</h3>
+            <h3 className="skills__title left ">{props.title}</h3>
             <p className="skills__description">{props.text}</p>
         </SkillsContainer>
         
@@ -15,14 +15,14 @@ export default  function Skills(props) {
 }
 
 export const SkillsContainer = styled.div`
-    margin:24px;
+    margin:12px;
     padding:48px;
     background-color: var(--color-front);
 
     .skills__title{
-        text-align:center;
         font-size:24px;
         font-weight:bold;
+        margin-bottom:24px;
 
     }
     .skills__description{

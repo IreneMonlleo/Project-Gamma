@@ -18,11 +18,8 @@ export default  function Front(props) {
         <Header title="Front-end" secondtitle="Developer" img={ManchaFront}  ></Header>
         <main className="skills__front">
             <section className="wrapper-skills">
-                <div >
-                    <h2 className="skills__section-title">
-                        <span>Lenguajes de</span>
-                        <span>Programación</span>
-                    </h2>
+                <div className="skills-text">
+                    <h2 className="skills__section-title">Lenguajes de <br></br>Programación </h2>
                     <p className="skills__section-description">Estos son los lenguajes de programación con los que día a día me voy abriendo camino al mundo del desarrollo web y su  comunidad.</p>
                 </div>
                 <div className="skills__section">
@@ -34,15 +31,15 @@ export default  function Front(props) {
                     <Skills title="WordPress" text="Creación de plantillas personalizadas para cada cliente y proyecto."></Skills>
                 </div>
             </section>
-            <section className="container__project">
+            
+            <section className="front__container-project">
             { props.data.filter((elem) => elem.category === 'front-end').map((info =>
                 <article>
-                    <img className="front-img" src={info['img-main']} alt={info.alt} ></img>
-                <div className="container-buttons">
-                <ButtonA role='button' className='button-contact' href= {info.github} >GitHub</ButtonA>
-                <ButtonA role='button' className='button-contact' href= {info.href} >Ver web</ButtonA>
-
-                </div>
+                    <img className="front-img-project" src={info['img-main']} alt={info.alt} ></img>
+                    <div className="container-buttons-front">
+                        <ButtonA role='button' className='button-contact' href= {info.github} >GitHub</ButtonA>
+                        <ButtonA role='button' className='button-contact' href= {info.href} >Ver web</ButtonA>
+                    </div>
                 </article>
             ))
             }
