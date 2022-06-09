@@ -7,12 +7,6 @@ import Header from "../components/Header/Header";
 
 
 
-// const [info, setInfo] = useState([]);
-
-// useEffect(() => {
-//   axios.get('/jsons/data.json')
-//     .then(response => setInfo(response.data));
-// }, [])
 
 
 

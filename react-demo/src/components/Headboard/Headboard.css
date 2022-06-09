@@ -9,15 +9,15 @@
     height: 667px;
 } 
         .headboard::before{
-            content:'';
-            background-color: var(--color-home);
+            content:''; 
+             background-color: var(--color-home);
             position:absolute;
             top:0;
             bottom:0 ;
             left:0;
             right: 0;
             justify-content: end;
-            animation: slide-bottom 3.0s linear ;
+            animation: slide-bottom 3.0s ease-out ;
             animation-fill-mode: forwards;
           
         }
@@ -28,8 +28,8 @@
             100% {
               transform: translateY(60%);
             }
-          }
-    
+        }
+     
         
     
 
@@ -59,14 +59,14 @@
         }
 
     @media all and (min-width:700px) {
-        .headboard::before{
+         .headboard::before{
             position:absolute;
             top:0;
             bottom: 0;
             left:0;
             right: 38vw;
             margin:80px;
-            animation: slide-right 1.0s linear ;
+            animation: slide-right 2.0s ease-in-out;
         }
 
         @keyframes slide-right {
@@ -76,7 +76,7 @@
             100% {
               width:50%;
             }
-        }    
+        }      
             
             
             

@@ -103,26 +103,7 @@
 
 
 
-    {   
-        "category":"ux-ui",
-        "stain": "../img/ManchaUx.png ",
-        "title": "About",
-        "secondtitle": "Me",
-        "id": "about-me",
-        "alt": "Ilustración mujeres",
-                    
-        
-        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
-        "user-persona":"",
-        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-        "conclution":"",
-        "img-main": "../img/LogoUx.jpg",
-        "img-1":"",
-        "img-2":"",
-        "img-3":"",
-        "logo":"../img/LogoUx.jpg" 
-                    
-    },
+    
     {   
         "category":"ux-ui",
         "stain": "../img/ManchaUx.png ",
@@ -136,14 +117,33 @@
         "user-persona":"",
         "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
         "conclution":"",
-        "img-main": "../img/IreneMonlleo.jpg",
+        "img-main": "/picture/refer/website-Refer.jpg",
         "img-1":"",
         "img-2":"",
         "img-3":"",
         "logo":"../img/LogoUx.jpg" 
                     
     },
-    
+    {   
+        "category":"ux-ui",
+        "stain": "../img/ManchaUx.png ",
+        "title": "About",
+        "secondtitle": "Me",
+        "id": "about-me",
+        "alt": "Ilustración mujeres",
+                    
+        
+        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
+        "user-persona":"",
+        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
+        "conclution":"",
+        "img-main": "/picture/about/aboutMe.jpg",
+        "img-1":"",
+        "img-2":"",
+        "img-3":"",
+        "logo":"../img/LogoUx.jpg" 
+                    
+    },
 
 
 
@@ -157,7 +157,7 @@
         "title": "About Me",
         "id": "about-me",
         "alt": "Proyecto about me",
-        "img-main": "../img/IreneMonlleo.jpg",
+        "img-main": "/picture/about/aboutMe.jpg",
         "github":"https://github.com/IreneMonlleo/aboutme/tree/main/AboutMe",
         "href":"https://frontend.esatid3-2021.com/irenemonlleo/proyect-alpha/"
        
@@ -168,7 +168,7 @@
         "title": "Ecommercer Refer",
         "id": "about-me",
         "alt": "Proyecto about me",
-        "img-main": "../img/IreneMonlleo",
+        "img-main": "/picture/refer/website-Refer.jpg",
         "github":"https://github.com/IreneMonlleo/Proyecto-Beta",
         "href":"https://frontend.esatid3-2021.com/irenemonlleo/proyect-beta/"
         

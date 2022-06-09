@@ -15,15 +15,15 @@ export default  function Ux(props) {
     
     return <div className="Ux">
         <Header title="UX / " secondtitle="UI" img={ManchaUX} description={description}></Header>
-        <main className="grid-container">
+        <main className="grid-container grid-ux">
         { props.data.filter((elem) => elem.category === 'ux-ui').map((info =>
             
                 <article id="3691" class="location-listing">
-                    <Link className="location-title"to={`/${props.category}/${info.id}`}>
+                    <Link className="location-title"to={`/${info.category}/${info.id}`}>
                         {info.title}<br></br>{info.secondtitle}            
                     </Link> 
                     <div class="location-image">
-                        <Link to={`/${props.category}/${info.id}`}>
+                        <Link to={`/${info.category}/${info.id}`}>
                             <img className="grid-img" src={info['img-main']} alt={info.alt} ></img>
                         </Link>     
                     </div>         

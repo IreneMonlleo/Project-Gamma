@@ -19,7 +19,7 @@ export default  function Grafic(props) {
     
     return (<div className="grafico">
         <Header title="Diseño" secondtitle="Gráfico" img={ManchaGrafic} description={description}></Header>
-        <main className="grid-container">
+        <main className="grid-container columns">
             
             { props.data.filter((elem) => elem.category === 'diseño-grafico').map((info =>
             

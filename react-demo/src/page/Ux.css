@@ -1,3 +1,17 @@
+/*--------------Color Header------------------*/
 .Ux {
     --color-header: #DD723A;
 }
+/*--------------GRID------------------*/
+@media all and (min-width:850px){
+    .grid-container {
+      margin:0 auto;
+      padding-top: 48px;
+    }
+    .grid-ux{
+        max-width: 1400px;
+        grid-gap: 48px;
+    }
+} 
+  
+   

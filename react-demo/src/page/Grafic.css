@@ -3,63 +3,64 @@
 .grid-img{
     width: 100%; /* need to overwrite inline dimensions */
     height: auto;
+    
 }
- 
-  .grid-container {
+.grid-container {
     margin-top: 48px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 1em;
     margin: 0 1em;
-  }
+}
   
 
-  /* hover styles */
-  .location-listing {
-    position: relative;
-  }
-  
-  .location-image {
-    line-height: 0;
-    overflow: hidden;
-  }
-  
-  .location-image img {
-    filter: blur(0px);
-    transition: filter 0.3s ease-in;
-    transform: scale(1.1);
-  }
-  
-  .location-title {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: none;
-    z-index: var(--bottom-medium);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity .5s;
-    background: rgb(28, 27, 23, 0.4);
-    color: var(--color-margin);
+    /* hover styles */
+    .location-listing {
+      position: relative;
+    }
+        /*HOVER*/
+        .location-listing:hover .location-title {
+            opacity: 1;
+        }
+
+
+        .location-image {
+            line-height: 0;
+            overflow: hidden;
+        }
+        
+        .location-image img {
+            filter: blur(0px);
+            transition: filter 0.3s ease-in;
+            transform: scale(1.1);
+        }
     
-    /* position the text in t’ middle*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .location-listing:hover .location-title {
-    opacity: 1;
-  }
-  
-  .location-listing:hover .location-image img {
-    filter: blur(2px);
-  }
+        .location-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            z-index: var(--bottom-medium);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity .5s;
+            background: rgb(28, 27, 23, 0.4);
+            color: var(--color-margin);
+            /* position the text in t’ middle*/
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+                 /*HOVER*/
+                .location-listing:hover .location-image img {
+                    filter: blur(2px);
+                }
 
-  
+
+ /*---------------------Medium Break----------------------*/ 
 @media all and (min-width:600px){ 
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
@@ -78,10 +79,10 @@
 
 }
 @media all and (min-width:850px){
-    .grid-container {
+    
+    .columns{
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 10px;
-     
     }
   
   

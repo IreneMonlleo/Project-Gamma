@@ -1,7 +1,9 @@
+/*--------------Color Header------------------*/
 .Front{
     --color-header:#95BAF3;
 }
 
+/*------------------Skills--------------*/
 .skills__section-title{
     color: var(--color-home);
     display:flex;
@@ -16,7 +18,10 @@
     text-align: left;
     
 }
+/*-----------------------IMG Project----------------------*/
 
+
+/*---------------------Medium Break----------------------*/
 
 @media all and (min-width: 650px){
     
@@ -24,11 +29,10 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: -6vw;
-    
-    }
-        
-        
+    }     
 }
+
+/*--------------------- BREAK----------------------*/
 @media all and (min-width: 1000px){
     .skills__front{
         display: flex;

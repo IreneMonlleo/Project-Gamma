@@ -1,3 +1,24 @@
+/* .wrapper-begin{
+    background-color: var(--color-home);
+    position:absolute;
+    top:0;
+    bottom:0 ;
+    left:0;
+    right: 0;
+    justify-content: end;
+    animation: slide-bottom 3.0s ease-out ;
+    animation-fill-mode: forwards;
+  
+}
+@keyframes slide-bottom {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(60%);
+    }
+} */
+
 
 .card__container{
     margin: 20em 0;
@@ -28,7 +49,31 @@
     }
 
        
-/*---------------------------- BREAK------------------------------*/
+/*---------------------------- BREAK ANIMATION------------------------------*/
+/* @media all and (min-width:700px) {
+    .headboard::before{
+        position:absolute;
+        top:0;
+        bottom: 0;
+        left:0;
+        right: 38vw;
+        margin:80px;
+        animation: slide-right 1.0s linear ;
+    }
+
+    @keyframes slide-right {
+        0% {
+          width: 100%;
+        }
+        100% {
+          width:50%;
+        }
+    }    
+} */
+
+
+/*----------------BREAK--------------------*/
+
 @media all and (min-width:850px){
     .home{
         margin:0 auto;

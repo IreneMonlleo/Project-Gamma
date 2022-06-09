@@ -36,21 +36,20 @@ export default function Home(props) {
 
 
 //    function animationScroll() {
-//      //cuando esta true lo pasa a false y viceversa
 //      setAnimationBegin(! animationBegin);
 //    }
 
 
     // useEffect(()=>{
     //     document.addEventListener('scroll',()=>{
-    //      animationScroll={Quest}
+    //      animationScroll={headboard}?
               
     // }) 
     // },[])
 
     return ( 
     <section className="home__container">
-        <div className='container_begin'>
+        <div className='wrapper-begin'>
             <Headboard></Headboard>
             <Quest></Quest>
         </div>
