@@ -6,7 +6,8 @@ import styled from 'styled-components';
 const SecondButton = `
     width: 250px;
     border-color: var(--color-bg); 
-    color:var(--color-bg); 
+    color:var(--color-bg);
+	margin:24px; 
        
         &:hover{
             color:var(--color-typography);
@@ -33,6 +34,7 @@ export const ButtonsLink = styled(Link)`
 	overflow: hidden;
     text-decoration:none;
 	z-index: 1;
+	
 	&:after {
 		content: '';
 		position: absolute;

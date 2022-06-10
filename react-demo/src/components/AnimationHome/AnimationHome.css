@@ -1,0 +1,106 @@
+    
+.bg-animation{
+    height: 100vh;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+    .bg-animation::before {
+        content: "";
+        background-color: var(--color-home);
+        position: absolute;  
+             top: 0px;
+             left: 0px;
+             bottom:50vh;
+             right: 0px;
+
+        animation: animation-begin 2.5s ease-out forwards;
+    }
+        @keyframes animation-begin {
+                
+            0% {
+                top:0;
+                bottom:100%;               
+            }
+            100% {
+                bottom:50vh ;      
+            }
+        } 
+
+
+
+.bg-animation-start{
+    height: 100vh;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+          
+}
+    .bg-animation-start::before {
+        content: "";
+        background-color: var(--color-home);
+        position: absolute;  
+            top: 0px;
+            left: 0px;
+            bottom:50vh;
+            right: 0px;
+        
+        animation: bg-cover 2.5s ease-out forwards;
+    }
+        @keyframes bg-cover{
+                        
+            0% {
+                top:0;
+                bottom:50vh;
+                                    
+            }
+            100% {
+                bottom:0 ;      
+            }
+        } 
+              
+
+/*------------------------------------------------------BREAK---------------------------------------------------*/
+
+
+
+    @media all and (min-width:700px) {
+        .bg-begin-home::before{
+            margin: 0 80px;
+                bottom: 0;
+                right:38vw;
+                margin:80px;
+            animation: slide-right 2.5s linear ;
+        }
+            @keyframes slide-right {
+                0% {
+                    width: 100%;
+                }
+                100% {
+                    width:50%;
+                }
+            } 
+            
+            
+        .bg-animation-start::before{
+            margin: 0 80px;
+                bottom: 0;
+                right:38vw;
+                margin:80px;
+            animation: bg-cover-right 2.5s linear ;
+        }
+            @keyframes bg-cover-right {
+                0% {
+                    width: 50%;
+                }
+                100% {
+                    width:100%;
+                }
+            } 
+        
+    }
+
+    
+    
+

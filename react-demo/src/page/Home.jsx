@@ -1,7 +1,7 @@
 import './Home.css';
 import Footer from "../components/Footer/Footer";
 import StainTitle from '../components/StainTitle';
-import BgBeguin from '../components/BgBegin';
+import AnimationHome from '../components/AnimationHome/AnimationHome';
 
 
 
@@ -20,8 +20,11 @@ import { useEffect, useState } from 'react';
 
 
 
+
 export default function Home(props) {
+    //block the scroll//
     const [enableScroll, setEnableScroll] = useState(false);
+
     const [animation, setAnimation] = useState(true);
 
     useEffect(()=>{
@@ -35,7 +38,7 @@ export default function Home(props) {
 
     return ( 
     <>
-    <BgBeguin shouldShowHeadboard={animation}></BgBeguin>
+    <AnimationHome shouldShowHeadboard={animation}></AnimationHome>
     { enableScroll === true && <section className="home__container">
        
         <main className="home">
