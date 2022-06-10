@@ -1,41 +1,30 @@
 import styled from 'styled-components';
-// import Headboard from './Headboard/Headboard';
-// import Quest from './Quest/Quest';
-// import { keyframes } from 'styled-components'
+import Headboard from './Headboard/Headboard';
+import Quest from './Quest/Quest';
+
 
 
 export default function BgBeguin(props) {
 
-//     const [animation, setAnimation] = useState(false);
 
-
-
-//    function animationScroll() {
-//      setAnimation(! animation);
-//    }
-
-
-//     useEffect(()=>{
-//         document.addEventListener('scroll',()=>{
-//          animationScroll={.wrapper-begin }?
-              
-//     }) 
-//     },[])
 
     return(
-        // <WrapperBg open={animation}>
-        <WrapperBg >
-            {/* <Headboard></Headboard>
-            <Quest></Quest> */}
+        
+        <WrapperBg className={!props.shouldShowHeadboard ? 'animation-start' : ''}>
+            {props.shouldShowHeadboard && <Headboard></Headboard>}
+            {!props.shouldShowHeadboard && <Quest></Quest>}
         </WrapperBg>
     )
     
 
 }
 export const WrapperBg = styled.div`
-    height:300px;
+    height: 100vh;
     width:100%;
-   
+    align-items: center;
+    justify-content: center;
+    displat:flex;
+
         &::before{
             content: "";
            
@@ -43,10 +32,10 @@ export const WrapperBg = styled.div`
             position: absolute;  
                     top: 0px;
                     left: 0px;
-                    bottom:${({ open }) => (open ? '100%' : '54vh')}
+                    bottom:50vh;
                     right: 0px;
 
-            animation: animation-begin 3.0s ease-out forwards;
+            animation: animation-begin 2.5s ease-out forwards;
         }
     
 }
@@ -58,21 +47,22 @@ export const WrapperBg = styled.div`
                             
                 }
                 100% {
-                    bottom:54vh ;      
+                    bottom:50vh ;      
                 }
-            
             } 
+
+    .animation-start{
+
+    }
+
+
     @media all and (min-width:700px) {
-        height:600px;
         &::before{
             margin: 0 80px;
-            position:absolute;
-                top:0;
                 bottom: 0;
-                left:0;
                 right:38vw;
                 margin:80px;
-            animation: slide-right 1.0s linear ;
+            animation: slide-right 2.5s linear ;
         }
             
         @keyframes slide-right {

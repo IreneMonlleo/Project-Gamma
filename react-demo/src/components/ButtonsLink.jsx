@@ -28,7 +28,6 @@ export const ButtonsLink = styled(Link)`
 	color:var(--color-home);
     font-weight: bold;
 	font-size: var(--size-mb-button);
-	letter-spacing: .15rem;
 	transition: all .3s;
 	position: relative;
 	overflow: hidden;

@@ -13,16 +13,14 @@ import Project from './page/Project';
 
 
 
-
 function App() {
 
-  const [info, setInfo] = useState([]);
+  const [dataInApp, setDataInApp] = useState([]);
 
   useEffect(() => {
     axios.get('/jsons/data.json')
-      .then(response => setInfo(response.data));
+      .then(response => setDataInApp(response.data));
   }, [])
-
 
   return (
     <div className="App">
@@ -33,10 +31,10 @@ function App() {
       </div>
       <Routes>
       <Route path='/' element={<Home/>} />
-      <Route path='/grafic' element={<Grafic data={info}/>} />
-      <Route path='/ux' element={<Ux data={info}/>} />
-      <Route path='/front' element={<Front data={info}/>}/>
-      <Route path='/:category/:id' element={<Project data={info}/>}/>
+      <Route path='/grafic' element={<Grafic data={dataInApp}/>} />
+      <Route path='/ux' element={<Ux data={dataInApp}/>} />
+      <Route path='/front' element={<Front data={dataInApp}/>}/>
+      <Route path='/:category/:id' element={<Project info={dataInApp}/>}/>
       {/* <Route path="*" element={<Error />} /> */}
       </Routes>
      
