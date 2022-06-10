@@ -11,20 +11,23 @@
              position: absolute;  
              top: 0px;
              left: 0px;
-             bottom:70vh;
+             bottom:50vh;
              right: 0px;
-             /* animation: slide-bottom 3.0s ease-out ; */
+             animation: slid-header 1.5s ease-in forwards;
         
             
         }
-        /* @keyframes slide-bottom {
+        @keyframes slid-header {
             0% {
-              top: 0;
+                top:0;
+                bottom:100%
+                
             }
-            100% {
-              top: 70vh;
+           100% {
+                bottom:54vh ;
+               
             }
-          }  */
+          } 
     
         .header__image{
             height: 13vh;
@@ -44,7 +47,7 @@
             }
                 .header__container::before{
                     margin: 0 80px;
-                    bottom: 50vh;
+                    /* bottom: 50vh; */
                 }
         
             .header__description{

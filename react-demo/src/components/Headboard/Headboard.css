@@ -6,9 +6,9 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
-    height: 667px;
+    
 } 
-        .headboard::before{
+        /* .headboard::before{
             content:''; 
              background-color: var(--color-home);
             position:absolute;
@@ -28,7 +28,7 @@
             100% {
               transform: translateY(60%);
             }
-        }
+        } */
      
         
     

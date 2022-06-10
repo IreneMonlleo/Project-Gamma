@@ -1,13 +1,8 @@
-/* .wrapper-begin{
+ .wrapper-begin{
     background-color: var(--color-home);
-    position:absolute;
-    top:0;
-    bottom:0 ;
-    left:0;
-    right: 0;
-    justify-content: end;
     animation: slide-bottom 3.0s ease-out ;
     animation-fill-mode: forwards;
+ 
   
 }
 @keyframes slide-bottom {
@@ -17,7 +12,7 @@
     100% {
       transform: translateY(60%);
     }
-} */
+} 
 
 
 .card__container{

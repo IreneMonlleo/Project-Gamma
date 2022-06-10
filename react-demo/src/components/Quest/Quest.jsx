@@ -18,7 +18,7 @@ export default function Quest(props) {
            
             <ButtonsLink secondary to ="/grafic">Diseño Gráfico</ButtonsLink>
             <ButtonsLink secondary to ="/ux">Ux / Ui</ButtonsLink>
-            <ButtonsLink secondary to ="/front">Front-end Developer</ButtonsLink>
+            <ButtonsLink secondary to ="/front">Front-end </ButtonsLink>
             
           </div>
           
