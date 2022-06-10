@@ -5,29 +5,6 @@
         align-items: center; 
         margin-top: 11vh;
     }
-        .header__container::before{
-             content: "";
-             background-color: var(--color-header,#A9B59D);
-             position: absolute;  
-             top: 0px;
-             left: 0px;
-             bottom:50vh;
-             right: 0px;
-             animation: slid-header 1.5s ease-in forwards;
-        
-            
-        }
-        @keyframes slid-header {
-            0% {
-                top:0;
-                bottom:100%
-                
-            }
-           100% {
-                bottom:54vh ;
-               
-            }
-          } 
     
         .header__image{
             height: 13vh;

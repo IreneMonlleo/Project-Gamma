@@ -43,7 +43,7 @@ export const WrapperBg = styled.div`
             position: absolute;  
                     top: 0px;
                     left: 0px;
-                    bottom:54vh;
+                    bottom:${({ open }) => (open ? '100%' : '54vh')}
                     right: 0px;
 
             animation: animation-begin 3.0s ease-out forwards;
@@ -63,13 +63,14 @@ export const WrapperBg = styled.div`
             
             } 
     @media all and (min-width:700px) {
+        height:600px;
         &::before{
             margin: 0 80px;
             position:absolute;
                 top:0;
                 bottom: 0;
                 left:0;
-                right: 38vw;${({ open }) => (open ? "38vw" : "100%")};
+                right:38vw;
                 margin:80px;
             animation: slide-right 1.0s linear ;
         }
