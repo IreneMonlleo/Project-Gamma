@@ -1,9 +1,10 @@
 import './Home.css';
 import Footer from "../components/Footer/Footer";
 // import Card from "../components/Card/Card";
-import Headboard from '../components/Headboard/Headboard';
+// import Headboard from '../components/Headboard/Headboard';
 import StainTitle from '../components/StainTitle';
-import Quest from '../components/Quest/Quest';
+// import Quest from '../components/Quest/Quest';
+import BgBeguin from '../components/BgBegin';
 
 
 // import { Link } from 'react-router-dom';
@@ -16,6 +17,7 @@ import StainFront from '../img/ManchaFront.png';
 import Mujeres from '../img/MujeresMigrantes.jpg';
 import { ButtonA } from '../components/ButtonA';
 import { ButtonsLink } from '../components/ButtonsLink';
+
 // import { useEffect, useState } from 'react';
 
 
@@ -31,28 +33,15 @@ export default function Home(props) {
     // }) 
     // },[])
 
-    // const [animationBegin, setAnimationBegin] = useState(false);
-
-
-
-//    function animationScroll() {
-//      setAnimationBegin(! animationBegin);
-//    }
-
-
-    // useEffect(()=>{
-    //     document.addEventListener('scroll',()=>{
-    //      animationScroll={headboard}?
-              
-    // }) 
-    // },[])
+     
 
     return ( 
     <section className="home__container">
-        <div className='wrapper-begin'>
+        <BgBeguin></BgBeguin>
+        {/* <div className='wrapper-begin'>
             <Headboard></Headboard>
             <Quest></Quest>
-        </div>
+        </div> */}
         <main className="home">
                 <article className="card__container row-desktop about">
                 <img className='img__section ' src={Irene} alt="Irene Monlleó"></img>

@@ -1,20 +1,40 @@
- .wrapper-begin{
-    background-color: var(--color-home);
-    animation: slide-bottom 3.0s ease-out ;
-    animation-fill-mode: forwards;
  
-  
-}
-@keyframes slide-bottom {
-    0% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: translateY(60%);
-    }
-} 
+ /*baground animation begin*/
+ 
+.wrapper-begin{
+    height:300px;
+    width:100%;
+}  
+    .wrapper-begin::before{
+            content: "";
+            margin: 0 80px;
+            background-color: var(--color-home);
+            position: absolute;  
+                    top: 0px;
+                    left: 0px;
+                    bottom:54vh;
+                    right: 0px;
 
+            animation: animation-begin 3.0s ease-out forwards;
+    }
+    
 
+            @keyframes animation-begin {
+                
+                0% {
+                    top:0;
+                    bottom:100%
+                            
+                }
+                100% {
+                    bottom:54vh ;      
+                }
+            
+            } 
+    
+    
+
+/*-----------------------cards---------------------*/
 .card__container{
     margin: 20em 0;
     
