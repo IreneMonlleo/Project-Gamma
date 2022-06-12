@@ -4,7 +4,7 @@
     
     {   
         "category":"diseño-grafico",
-        "stain": "../img/ManchaGrafic.png ",
+        "stain": "/picture/ManchaGrafic.png ",
         "title": "Branding",
         "secondtitle": "Monlleo ",
         "id": "branding-monlleo",

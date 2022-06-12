@@ -5,6 +5,7 @@
 
     .quest{
         color:var(--color-bg);
+        
     }
     .quest__buttons{
         display: flex;
@@ -19,6 +20,7 @@
     justify-content: center; 
     max-width: 255px;
     text-align: left;
+ 
 }
 
 @media all and (min-width:850px){

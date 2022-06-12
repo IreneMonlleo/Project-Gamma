@@ -66,36 +66,35 @@
 
 
     @media all and (min-width:700px) {
-        .bg-begin-home::before{
-            margin: 0 80px;
+        .bg-animation::before{
+            margin:80px;
                 bottom: 0;
                 right:38vw;
-                margin:80px;
-            animation: slide-right 2.5s linear ;
+              
+            animation: slide-right 2.5s ease-out ;
         }
             @keyframes slide-right {
                 0% {
-                    width: 100%;
+                    right: 0;
                 }
                 100% {
-                    width:50%;
+                    right:38vw;
                 }
             } 
             
             
         .bg-animation-start::before{
-            margin: 0 80px;
+            margin:80px;
                 bottom: 0;
                 right:38vw;
-                margin:80px;
-            animation: bg-cover-right 2.5s linear ;
+            animation: bg-cover-right 2.5s ease-out forwards ;
         }
             @keyframes bg-cover-right {
                 0% {
-                    width: 50%;
+                    right: 38vw;
                 }
                 100% {
-                    width:100%;
+                    right: 0;
                 }
             } 
         

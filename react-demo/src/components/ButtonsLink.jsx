@@ -33,7 +33,7 @@ export const ButtonsLink = styled(Link)`
 	position: relative;
 	overflow: hidden;
     text-decoration:none;
-	z-index: 1;
+	z-index: var(--bottom-medium);
 	
 	&:after {
 		content: '';
@@ -56,7 +56,7 @@ export const ButtonsLink = styled(Link)`
 		background-color: var(--color-home);
 		transition: all .3s;
 		border-radius: var(--stroke-radius);
-		z-index: -1;
+		z-index: var(--bottom);
 	}
 	&:hover {
 		color: var(--color-bg);
