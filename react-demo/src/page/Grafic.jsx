@@ -1,8 +1,6 @@
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
-import ManchaGrafic from '../img/ManchaGrafic.png';
-import logografic from '../img/LogoGrafic.jpg';
 import { Link } from "react-router-dom";
 
 import './Grafic.css';
@@ -18,7 +16,7 @@ export default  function Grafic(props) {
     y requiere de una investigación y análisis previo. De este modo, podemos encontrar la solución más adecuada.`
     
     return (<div className="grafico">
-        <Header title="Diseño" secondtitle="Gráfico" img={ManchaGrafic} description={description}></Header>
+        <Header title="Diseño" secondtitle="Gráfico" img="../picture/stain/ManchaGrafic.png" description={description}></Header>
         <main className="grid-container columns">
             
             { props.data.filter((elem) => elem.category === 'diseño-grafico').map((info =>
@@ -38,6 +36,6 @@ export default  function Grafic(props) {
         ))}
             
         </main>
-        <Footer img={logografic} ></Footer> 
+        <Footer img="../picture/logo/LogoGrafic.jpg" ></Footer> 
     </div>
  ) }

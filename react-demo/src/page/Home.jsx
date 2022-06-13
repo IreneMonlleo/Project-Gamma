@@ -1,17 +1,9 @@
 import './Home.css';
+
 import Footer from "../components/Footer/Footer";
 import StainTitle from '../components/StainTitle';
 import AnimationHome from '../components/AnimationHome/AnimationHome';
 
-
-
-import About from '../img/projectAbout.jpg';
-import Irene from '../img/IreneMonlleo.png';
-import logohome from '../img/LogoHome.jpg';
-import StainGrafic from '../img/ManchaGrafic.png';
-import StainUX from '../img/ManchaUx.png';
-import StainFront from '../img/ManchaFront.png';
-import Mujeres from '../img/MujeresMigrantes.jpg';
 import { ButtonA } from '../components/ButtonA';
 import { ButtonsLink } from '../components/ButtonsLink';
 
@@ -43,7 +35,7 @@ export default function Home(props) {
        
         <main className="home">
                 <article className="card__container row-desktop about">
-                <img className='img__section ' src={Irene} alt="Irene Monlleó"></img>
+                <img className='img__section ' src="../picture/IreneMonlleo.png" alt="Irene Monlleó"></img>
                 <div className='card-text '>
                     <h2 className='card-title'>
                         <span className='title-section'> Bienvenidos a</span>
@@ -56,9 +48,9 @@ export default function Home(props) {
                 </article>
                
                 <article className="card__container row-desktop">
-                    <img className='img__section' src={Mujeres} alt="proyecto de diseño"></img>
+                    <img className='img__section' src="../picture/Mujeres/MujeresMigrantes.jpg" alt="proyecto de diseño"></img>
                     <div className='card-text '>
-                        <StainTitle img={StainGrafic} title="Diseño" subtitle="Gráfico"></StainTitle> 
+                        <StainTitle img="../picture/stain/ManchaGrafic.png" title="Diseño" subtitle="Gráfico"></StainTitle> 
                         <p className="card-description left">Proyectos de branding, manual de identidad, maquetación editorial, cartelería, folletos, etc. Descubre todos los proyectos de Diseño Grafico que he desarrollado hasta ahora.</p>
                         <ButtonsLink  to ="/grafic">Ver más</ButtonsLink>
                     </div> 
@@ -68,7 +60,7 @@ export default function Home(props) {
               
                 <article className="card__container bg-img">
                     <div className='card-text digital-design '>
-                        <StainTitle img={StainUX} title="Ux/" subtitle="Ui"></StainTitle> 
+                        <StainTitle img="../picture/stain/ManchaUx.png" title="Ux/" subtitle="Ui"></StainTitle> 
                         <p className="card-description left">La experiencia de usuario es un tema muy importante en el diseño web hecha un vistazo a la metodología empleada en mis proyectos</p>
                         <ButtonsLink  to ="/ux">Ver más</ButtonsLink>
                     </div> 
@@ -77,9 +69,9 @@ export default function Home(props) {
                 
 
                 <article className="card__container ">
-                    <img className='img__section digital' src={About} alt="proyecto about"></img>
+                    <img className='img__section digital' src="../picture/about/about2.jpg" alt="proyecto about"></img>
                     <div className='card-text digital-design'>
-                        <StainTitle img={StainFront} title="Front-end" subtitle="Developer"></StainTitle> 
+                        <StainTitle img="../picture/stain/ManchaFront.png" title="Front-end" subtitle="Developer"></StainTitle> 
                         <p className="card-description left">HTML, CSS, SASS, JS… son los diferentes lenguajes que he desarrollado en estos proyectos.</p>
                         <ButtonsLink  to ="/front">Ver más</ButtonsLink>
                     </div> 
@@ -89,7 +81,7 @@ export default function Home(props) {
             
 
         </main>
-        <Footer img={logohome} ></Footer>
+        <Footer img="../picture/logo/LogoHome.jpg" ></Footer>
     </section>}
     </>  
 

@@ -1,6 +1,4 @@
 import Header from "../components/Header/Header";
-import ManchaFront from '../img/ManchaFront.png';
-import logofront from '../img/LogoFront.jpg';
 import Footer from "../components/Footer/Footer";
 import Skills from "../components/Skills";
 
@@ -15,7 +13,7 @@ export default  function Front(props) {
     
     
     return <div className="Front">
-        <Header title="Front-end" secondtitle="Developer" img={ManchaFront}  ></Header>
+        <Header title="Front-end" secondtitle="Developer" img="../picture/stain/ManchaFront.png"  ></Header>
         <main className="skills__front">
             <section className="wrapper-skills">
                 <div className="skills-text">
@@ -45,6 +43,6 @@ export default  function Front(props) {
             }
             </section>
         </main>
-        <Footer img={logofront} name="Puedes contactar conmigo en:"></Footer> 
+        <Footer img="../picture/logo/LogoFront.jpg" name="Puedes contactar conmigo en:"></Footer> 
     </div>
   }
