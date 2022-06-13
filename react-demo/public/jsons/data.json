@@ -8,7 +8,6 @@
         "title": "Branding",
         "secondtitle": "Monlleo ",
         "id": "branding-monlleo",
-        "alt": "Marca Personal",
                     
         
         "briefing": "Este proyecto se centra en la creación de una marca propia. Por lo tanto, es una marca que debe representarme a mí y a las habilidades que poseo y que he ido adquiriendo con mis estudios. Además crearemos un manual de identidad corporativo donde aparecerán definidas las normas de uso de dicha marca, la construcción de esta y la aplicación de la marca en los elementos promocionales.",
@@ -22,11 +21,15 @@
         "conclution1":"Con la partición del apellido Monlleó se quiere transmitir esas raíces valencianas, ya que tanto “MON” como “LLEO” son dos palabras con significado propio en valenciano. Además, se omite el acento de la palabra, puesto que la última “O” es un elemento diferente que acentúa la identidad. Con la tipografía se contrarresta esa gestualidad y dinamismo de las manchas, proporcionándole una estabilidad y un orden.",
         "conclution2":"Se trata de una marca que integra la dualidad de la expresión manual y artesanal, con la formalidad y la seriedad del diseño gráfico.",
         "img-main": "/picture/Monlleo/branding-Monlleo.jpg",
+        "altMain": "Marca Monlleo",
         "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
+        "alt1": "Manual de identidad",
         "img-2":"",
-        "img-sitemap":"",
-        "img-color":"",
-        "img-user":"",
+        "alt2": "",
+        "img-3":"",
+        "alt3": "",
+        "img-4":"",
+        "alt4": "",
         "logo":"../img/LogoGrafic.jpg" 
                 
     },
@@ -36,7 +39,6 @@
         "title": "Mujeres ",
         "secondtitle": "Migrantes ",
         "id": "mujeres-migrantes",
-        "alt": "Ilustración mujeres",
                     
        
         "briefing": "Realización de una ilustración inspirada en mujeres migrantes para el programa de “Ciudadanía con voz: orientación, mediación y empoderamiento a personas migrantes” organizado y dirigido por la asociación YMCA Valencia",
@@ -51,11 +53,15 @@
         "conclution1":" ",
         "conclution2":"",
         "img-main": "/picture/Mujeres/MujeresMigrantes.jpg",
+        "altMain":"Ilustracion Mujeres Migrantes",
         "img-1":"/picture/Mujeres/Totebag.jpg",
+        "alt1": "Totebag Mujeres Migrantes",
         "img-2":"",
-        "img-sitemap":"",
-        "img-color":"",
-        "img-user":"",
+        "alt2": "postal Mujeres Migrantes",
+        "img-3":"",
+        "alt3": "Versión 1 de la ilustración",
+        "img-4":"",
+        "alt4": "Versión 2",
         "logo":"../img/LogoGrafic.jpg"           
     },
     {   
@@ -65,7 +71,6 @@
         "title": "Branding ",
         "secondtitle": "Refer ",
         "id": "marca-refer",
-        "alt": "branding refer",
                     
     
         "briefing": "Diseño de carteles y programación para las jornadas de “Batects de Barri” organizado por la asociación YMCA Valencia.",
@@ -92,7 +97,6 @@
         "category":"diseño-grafico",
         "name": "Mujeres Migrantes",
         "id": "mujeres-migrantes",
-        "alt": "Ilustración mujeres",
                     
         
         "briefing": "",
@@ -119,7 +123,6 @@
         "category":"diseño-grafico",
         "name": "Mujeres Migrantes",
         "id": "mujeres-migrantes",
-        "alt": "Ilustración mujeres",
                     
    
         
@@ -147,7 +150,6 @@
         "category":"diseño-grafico",
         "name": "Mujeres Migrantes",
         "id": "mujeres-migrantes",
-        "alt": "Ilustración mujeres",
                     
    
         
@@ -177,11 +179,11 @@
         "title": "Ecommercer ",
         "secondtitle": "Refer ",
         "id": "refer",
-        "alt": "Ilustración mujeres",
                     
         
         "briefing": "En este proyecto hemos diseñado y desarrollado una Lansing page sobre me, donde presentamos y exponemos las habilidades que poseemos y podemos ofrecer. Se trata de mi primer trabajo realizado como diseñadora UX /UI y desarrolladora Fornt-end.",
-        "tolls":" Herramientas tecnicas: MIRO FIGMA ",
+        "tolls2":"Herramientas tecnicas:",
+        "tolls":"MIRO - FIGMA",
         "objective1":"Crear una página web donde darme a conocer. ",
         "objective2":"Realizar un diseño sencillo y claro que no posea muchas distracciones irrelevantes para el usuario, por lo que este puedra centrar su atención en la información sobre mí.",
         "objective3":"Desarrollar un código ordenador, que sea comprensible para la gente externa y que posea variables y mixins para facilitar la modificación del diseño.",
@@ -191,12 +193,12 @@
         "conclution":"Para afrontar este trabajo he hecho un gran ejercicio de introspección. Durante la maduración del proyecto he tenido que ir descartando diferentes ideas, puesto que estas no facilitaban la experiencia del usuario con la web, por lo que finalmente eliminamos toda posible distracción del usuario y dejamos simplemente lo esencial. ",
         "conclution1":"Esto se puede ver reflejado en la simplificación de los colores, la web posee un solo color de acento, el amarillo, este representa la emoción de la alegría, ya que se vincula con la luz del sol y el estado positivo.  Con el degradado se pretender romper la monotonía de los colores neutros y el amarillo, remarcando algunas partes de la web, como son las fotos y el botón de enviar mensaje. Este degradado representa mis raíces mediterráneas, por lo que empieza en el amarillo del sol y termina en el azul del mar. ",
         "conclution2":"En cuanto a la tipografía, escogí la Poppins puesto que al ser una san serif, la lectura para webs con fondos claros es óptima. Además, el ojo de las letras es muy redondeado, la cual contrasta con las líneas tan rectas que poseen muchos elementos de la web. Se trata de una Lansing page sencilla, pero con unos colores con mucha fuerza y una experiencia de usuario diseñada para consumir exactamente la información importante.",
-        "img-main": "/picture/Monlleo/branding-Monlleo.jpg",
-        "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
+        "img-main": "/picture/refer/website-Refer.jpg",
+        "img-1":"",
         "img-2":"",
-        "img-sitemap":"",
-        "img-color":"",
-        "img-user":"",
+        "img-3":"",
+        "img-4":"",
+
         "logo":"../img/LogoUX.jpg"   
                     
     },
@@ -206,12 +208,12 @@
         "title": "About",
         "secondtitle": "Me",
         "id": "about-me",
-        "alt": "Ilustración mujeres",
                     
         
         
         "briefing": "En este proyecto hemos diseñado y desarrollado una Lansing page sobre me, donde presentamos y exponemos las habilidades que poseemos y podemos ofrecer. Se trata de mi primer trabajo realizado como diseñadora UX /UI y desarrolladora Fornt-end.",
-        "tolls":" Herramientas tecnicas: MIRO FIGMA ",
+        "tolls2":"Herramientas tecnicas:",
+        "tolls":"MIRO - FIGMA",
         "objective1":"Crear una página web donde darme a conocer. ",
         "objective2":"Realizar un diseño sencillo y claro que no posea muchas distracciones irrelevantes para el usuario, por lo que este puedra centrar su atención en la información sobre mí.",
         "objective3":"Desarrollar un código ordenador, que sea comprensible para la gente externa y que posea variables y mixins para facilitar la modificación del diseño.",
@@ -221,8 +223,8 @@
         "conclution":"Para afrontar este trabajo he hecho un gran ejercicio de introspección. Durante la maduración del proyecto he tenido que ir descartando diferentes ideas, puesto que estas no facilitaban la experiencia del usuario con la web, por lo que finalmente eliminamos toda posible distracción del usuario y dejamos simplemente lo esencial. ",
         "conclution1":"Esto se puede ver reflejado en la simplificación de los colores, la web posee un solo color de acento, el amarillo, este representa la emoción de la alegría, ya que se vincula con la luz del sol y el estado positivo.  Con el degradado se pretender romper la monotonía de los colores neutros y el amarillo, remarcando algunas partes de la web, como son las fotos y el botón de enviar mensaje. Este degradado representa mis raíces mediterráneas, por lo que empieza en el amarillo del sol y termina en el azul del mar. ",
         "conclution2":"En cuanto a la tipografía, escogí la Poppins puesto que al ser una san serif, la lectura para webs con fondos claros es óptima. Además, el ojo de las letras es muy redondeado, la cual contrasta con las líneas tan rectas que poseen muchos elementos de la web. Se trata de una Lansing page sencilla, pero con unos colores con mucha fuerza y una experiencia de usuario diseñada para consumir exactamente la información importante.",
-        "img-main": "/picture/Monlleo/branding-Monlleo.jpg",
-        "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
+        "img-main": "/picture/about/about2.jpg",
+        "img-1":"/picture/about/aboutMe.jpg",
         "img-2":"",
         "img-sitemap":"",
         "img-color":"",
@@ -241,7 +243,7 @@
     {   
         "category":"front-end",
         "title": "About Me",
-        "tools": "HTML, CSS, SASS",
+        "tools": "HTML - CSS - SASS",
         "id": "about-me",
         "alt": "Proyecto about me",
         "img-main": "/picture/about/aboutMe.jpg",
@@ -253,7 +255,7 @@
     {   
         "category":"front-end",
         "title": "Ecommercer Refer",
-        "tools": "HTML, CSS , SASS, JS",
+        "tools": "HTML - CSS - SASS - JS",
         "id": "about-me",
         "alt": "Proyecto Refer",
         "img-main": "/picture/refer/website-Refer.jpg",

@@ -2,8 +2,8 @@
     padding:5rem 0.5rem;
 }
 .item img{
-    height: 300px;
-    width: 300px;
+    height: 600px;
+    width: 600px;
     pointer-events: none;
 }
 .slider{
@@ -13,4 +13,5 @@
 .slider-container{
     margin: 0 auto;
     overflow-x: hidden;
+    border:solid red;
 }

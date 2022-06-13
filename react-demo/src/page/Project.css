@@ -1,0 +1,26 @@
+.wrapper__project{
+    margin-bottom:7rem ;
+}
+
+.container-text-top{
+    margin:1.5rem;
+}
+    .tolls2{
+        margin-top:1.5rem;
+        text-align: center;
+    }
+    .tolls{
+        text-align:center;
+    }
+.img-main{
+    width: 100vw;
+    margin: 2rem 0;
+    
+}
+.titles-projects{
+ margin:1.5rem 2rem;
+}
+.container-objective{
+    font-size: 14px;
+    margin:0 2.5rem;
+}
