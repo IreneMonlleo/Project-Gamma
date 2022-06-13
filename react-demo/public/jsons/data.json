@@ -104,13 +104,14 @@
     {   
         "category":"diseño-grafico",
         "stain": "/picture/stain/ManchaGrafic.png ",
-        "title": "Ecommercer ",
-        "secondtitle": "Refer ",
-        "id": "mujeres-migrantes",
+        "title": "Batecs ",
+        "secondtitle": "de Barri ",
+        "id": "batecs-de-barri",
                     
         
         "briefing": "",
-        "tolls":" Herramientas tecnicas: MIRO FIGMA ",
+        "tolls2":"Herramientas tecnicas:",
+        "tolls":"PHOTOSHOP - INDESING",
         "objective1":" ",
         "objective2":"",
         "objective3":"",
@@ -120,12 +121,16 @@
         "conclution":" ",
         "conclution1":" ",
         "conclution2":"",
-        "img-main": "/picture/Monlleo/branding-Monlleo.jpg",
-        "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
+        "img-main": "/picture/Batecs/BatecsBarri2021.jpg",
+        "altMain":"cartel Bateccs de Barri 2021",
+        "img-1":"/picture/brandRefer/manual-refer.jpg",
+        "alt1": "Manual de identidad",
         "img-2":"",
-        "img-sitemap":"",
-        "img-color":"",
-        "img-user":"",
+        "alt2": "postal Mujeres Migrantes",
+        "img-3":"",
+        "alt3": "Versión 1 de la ilustración",
+        "img-4":"",
+        "alt4": "Versión 2", 
         "logo":"/picture/logo/LogoGrafic.jpg" 
                     
     },
@@ -139,7 +144,8 @@
    
         
         "briefing": "",
-        "tolls":" Herramientas tecnicas: MIRO FIGMA ",
+        "tolls2":"Herramientas tecnicas:",
+        "tolls":"PHOTOSHOP - ILLUSTRATOR",
         "objective1":" ",
         "objective2":"",
         "objective3":"",
@@ -150,38 +156,19 @@
         "conclution1":" ",
         "conclution2":"",
         "img-main": "/picture/Banci/Banci.jpg",
-        "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
+        "altMain":"logo banci",
+        "img-1":"",
+        "alt1": "Manual de identidad",
         "img-2":"",
-        "img-sitemap":"",
-        "img-color":"",
-        "img-user":"",
+        "alt2": "postal Mujeres Migrantes",
+        "img-3":"",
+        "alt3": "Versión 1 de la ilustración",
+        "img-4":"",
+        "alt4": "Versión 2",
         "logo":"/picture/logo/LogoGrafic.jpg" 
                     
     },
-    {   
-        "category":"diseño-grafico",
-        "stain": "/picture/stain/ManchaGrafic.png ",
-        "title": "Ecommercer ",
-        "secondtitle": "Refer ",
-        "id": "mujeres-migrantes",
-                    
    
-        
-        "briefing": "",
-        "tolls":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
-        "objective":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-        "metodologi":"",
-        "conclution":"",
-        "img-main": "/picture/Mujeres/Totebag.jpg",
-        "img-1":"",
-        "img-2":"",
-        "img-3":"",
-        "logo":"/picture/logo/LogoGrafic.jpg"
-                    
-    },
-
-
-
 
 
 
