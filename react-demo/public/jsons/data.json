@@ -11,14 +11,22 @@
         "alt": "Marca Personal",
                     
         
-        "description": "",
-        "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
-        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-        "conclution":"",
+        "briefing": "Este proyecto se centra en la creación de una marca propia. Por lo tanto, es una marca que debe representarme a mí y a las habilidades que poseo y que he ido adquiriendo con mis estudios. Además crearemos un manual de identidad corporativo donde aparecerán definidas las normas de uso de dicha marca, la construcción de esta y la aplicación de la marca en los elementos promocionales.",
+        "tolls":" Herramientas tecnicas utilizadas: PHOTOSHOP ILLUSTRATOR INDESING ",
+        "objective1":"Con esta marca se busca representar los valores de la marca (Cercanía, diversidad, dinamismo) y crear confianza entre sus clientes. ",
+        "objective2":"Debe verse reflejada mis dotes de diseñadora gráfica pero también que poseo conocimientos artísticos tradicionales.",
+        "metodologi1":"Con un breve análisis de la competencia y después de definir nuestro target, llegamos a la conclusión que queremos una marca que sea atractiva para cualquier edad, totalmente libre de genero y que posea un elemento diferenciador que la dote de identidad propia.",
+        "metodologi2":"En la fase de ideación utilizamos las herramientas de brainstorming, mapa mental y moodboard para fomentar la creatividad, la inspiración y la conceptualización. Plasmamos estas ideas en bocetos.",
+        "metodologi3":"En el arte final se muestran las diversas versiones de la marca, en este caso serán 5 versiones distintas, en las que se ha definido como tipografía corporativas Century Gothic (para títulos) y Futura (para texto). Los colores corporativos elegidos son el blanco y negro , para ser una identidad atemporal y agènero.",
+        "conclution":"Con esta marca se pretende transmitir una serie de valores tradicionales y artesanales mezclados con el diseño gráfico. Por esto se juega con diferentes técnicas en la creación de sus manchas, convirtiéndola en una marca interactiva que puede ir cambiando su aspecto, siempre siguiendo las normas de uso que se especifican en el manual de identidad. De este modo con una marca interactiva se pretende revalorizar la exclusividad de una mancha, ya que nunca habrá dos iguales. ",
+        "conclution1":"Con la partición del apellido Monlleó se quiere transmitir esas raíces valencianas, ya que tanto “MON” como “LLEO” son dos palabras con significado propio en valenciano. Además, se omite el acento de la palabra, puesto que la última “O” es un elemento diferente que acentúa la identidad. Con la tipografía se contrarresta esa gestualidad y dinamismo de las manchas, proporcionándole una estabilidad y un orden.",
+        "conclution2":"Se trata de una marca que integra la dualidad de la expresión manual y artesanal, con la formalidad y la seriedad del diseño gráfico.",
         "img-main": "/picture/Monlleo/branding-Monlleo.jpg",
         "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
         "img-2":"",
-        "img-3":"",
+        "img-sitemap":"",
+        "img-color":"",
+        "img-user":"",
         "logo":"../img/LogoGrafic.jpg" 
                 
     },
@@ -31,17 +39,28 @@
         "alt": "Ilustración mujeres",
                     
        
-        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
-        "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
-        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-        "conclution":"",
+        "briefing": "Realización de una ilustración inspirada en mujeres migrantes para el programa de “Ciudadanía con voz: orientación, mediación y empoderamiento a personas migrantes” organizado y dirigido por la asociación YMCA Valencia",
+        "tolls":" Herramientas tecnicas: PHOTOSHOP ",
+        "objective1":"Crear una imagen que represente a todas las mujeres migrantes, para que estas se sientan identificadas. ",
+        "objective2":"No representar como víctimas a estas personas.",
+        "objective3":"Realizar una imagen inclusiva y llamativa.",
+        "metodologi1":" ",
+        "metodologi2":"",
+        "metodologi3":"",
+        "conclution":" ",
+        "conclution1":" ",
+        "conclution2":"",
         "img-main": "/picture/Mujeres/MujeresMigrantes.jpg",
         "img-1":"/picture/Mujeres/Totebag.jpg",
         "img-2":"",
-        "img-3":"",
+        "img-sitemap":"",
+        "img-color":"",
+        "img-user":"",
         "logo":"../img/LogoGrafic.jpg"           
     },
     {   
+
+
         "category":"diseño-grafico",
         "title": "Branding ",
         "secondtitle": "Refer ",
@@ -49,15 +68,24 @@
         "alt": "branding refer",
                     
     
-        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
-        "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
-        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-        "conclution":"",
-        "img-main": "/picture/Mujeres/Totebag.jpg",
-        "img-1":"",
+        "briefing": "Diseño de carteles y programación para las jornadas de “Batects de Barri” organizado por la asociación YMCA Valencia.",
+        "tolls":" Herramientas tecnicas: MIRO FIGMA ",
+        "objective1":" ",
+        "objective2":"",
+        "objective3":"",
+        "metodologi1":" ",
+        "metodologi2":"",
+        "metodologi3":"",
+        "conclution":" ",
+        "conclution1":" ",
+        "conclution2":"",
+        "img-main": "/picture/Monlleo/branding-Monlleo.jpg",
+        "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
         "img-2":"",
-        "img-3":"",
-        "logo":"../img/LogoGrafic.jpg" 
+        "img-sitemap":"",
+        "img-color":"",
+        "img-user":"",
+        "logo":"../img/LogoGrafic.jpg"
                     
     },
     {   
@@ -67,15 +95,24 @@
         "alt": "Ilustración mujeres",
                     
         
-        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
-        "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
-        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-        "conclution":"",
-        "img-main": "/picture/Mujeres/Totebag.jpg",
-        "img-1":"",
+        "briefing": "",
+        "tolls":" Herramientas tecnicas: MIRO FIGMA ",
+        "objective1":" ",
+        "objective2":"",
+        "objective3":"",
+        "metodologi1":" ",
+        "metodologi2":"",
+        "metodologi3":"",
+        "conclution":" ",
+        "conclution1":" ",
+        "conclution2":"",
+        "img-main": "/picture/Monlleo/branding-Monlleo.jpg",
+        "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
         "img-2":"",
-        "img-3":"",
-        "logo":"../img/LogoGrafic.jpg" 
+        "img-sitemap":"",
+        "img-color":"",
+        "img-user":"",
+        "logo":"../img/LogoGrafic.jpg"
                     
     },
     {   
@@ -85,9 +122,39 @@
         "alt": "Ilustración mujeres",
                     
    
-        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
-        "shipping":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
-        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
+        
+        "briefing": "",
+        "tolls":" Herramientas tecnicas: MIRO FIGMA ",
+        "objective1":" ",
+        "objective2":"",
+        "objective3":"",
+        "metodologi1":" ",
+        "metodologi2":"",
+        "metodologi3":"",
+        "conclution":" ",
+        "conclution1":" ",
+        "conclution2":"",
+        "img-main": "/picture/Monlleo/branding-Monlleo.jpg",
+        "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
+        "img-2":"",
+        "img-sitemap":"",
+        "img-color":"",
+        "img-user":"",
+        "logo":"../img/LogoGrafic.jpg"  
+                    
+    },
+    {   
+        "category":"diseño-grafico",
+        "name": "Mujeres Migrantes",
+        "id": "mujeres-migrantes",
+        "alt": "Ilustración mujeres",
+                    
+   
+        
+        "briefing": "",
+        "tolls":"Envíos gratuitos para península, excepto para piezas que requieran montaje especial in situ.",
+        "objective":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
+        "metodologi":"",
         "conclution":"",
         "img-main": "/picture/Mujeres/Totebag.jpg",
         "img-1":"",
@@ -113,15 +180,24 @@
         "alt": "Ilustración mujeres",
                     
         
-        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
-        "user-persona":"",
-        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-        "conclution":"",
-        "img-main": "/picture/refer/website-Refer.jpg",
-        "img-1":"",
+        "briefing": "En este proyecto hemos diseñado y desarrollado una Lansing page sobre me, donde presentamos y exponemos las habilidades que poseemos y podemos ofrecer. Se trata de mi primer trabajo realizado como diseñadora UX /UI y desarrolladora Fornt-end.",
+        "tolls":" Herramientas tecnicas: MIRO FIGMA ",
+        "objective1":"Crear una página web donde darme a conocer. ",
+        "objective2":"Realizar un diseño sencillo y claro que no posea muchas distracciones irrelevantes para el usuario, por lo que este puedra centrar su atención en la información sobre mí.",
+        "objective3":"Desarrollar un código ordenador, que sea comprensible para la gente externa y que posea variables y mixins para facilitar la modificación del diseño.",
+        "metodologi1":"En el apartado de análisis hemos realizado una búsqueda de diferentes Abouts Me, definiendo con esto, el tipo de user persona al que podríamos ofrecer nuestro servicio. ",
+        "metodologi2":"Realizamos un plan de márquetin escribiendo mi misión, mi visión y mis valores. Luego hice un análisis DAFO, para observar que debía potenciar. Con estos dos ejercicios definí los valores que quería que se vieran representadas en mí Landing.",
+        "metodologi3":"Para la fase de ideación creamos un Moodboard de inspiración y empezamos a realizar los wireframes. Una vez estos definidos, damos paso a la realización del diseño. Marcando como colores principales el color amarillo y el degradado. Como colores secundarios colores neutros de la paleta de grises.",
+        "conclution":"Para afrontar este trabajo he hecho un gran ejercicio de introspección. Durante la maduración del proyecto he tenido que ir descartando diferentes ideas, puesto que estas no facilitaban la experiencia del usuario con la web, por lo que finalmente eliminamos toda posible distracción del usuario y dejamos simplemente lo esencial. ",
+        "conclution1":"Esto se puede ver reflejado en la simplificación de los colores, la web posee un solo color de acento, el amarillo, este representa la emoción de la alegría, ya que se vincula con la luz del sol y el estado positivo.  Con el degradado se pretender romper la monotonía de los colores neutros y el amarillo, remarcando algunas partes de la web, como son las fotos y el botón de enviar mensaje. Este degradado representa mis raíces mediterráneas, por lo que empieza en el amarillo del sol y termina en el azul del mar. ",
+        "conclution2":"En cuanto a la tipografía, escogí la Poppins puesto que al ser una san serif, la lectura para webs con fondos claros es óptima. Además, el ojo de las letras es muy redondeado, la cual contrasta con las líneas tan rectas que poseen muchos elementos de la web. Se trata de una Lansing page sencilla, pero con unos colores con mucha fuerza y una experiencia de usuario diseñada para consumir exactamente la información importante.",
+        "img-main": "/picture/Monlleo/branding-Monlleo.jpg",
+        "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
         "img-2":"",
-        "img-3":"",
-        "logo":"../img/LogoUx.jpg" 
+        "img-sitemap":"",
+        "img-color":"",
+        "img-user":"",
+        "logo":"../img/LogoUX.jpg"   
                     
     },
     {   
@@ -133,15 +209,25 @@
         "alt": "Ilustración mujeres",
                     
         
-        "description": "Los cajones de fruta han sido utilizados como asiento recurrente por muchos trabajadores, por lo que les hemos dado esta nueva función. Con unos cajones y patas de muebles reciclados, hemos creado este conjunto de tres sillas pintadas con colores vivos, resistentes al agua i al sol, són ideales para exteriores y niños terremoto. Pese a tener materiales fuertes són ligeras i muy fáciles de transportar, con su colorido i luminosidad alegraran cualquier lugar de la casa. Ancho: 30cm Alto: 50cm.",
-        "user-persona":"",
-        "certificate":"Con todas las piezas se entrega un certificado de autenticidad con un número de serie distinto para cada pieza, que asegura que cada una es exclusiva. En él figuran los detalles de calidad asociados con la pieza. Además se incluye un documento con la historia de la pieza, y otro con las fotografías del antes, del proceso de recuperación, y del después.",
-        "conclution":"",
-        "img-main": "/picture/about/aboutMe.jpg",
-        "img-1":"",
+        
+        "briefing": "En este proyecto hemos diseñado y desarrollado una Lansing page sobre me, donde presentamos y exponemos las habilidades que poseemos y podemos ofrecer. Se trata de mi primer trabajo realizado como diseñadora UX /UI y desarrolladora Fornt-end.",
+        "tolls":" Herramientas tecnicas: MIRO FIGMA ",
+        "objective1":"Crear una página web donde darme a conocer. ",
+        "objective2":"Realizar un diseño sencillo y claro que no posea muchas distracciones irrelevantes para el usuario, por lo que este puedra centrar su atención en la información sobre mí.",
+        "objective3":"Desarrollar un código ordenador, que sea comprensible para la gente externa y que posea variables y mixins para facilitar la modificación del diseño.",
+        "metodologi1":"En el apartado de análisis hemos realizado una búsqueda de diferentes Abouts Me, definiendo con esto, el tipo de user persona al que podríamos ofrecer nuestro servicio. ",
+        "metodologi2":"Realizamos un plan de márquetin escribiendo mi misión, mi visión y mis valores. Luego hice un análisis DAFO, para observar que debía potenciar. Con estos dos ejercicios definí los valores que quería que se vieran representadas en mí Landing.",
+        "metodologi3":"Para la fase de ideación creamos un Moodboard de inspiración y empezamos a realizar los wireframes. Una vez estos definidos, damos paso a la realización del diseño. Marcando como colores principales el color amarillo y el degradado. Como colores secundarios colores neutros de la paleta de grises.",
+        "conclution":"Para afrontar este trabajo he hecho un gran ejercicio de introspección. Durante la maduración del proyecto he tenido que ir descartando diferentes ideas, puesto que estas no facilitaban la experiencia del usuario con la web, por lo que finalmente eliminamos toda posible distracción del usuario y dejamos simplemente lo esencial. ",
+        "conclution1":"Esto se puede ver reflejado en la simplificación de los colores, la web posee un solo color de acento, el amarillo, este representa la emoción de la alegría, ya que se vincula con la luz del sol y el estado positivo.  Con el degradado se pretender romper la monotonía de los colores neutros y el amarillo, remarcando algunas partes de la web, como son las fotos y el botón de enviar mensaje. Este degradado representa mis raíces mediterráneas, por lo que empieza en el amarillo del sol y termina en el azul del mar. ",
+        "conclution2":"En cuanto a la tipografía, escogí la Poppins puesto que al ser una san serif, la lectura para webs con fondos claros es óptima. Además, el ojo de las letras es muy redondeado, la cual contrasta con las líneas tan rectas que poseen muchos elementos de la web. Se trata de una Lansing page sencilla, pero con unos colores con mucha fuerza y una experiencia de usuario diseñada para consumir exactamente la información importante.",
+        "img-main": "/picture/Monlleo/branding-Monlleo.jpg",
+        "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
         "img-2":"",
-        "img-3":"",
-        "logo":"../img/LogoUx.jpg" 
+        "img-sitemap":"",
+        "img-color":"",
+        "img-user":"",
+        "logo":"../img/LogoUX.jpg" 
                     
     },
 
@@ -155,6 +241,7 @@
     {   
         "category":"front-end",
         "title": "About Me",
+        "tools": "HTML, CSS, SASS",
         "id": "about-me",
         "alt": "Proyecto about me",
         "img-main": "/picture/about/aboutMe.jpg",
@@ -166,8 +253,9 @@
     {   
         "category":"front-end",
         "title": "Ecommercer Refer",
+        "tools": "HTML, CSS , SASS, JS",
         "id": "about-me",
-        "alt": "Proyecto about me",
+        "alt": "Proyecto Refer",
         "img-main": "/picture/refer/website-Refer.jpg",
         "github":"https://github.com/IreneMonlleo/Proyecto-Beta",
         "href":"https://frontend.esatid3-2021.com/irenemonlleo/proyect-beta/"

@@ -15,7 +15,13 @@ export default  function Slider(props) {
             <img src={props.img} alt="" />
             </motion.div>
             <motion.div className='item'>
-            <img src={props.img} alt="" />
+            <img src={props.img1} alt="" />
+            </motion.div>
+            <motion.div className='item'>
+            <img src={props.img2} alt="" />
+            </motion.div>
+            <motion.div className='item'>
+            <img src={props.img3} alt="" />
             </motion.div>
        
         </motion.div>
