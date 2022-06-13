@@ -4,14 +4,15 @@
     
     {   
         "category":"diseño-grafico",
-        "stain": "/picture/ManchaGrafic.png ",
+        "stain": "/picture/stain/ManchaGrafic.png ",
         "title": "Branding",
         "secondtitle": "Monlleo ",
         "id": "branding-monlleo",
                     
         
         "briefing": "Este proyecto se centra en la creación de una marca propia. Por lo tanto, es una marca que debe representarme a mí y a las habilidades que poseo y que he ido adquiriendo con mis estudios. Además crearemos un manual de identidad corporativo donde aparecerán definidas las normas de uso de dicha marca, la construcción de esta y la aplicación de la marca en los elementos promocionales.",
-        "tolls":" Herramientas tecnicas utilizadas: PHOTOSHOP ILLUSTRATOR INDESING ",
+        "tolls2":"Herramientas tecnicas:",
+        "tolls":"PHOTOSHOP - ILLUSTRATOR - INDESING",
         "objective1":"Con esta marca se busca representar los valores de la marca (Cercanía, diversidad, dinamismo) y crear confianza entre sus clientes. ",
         "objective2":"Debe verse reflejada mis dotes de diseñadora gráfica pero también que poseo conocimientos artísticos tradicionales.",
         "metodologi1":"Con un breve análisis de la competencia y después de definir nuestro target, llegamos a la conclusión que queremos una marca que sea atractiva para cualquier edad, totalmente libre de genero y que posea un elemento diferenciador que la dote de identidad propia.",
@@ -30,19 +31,20 @@
         "alt3": "",
         "img-4":"",
         "alt4": "",
-        "logo":"../img/LogoGrafic.jpg" 
+        "logo":"/picture/logo/LogoGrafic.jpg" 
                 
     },
     {   
         "category":"diseño-grafico",
-        "stain": "../img/ManchaGrafic.png ",
+        "stain": "/picture/stain/ManchaGrafic.png ",
         "title": "Mujeres ",
         "secondtitle": "Migrantes ",
         "id": "mujeres-migrantes",
                     
        
         "briefing": "Realización de una ilustración inspirada en mujeres migrantes para el programa de “Ciudadanía con voz: orientación, mediación y empoderamiento a personas migrantes” organizado y dirigido por la asociación YMCA Valencia",
-        "tolls":" Herramientas tecnicas: PHOTOSHOP ",
+        "tolls2":"Herramientas tecnicas:",
+        "tolls":"PHOTOSHOP",
         "objective1":"Crear una imagen que represente a todas las mujeres migrantes, para que estas se sientan identificadas. ",
         "objective2":"No representar como víctimas a estas personas.",
         "objective3":"Realizar una imagen inclusiva y llamativa.",
@@ -56,25 +58,27 @@
         "altMain":"Ilustracion Mujeres Migrantes",
         "img-1":"/picture/Mujeres/Totebag.jpg",
         "alt1": "Totebag Mujeres Migrantes",
-        "img-2":"",
+        "img-2":"/picture/Mujeres/Postal.jpg",
         "alt2": "postal Mujeres Migrantes",
-        "img-3":"",
+        "img-3":"/picture/Mujeres/versionLinea.jpg",
         "alt3": "Versión 1 de la ilustración",
-        "img-4":"",
-        "alt4": "Versión 2",
-        "logo":"../img/LogoGrafic.jpg"           
+        "img-4":"/picture/Mujeres/VersionAzul.jpg",
+        "alt4": "Versión color azul",
+        "logo":"/picture/logo/LogoGrafic.jpg"           
     },
     {   
 
 
         "category":"diseño-grafico",
+        "stain": "/picture/stain/ManchaGrafic.png ",
         "title": "Branding ",
         "secondtitle": "Refer ",
         "id": "marca-refer",
                     
     
         "briefing": "Diseño de carteles y programación para las jornadas de “Batects de Barri” organizado por la asociación YMCA Valencia.",
-        "tolls":" Herramientas tecnicas: MIRO FIGMA ",
+        "tolls2":"Herramientas tecnicas:",
+        "tolls":"PHOTOSHOP - ILLUSTRATOR - INDESING",
         "objective1":" ",
         "objective2":"",
         "objective3":"",
@@ -84,18 +88,24 @@
         "conclution":" ",
         "conclution1":" ",
         "conclution2":"",
-        "img-main": "/picture/Monlleo/branding-Monlleo.jpg",
-        "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
+        "img-main": "/picture/brandRefer/REFER.png",
+        "altMain":"logotipo refer",
+        "img-1":"/picture/brandRefer/manual-refer.jpg",
+        "alt1": "Manual de identidad",
         "img-2":"",
-        "img-sitemap":"",
-        "img-color":"",
-        "img-user":"",
-        "logo":"../img/LogoGrafic.jpg"
+        "alt2": "postal Mujeres Migrantes",
+        "img-3":"",
+        "alt3": "Versión 1 de la ilustración",
+        "img-4":"",
+        "alt4": "Versión 2", 
+        "logo":"/picture/logo/LogoGrafic.jpg" 
                     
     },
     {   
         "category":"diseño-grafico",
-        "name": "Mujeres Migrantes",
+        "stain": "/picture/stain/ManchaGrafic.png ",
+        "title": "Ecommercer ",
+        "secondtitle": "Refer ",
         "id": "mujeres-migrantes",
                     
         
@@ -116,13 +126,15 @@
         "img-sitemap":"",
         "img-color":"",
         "img-user":"",
-        "logo":"../img/LogoGrafic.jpg"
+        "logo":"/picture/logo/LogoGrafic.jpg" 
                     
     },
     {   
         "category":"diseño-grafico",
-        "name": "Mujeres Migrantes",
-        "id": "mujeres-migrantes",
+        "stain": "/picture/stain/ManchaGrafic.png ",
+        "title": "Branding ",
+        "secondtitle": "Banci ",
+        "id": "marca-banci",
                     
    
         
@@ -137,18 +149,20 @@
         "conclution":" ",
         "conclution1":" ",
         "conclution2":"",
-        "img-main": "/picture/Monlleo/branding-Monlleo.jpg",
+        "img-main": "/picture/Banci/Banci.jpg",
         "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
         "img-2":"",
         "img-sitemap":"",
         "img-color":"",
         "img-user":"",
-        "logo":"../img/LogoGrafic.jpg"  
+        "logo":"/picture/logo/LogoGrafic.jpg" 
                     
     },
     {   
         "category":"diseño-grafico",
-        "name": "Mujeres Migrantes",
+        "stain": "/picture/stain/ManchaGrafic.png ",
+        "title": "Ecommercer ",
+        "secondtitle": "Refer ",
         "id": "mujeres-migrantes",
                     
    
@@ -162,7 +176,7 @@
         "img-1":"",
         "img-2":"",
         "img-3":"",
-        "logo":"../img/LogoGrafic.jpg" 
+        "logo":"/picture/logo/LogoGrafic.jpg"
                     
     },
 
@@ -175,7 +189,7 @@
     
     {   
         "category":"ux-ui",
-        "stain": "../img/ManchaUx.png ",
+        "stain":  "/picture/stain/ManchaUx.png ",
         "title": "Ecommercer ",
         "secondtitle": "Refer ",
         "id": "refer",
@@ -199,12 +213,12 @@
         "img-3":"",
         "img-4":"",
 
-        "logo":"../img/LogoUX.jpg"   
+        "logo":"/picture/logo/LogoUx.jpg"
                     
     },
     {   
         "category":"ux-ui",
-        "stain": "../img/ManchaUx.png ",
+        "stain": "/picture/stain/ManchaUx.png ",
         "title": "About",
         "secondtitle": "Me",
         "id": "about-me",
@@ -223,13 +237,17 @@
         "conclution":"Para afrontar este trabajo he hecho un gran ejercicio de introspección. Durante la maduración del proyecto he tenido que ir descartando diferentes ideas, puesto que estas no facilitaban la experiencia del usuario con la web, por lo que finalmente eliminamos toda posible distracción del usuario y dejamos simplemente lo esencial. ",
         "conclution1":"Esto se puede ver reflejado en la simplificación de los colores, la web posee un solo color de acento, el amarillo, este representa la emoción de la alegría, ya que se vincula con la luz del sol y el estado positivo.  Con el degradado se pretender romper la monotonía de los colores neutros y el amarillo, remarcando algunas partes de la web, como son las fotos y el botón de enviar mensaje. Este degradado representa mis raíces mediterráneas, por lo que empieza en el amarillo del sol y termina en el azul del mar. ",
         "conclution2":"En cuanto a la tipografía, escogí la Poppins puesto que al ser una san serif, la lectura para webs con fondos claros es óptima. Además, el ojo de las letras es muy redondeado, la cual contrasta con las líneas tan rectas que poseen muchos elementos de la web. Se trata de una Lansing page sencilla, pero con unos colores con mucha fuerza y una experiencia de usuario diseñada para consumir exactamente la información importante.",
-        "img-main": "/picture/about/about2.jpg",
-        "img-1":"/picture/about/aboutMe.jpg",
-        "img-2":"",
-        "img-sitemap":"",
-        "img-color":"",
-        "img-user":"",
-        "logo":"../img/LogoUX.jpg" 
+        "img-main": "/picture/about/aboutMe.jpg",
+        "altMain":"Ilustracion Mujeres Migrantes",
+        "img-1":"/picture/about/about2.jpg",
+        "alt1": "prototipo desktop",
+        "img-2":"/picture/about/MBL_aboutMe.jpg",
+        "alt2": "prototipo movil",
+        "img-3":"/picture/about/user-persona.jpg",
+        "alt3": "user persona",
+        "img-4":"/picture/about/wireframes.jpg",
+        "alt4": "wireframes",
+        "logo":"/picture/logo/LogoUx.jpg" 
                     
     },
 
