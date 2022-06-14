@@ -3,12 +3,18 @@ import Header from "../components/Header/Header";
 import './Ux.css';
 
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 
 
 
 
 export default  function Ux(props) {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     const description="Tener una buena experiencia de usuario y una web atractiva e intuitiva, es imprescindible en los tiempos que corren."
     
     return <div className="Ux">

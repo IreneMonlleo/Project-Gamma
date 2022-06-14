@@ -4,6 +4,7 @@ import Footer from "../components/Footer/Footer";
 import { Link } from "react-router-dom";
 
 import './Grafic.css';
+import { useEffect } from "react";
 
 
 
@@ -11,6 +12,10 @@ import './Grafic.css';
 
 
 export default  function Grafic(props) {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
 
     const description= `Un diseñador es aquel que sabe un poquito de todo, pues cada proyecto es diferente 
     y requiere de una investigación y análisis previo. De este modo, podemos encontrar la solución más adecuada.`

@@ -15,7 +15,10 @@ import Project from './page/Project';
 
 function App() {
 
+  
+
   const [dataInApp, setDataInApp] = useState([]);
+  
 
   useEffect(() => {
     axios.get('/jsons/data.json')

@@ -4,13 +4,17 @@ import Skills from "../components/Skills";
 
 import './Front.css';
 import { ButtonA } from "../components/ButtonA";
+import { useEffect } from "react";
 
 
 
 
 
 export default  function Front(props) {
-    
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     
     return <div className="Front">
         <Header title="Front-end" secondtitle="Developer" img="../picture/stain/ManchaFront.png"  ></Header>

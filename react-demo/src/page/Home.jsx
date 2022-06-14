@@ -14,6 +14,13 @@ import { useEffect, useState } from 'react';
 
 
 export default function Home(props) {
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+    
+    
+    
     //block the scroll//
     const [enableScroll, setEnableScroll] = useState(false);
 

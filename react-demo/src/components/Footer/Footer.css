@@ -17,9 +17,13 @@
         font-weight: 800;
         
     }
+       
         .footer__email {
             display:block;
             padding-bottom: 24px;
+        }
+        .footer__email:hover {
+            color:var(--color-home);
         }
 
 @media all and (min-width: 600px){
@@ -31,5 +35,5 @@
         .footer__title{
             margin:0;
         }
-
+        
 }

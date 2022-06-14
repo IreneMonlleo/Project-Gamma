@@ -1,10 +1,13 @@
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 export default function Footer(props) {
   
 
     return <div className='footer' id="contact">
+      <Link to="/">
       <img className="footer__logo" src={props.img} alt="logo Monlleo" />
+      </Link>
       <h2 className="footer__title">Puedes contactar <br></br>conmigo en:</h2>
       <div className="contact">
         <a className="footer__email" href="mailto:irene.monlleo@gmail.com" >irene.monlleo@gmail.com</a>
