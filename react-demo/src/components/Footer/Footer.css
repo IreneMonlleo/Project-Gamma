@@ -25,6 +25,9 @@
         .footer__email:hover {
             color:var(--color-home);
         }
+        .footer__rrss:hover {
+            color:var(--color-home);
+        }
 
 @media all and (min-width: 600px){
     .footer{

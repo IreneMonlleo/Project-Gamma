@@ -1,7 +1,8 @@
+// import { useParams } from 'react-router-dom';
 import './Header.css';
 
 export default function Header(props) {
-  
+// let params = useParams();
 
   return <header className="header">
     <div className='header__container'>

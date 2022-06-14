@@ -6,7 +6,7 @@ export default function Footer(props) {
 
     return <div className='footer' id="contact">
       <Link to="/">
-      <img className="footer__logo" src={props.img} alt="logo Monlleo" />
+        <img className="footer__logo" src={props.img} alt="logo Monlleo" />
       </Link>
       <h2 className="footer__title">Puedes contactar <br></br>conmigo en:</h2>
       <div className="contact">

@@ -15,9 +15,9 @@ useEffect(() => {
 }, [])
 
 let params = useParams();
-
-
 const project = props.info.find(project => project.category === params.category && project.id === params.id);
+
+
 
 return project && <>
         <Header title={project.title} secondtitle={project.secondtitle} img={project.stain} alt={project.alt}></Header>

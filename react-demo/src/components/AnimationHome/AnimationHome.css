@@ -31,7 +31,7 @@
 
 
 .bg-animation-start{
-    height: 100vh;
+    height: 100%;
     width:100%;
     align-items: center;
     justify-content: center;
@@ -46,7 +46,7 @@
             bottom:0;
             right: 0px;
         
-        animation: bg-cover 2.5s ease-out forwards;
+        animation: bg-cover 1s ease-out forwards;
     }
         @keyframes bg-cover{
                         
