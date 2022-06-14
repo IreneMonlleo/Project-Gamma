@@ -1,5 +1,6 @@
 .wrapper__project{
     margin-bottom:7rem ;
+    
 }
 
 .container-text-top{
@@ -28,6 +29,7 @@
         padding: 0.5rem;
     }
 @media all and (min-width:850px){
+    
     .main{
         display: flex;
         flex-direction: row-reverse;
