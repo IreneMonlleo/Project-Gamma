@@ -1,6 +1,6 @@
 .footer {
     background-color: var(--color-margin);
-    padding: 84px 0;
+    padding: 84px 24px;
     
     
 }
@@ -8,16 +8,13 @@
      height: 100px;       
     }
     .footer__title {
-     
+        margin:48px;
         font-size:24px;
-        margin: 48px;
     }
-        .title--top{
-            display:block;
-            
-        } 
+     
     .contact {
         margin-bottom: 84px;
+        font-weight: 800;
         
     }
         .footer__email {
@@ -28,9 +25,11 @@
 @media all and (min-width: 600px){
     .footer{
         display:flex;
-        justify-content: space-around;
+        justify-content: space-between;
         
-
     }
+        .footer__title{
+            margin:0;
+        }
 
 }
