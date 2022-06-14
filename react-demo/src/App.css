@@ -92,6 +92,7 @@ img{
   }
   .name{
     writing-mode: vertical-rl;
+    transform: rotate(180deg);
     position: fixed;
     left: 0;
     top:40vh;

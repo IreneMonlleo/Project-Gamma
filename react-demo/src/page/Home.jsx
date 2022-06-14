@@ -20,7 +20,7 @@ export default function Home(props) {
     const [animation, setAnimation] = useState(true);
 
     useEffect(()=>{
-        document.addEventListener('wheel', (event) => {
+        document.addEventListener('scroll', (event) => {
             setAnimation(false);
             setTimeout(() => setEnableScroll(true), 1000);
         })
@@ -30,6 +30,7 @@ export default function Home(props) {
 
     return ( 
     <>
+    
     <AnimationHome shouldShowHeadboard={animation}></AnimationHome>
     { enableScroll === true && <section className="home__container">
        

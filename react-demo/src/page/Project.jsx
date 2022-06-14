@@ -4,10 +4,15 @@ import './Project.css';
 import CardProjects from "../components/CardProject/CardProject";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
+import { useEffect } from "react";
 
 
 
 export default  function Project(props) {
+    
+useEffect(() => {
+  window.scrollTo(0, 0)
+}, [])
 
 let params = useParams();
 
@@ -25,7 +30,7 @@ return project && <>
                 </div>
                 <img className="img-main" src={project['img-main']} alt={project.altMain}></img>
             </main>
-            <h3 className="titles-projects">Objetivos</h3>
+            <h3 className="titles-section">Objetivos</h3>
             <ul className="container-objective ">
                 <li className="objective">{project.objective1}</li>
                 <li className="objective" >{project.objective2}</li>

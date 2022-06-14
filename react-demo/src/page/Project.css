@@ -17,10 +17,37 @@
     margin: 2rem 0;
     
 }
-.titles-projects{
+.titles-section{
  margin:1.5rem 2rem;
 }
 .container-objective{
     font-size: 14px;
     margin:0 2.5rem;
+}
+    .objective{
+        padding: 0.5rem;
+    }
+@media all and (min-width:850px){
+    .main{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+        .container-text-top{
+            width: 30vw;
+        }
+        .img-main{
+            width: 45vw;
+        }
+    .titles-section{
+        text-align: center;
+        margin:3rem;
+
+    }
+    .container-objective{
+        width: 40vw;
+        margin:0 auto;
+        
+    }
 }

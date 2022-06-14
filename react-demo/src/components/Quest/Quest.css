@@ -1,6 +1,6 @@
 .quest__container {
-    
     width: 100%; 
+    
 }
 
     .quest{
@@ -20,7 +20,12 @@
     justify-content: center; 
     max-width: 255px;
     text-align: left;
+    
+
  
+}
+.container-text-quest{
+    position: relative;
 }
 
 @media all and (min-width:850px){
