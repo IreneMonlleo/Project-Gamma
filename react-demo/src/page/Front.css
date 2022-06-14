@@ -1,10 +1,10 @@
 /*--------------Color Header------------------*/
-.Front{
+.Front {
     --color-header:#95BAF3;
 }
 
 /*------------------Skills--------------*/
-.skills__section-title{
+.skills__section-title {
     color: var(--color-home);
     display:flex;
     flex-direction: column;
@@ -12,41 +12,40 @@
     text-align: left;
     margin:48px 60px;
 }
-.skills__section-description{
+.skills__section-description {
     margin:48px 60px;
     font-size: 14px;
     text-align: left;
     
 }
-.front__container-projects{
+.front__container-projects {
     margin:0 auto;
 }
 
-.front-img-project{
+.front-img-project {
     width: 330px;
     margin-top:136px ;
     margin-bottom:48px ;
 }
 
-.container-buttons-front{
+.container-buttons-front {
     margin-bottom: 48px;
 }
    
-/*-----------------------IMG Project----------------------*/
 
 
 /*---------------------Medium Break----------------------*/
 
-@media all and (min-width: 650px){
-    .skills-text{
+@media all and (min-width: 650px) {
+    .skills-text {
        display: inline-block;
     }
-    .skills__section{
+    .skills__section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: -6vw;
     } 
-    .front-img-project{
+    .front-img-project {
         width: 600px;
     }
     
@@ -55,14 +54,14 @@
 
 /*--------------------- BREAK----------------------*/
 @media all and (min-width: 1000px){
-    .front-img-project{
+    .front-img-project {
         width:900px;
     }
 
-    .skills__section-description{
+    .skills__section-description {
         width: 20vw;  
     }
-    .skills__section{
+    .skills__section {
         grid-template-columns: repeat(3, 1fr);
         max-width: 900px;
         margin:0 auto;

@@ -26,16 +26,18 @@ export const SkillsContainer = styled.div`
         margin-bottom:24px;
 
     }
-    .skills__description{
+    .skills__description {
         font-size: 14px;
         text-align:left;
         width:200px;
     }
     @media all and (min-width: 650px){
         background-color: transparent;
-        &:hover{
+
+        &:hover {
             background-color: var(--color-front);
         }
+        
     }
     
 `
