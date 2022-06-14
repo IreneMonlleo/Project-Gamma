@@ -17,6 +17,7 @@ export default  function Skills(props) {
 export const SkillsContainer = styled.div`
     margin:12px;
     padding:48px;
+    display: inline-block;
     background-color: var(--color-front);
 
     .skills__title{
@@ -30,7 +31,12 @@ export const SkillsContainer = styled.div`
         text-align:left;
         width:200px;
     }
-
+    @media all and (min-width: 650px){
+        background-color: transparent;
+        &:hover{
+            background-color: var(--color-front);
+        }
+    }
     
 `
 

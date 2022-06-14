@@ -38,7 +38,9 @@
 /*---------------------Medium Break----------------------*/
 
 @media all and (min-width: 650px){
-    
+    .skills-text{
+       display: inline-block;
+    }
     .skills__section{
         display: grid;
         grid-template-columns: repeat(2, 1fr);

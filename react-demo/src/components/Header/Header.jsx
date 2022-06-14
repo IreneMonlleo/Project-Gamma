@@ -1,11 +1,10 @@
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
-// import './Header.css';
 
 export default function Header(props) {
 let params = useParams();
 
-  return <WrapperHeader Ux={params.category == ['ux-ui']}>
+  return <WrapperHeader Ux={params.category === 'ux-ui'}>
     <div className='header__container'>
       <img className='header__image' src={ props.img } alt="Mancha corporativa" />
       <h1 className='left'>{ props.title }<br></br>{ props.secondtitle }
