@@ -29,8 +29,8 @@
 }
 html{
   max-width: 100%;
-  overflow-x: hidden;
-
+  overflow-x:hidden;
+  /* height: 100%; */
 }
 body {
   margin:0;

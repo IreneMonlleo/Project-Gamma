@@ -16,10 +16,11 @@ let params = useParams();
 
 export const WrapperHeader = styled.header`
 .header__container{
+  position:relative;
   display: flex;
   justify-content: center;
-  align-items: center; 
-  margin-top: 11vh;
+  align-items: flex-end;
+  height:40vh; 
 
     &::before{
       content: "";
@@ -27,7 +28,7 @@ export const WrapperHeader = styled.header`
       position: absolute;  
       top: 0px;
       left: 0px;
-      bottom:50vh;
+      bottom:45px;
       right: 0px;
       animation: slid-header 1s ease-in forwards;
     }
@@ -40,14 +41,14 @@ export const WrapperHeader = styled.header`
           
       }
      100% {
-          bottom:54vh ;
+          bottom:45px ;
          
       }
     } 
 
   .header__image{
-      height: 13vh;
-      margin:12px;
+      height: 92px;
+      margin-right:12px;
   }
 
   .header__description{
@@ -58,20 +59,33 @@ export const WrapperHeader = styled.header`
 
   @media all and (min-width:700px){
 
-      .header__container{
-          margin-top: 30vh;
-
-          &::before{
-            margin: 0 80px;
-            /* bottom: 50vh; */
-          }
+      .header__container::before{
+        bottom:60px 
       }
-          
-  
+
+      @keyframes slid-header {
+        0% {
+            top:0;
+            bottom:100%
+            
+        }
+       100% {
+            bottom:60px ;
+           
+        }
+      }  
+
+      .header__image{
+        height: 120px;
+        margin-right:24px;
+    }
+
+
+
       .header__description{
           margin:102px 25vw;        
       }
-  
+     
   
   }
 

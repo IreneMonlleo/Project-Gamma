@@ -27,9 +27,11 @@ export default function Home(props) {
     const [animation, setAnimation] = useState(true);
 
     useEffect(()=>{
-        document.addEventListener('scroll', (event) => {
+        document.addEventListener('wheel', (event) => {
             setAnimation(false);
             setTimeout(() => setEnableScroll(true), 1000);
+            // document.querySelector('html').style.cssText += 'overflow-y:scroll';
+            // document.querySelector('body').style.cssText += 'overflow-y:scroll';
         })
     },[])
 
