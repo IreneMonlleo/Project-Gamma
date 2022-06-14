@@ -26,7 +26,7 @@ export const WrapperHeader = styled.header`
       content: "";
       background-color: ${({ Ux }) => (Ux ? "var(--color-header,#DD723A)"  : "var(--color-header,#A9B59D)")}; //Import;
       position: absolute;  
-      top: 0px;
+      top: -200px;
       left: 0px;
       bottom:45px;
       right: 0px;
@@ -36,7 +36,7 @@ export const WrapperHeader = styled.header`
   
   @keyframes slid-header {
       0% {
-          top:0;
+          top:-100px;
           bottom:100%
           
       }
@@ -60,6 +60,7 @@ export const WrapperHeader = styled.header`
   @media all and (min-width:700px){
 
       .header__container::before{
+        top:0;
         bottom:60px 
       }
 
