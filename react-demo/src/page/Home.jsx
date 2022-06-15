@@ -41,6 +41,7 @@ export default function Home(props) {
     <>
     
     <AnimationHome shouldShowHeadboard={animation}></AnimationHome>
+    {/*  block the scroll  */}
     { enableScroll === true && <section className="home__container">
        
         <main className="home">

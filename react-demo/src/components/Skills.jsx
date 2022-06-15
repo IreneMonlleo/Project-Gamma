@@ -18,12 +18,15 @@ export const SkillsContainer = styled.div`
     margin:12px;
     padding:48px;
     display: inline-block;
-    background-color: var(--color-front);
+    border: solid var(--color-front) 2.5px;
+    // background-color:var(--color-front);
+    
 
     .skills__title{
         font-size:24px;
         font-weight:bold;
         margin-bottom:24px;
+        
 
     }
     .skills__description {
@@ -33,7 +36,7 @@ export const SkillsContainer = styled.div`
     }
     @media all and (min-width: 650px){
         background-color: transparent;
-
+        border:none;
         &:hover {
             background-color: var(--color-front);
         }

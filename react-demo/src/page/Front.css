@@ -4,16 +4,21 @@
 }
 
 /*------------------Skills--------------*/
+.skills-text{
+    max-width: 50vw;
+    margin: 0 auto;
+}
 .skills__section-title {
     color: var(--color-home);
     display:flex;
     flex-direction: column;
     font-size: 24px;
     text-align: left;
-    margin:48px 60px;
+    margin:48px 0;
+   
 }
 .skills__section-description {
-    margin:48px 60px;
+    margin:48px 0;
     font-size: 14px;
     text-align: left;
     
@@ -29,7 +34,8 @@
 }
 
 .container-buttons-front {
-    margin-bottom: 48px;
+    margin: 48px 0;
+    
 }
    
 

@@ -60,7 +60,7 @@ export const Menu = styled.ul`
   justify-content: right;
   position: fixed;
   top: 0px;
-  right: 80px;
+  right: 100px;
   margin-top:20px;
  
 

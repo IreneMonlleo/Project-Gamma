@@ -6,10 +6,10 @@
 @media all and (min-width:850px){
     .grid-container {
       margin:0 auto;
-      padding-top: 48px;
+      padding: 48px 0;
     }
     .grid-ux{
-        max-width: 1400px;
+        max-width: 1500px;
         grid-gap: 48px;
     }
 } 

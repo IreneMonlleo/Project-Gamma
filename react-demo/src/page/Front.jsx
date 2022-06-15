@@ -38,6 +38,7 @@ export default  function Front(props) {
             { props.data.filter((elem) => elem.category === 'front-end').map((info =>
                 <article>
                     <img className="front-img-project" src={info['img-main']} alt={info.alt} ></img>
+                    <h3>{info.tools}</h3>
                     <div className="container-buttons-front">
                         <ButtonA role='button' className='button-contact' href= {info.github} >GitHub</ButtonA>
                         <ButtonA role='button' className='button-contact' href= {info.href} >Ver web</ButtonA>

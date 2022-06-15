@@ -25,13 +25,18 @@ function App() {
       .then(response => setDataInApp(response.data));
   }, [])
 
-  return (
+  return (<>
+    <div className="frame-desktop">
+      </div>
+        <div className='frame-top'>
+          <Navbar></Navbar>
+        </div>
+        <div className='frame-bottom'>
+        </div>
+
     <div className="App">
-      <div className="frame-top">
-        <Navbar></Navbar>
-      </div>
-      <div className="frame-bottom">
-      </div>
+      
+      
       <Routes>
       <Route path='/' element={<Home/>} />
       <Route path='/grafic' element={<Grafic data={dataInApp}/>} />
@@ -40,8 +45,9 @@ function App() {
       <Route path='/:category/:id' element={<Project info={dataInApp}/>}/>
       {/* <Route path="*" element={<Error />} /> */}
       </Routes>
-     
+      
     </div>
+    </>
   );
 }
 

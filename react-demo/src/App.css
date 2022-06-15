@@ -64,7 +64,6 @@ img{
 
   .name{
     text-align: left;
-    
     margin: 20px;
     
   }
@@ -78,6 +77,9 @@ img{
 
   /*-----------------------------BREAK----------------------------*/
 @media all and (min-width:700px){
+  .App{
+    margin: 60px 0;
+  }
   h1{
     font-size: 48px;
     
@@ -116,16 +118,36 @@ img{
     bottom:0;
     left:0;
     right: 0;
-    height: 80px;
+    height: 60px;
     z-index:var(--top-medium);
   }
+  .frame-desktop{
+    position:fixed;
+    inset:0;
+    border:solid var(--color-margin) 60px;
+    
+  
+  }
+
+
+
+
 }
 
-/* @media all and (min-width:1000px){}
+@media all and (min-width:1000px){
+  .App{
+    margin: 80px 0;
+  }
+.frame-desktop{
+  border:solid var(--color-margin) 80px;
+} 
 .frame-top{
   height: 80px;
 }
 .frame-bottom{
   height: 80px;
-} */
+}
+}
+
+
 
