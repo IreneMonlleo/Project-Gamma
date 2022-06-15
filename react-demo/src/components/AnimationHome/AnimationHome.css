@@ -1,8 +1,8 @@
  
 .bg-animation{
-    height: 100%;
+    height: 55vh;
     width:100%;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     position:relative;
     display:flex;
@@ -12,32 +12,32 @@
         content: "";
         background-color: var(--color-home);
         position: absolute; 
-            top:0px;
-            left: 0;
-            right: 0;
-            bottom: 0px;
+            top:-100px;
+            left: 0px;
+            right: 0px;
+            bottom: 70px;
         
-        height: 100%;
 
-        /* animation: animation-begin 2.5s ease-out forwards; */
+
+        animation: animation-begin 2.5s ease-out forwards;
     }
-        /* @keyframes animation-begin {
+        @keyframes animation-begin {
                 
             0% {
-                top:0;
+                top:-100px;
                 bottom:100%;               
             }
             100% {
-                bottom:50vh ;      
+                bottom:70px ;      
             }
-        }  */
+        } 
 
 
 
 .bg-animation-start{
-    height: 100%;
+    height: 100vh;
     width:100%;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     position: relative;
           
@@ -46,23 +46,21 @@
         content: "";
         background-color: var(--color-home);
         position: absolute;  
-            top: 0px;
+            top: -100px;
             left: 0px;
-            bottom:0;
+            bottom:0px;
             right: 0px;
-            height: 100%;
-   
-        animation: bg-cover 1s ease-out forwards;
+    animation: bg-cover 2.5s ease-out forwards;
     }
         @keyframes bg-cover{
                         
             0% {
-                top:0;
-                bottom:50vh;
+                top:-100px;
+                bottom:70px;
                                     
             }
             100% {
-                bottom:0 ;      
+                bottom:0px ;      
             }
         } 
               
@@ -72,9 +70,13 @@
 
 
     @media all and (min-width:700px) {
+        .bg-animation{
+            height: 85vh;
+            align-items: center;
+        }
         .bg-animation::before{
-                bottom: 0;
-                right:38vw;
+                bottom: 0px;
+                right:44vw;
             animation: slide-right 2.5s ease-out ;
         }
             @keyframes slide-right {
@@ -82,11 +84,13 @@
                     right: 0;
                 }
                 100% {
-                    right:38vw;
+                    right:44vw;
                 }
             } 
             
-            
+        .bg-animation-start{
+                height: 85vh;
+        }
         .bg-animation-start::before{
                 bottom: 0;
                 right:38vw;

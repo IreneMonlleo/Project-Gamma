@@ -1,7 +1,21 @@
 .quest__container {
-    width: 100%; 
+    width: 100%;
+    align-items: center;
+    padding: 10vh 0;
+    animation: stain 0.5s ease-out forwards;
+    animation-delay: 1s;
+    opacity: 0;
     
 }
+@keyframes stain {
+    0% {
+      opacity: 0;
+    }
+    
+    100% {
+      opacity: 100%;
+    }
+  }
 
     .quest{
         padding-top: 2rem;
@@ -30,8 +44,15 @@
 }
 
 @media all and (min-width:850px){
+    .quest__container{
+        padding: 25vh 0;
+    }
     .quest__buttons{
         flex-direction: row;
         
+    }
+    .quest__text{
+        max-width: 500px;
+     
     }
 }

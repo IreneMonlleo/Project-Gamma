@@ -27,13 +27,13 @@ function App() {
 
   return (<>
     <div className="frame-desktop">
-    
-        {/* <div className='frame-top'> */}
+    </div>
+        <div className='frame-top'>
           <Navbar></Navbar>
-        {/* </div>
+        </div>
         <div className='frame-bottom'>
-        </div> */}
-  </div>
+        </div>
+ 
     <div className="App">
       
       

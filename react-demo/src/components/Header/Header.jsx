@@ -20,7 +20,8 @@ export const WrapperHeader = styled.header`
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height:40vh; 
+  height:40vh;
+  width:100%; 
 
     &::before{
       content: "";
