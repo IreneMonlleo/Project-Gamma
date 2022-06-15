@@ -44,7 +44,7 @@ export default function Home(props) {
     {/*  block the scroll  */}
     { enableScroll === true && <section className="home__container">
        
-        <main className="home">
+        <main className="home" id="header">
                 <article className="card__container row-desktop about">
                 <img className='img__section ' src="../picture/IreneMonlleo.png" alt="Irene Monlleó"></img>
                 <div className='card-text '>

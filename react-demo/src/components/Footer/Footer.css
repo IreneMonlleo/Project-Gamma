@@ -5,7 +5,8 @@
     
 }
     .footer__logo {
-     height: 100px;       
+     height: 100px;
+     cursor: pointer;       
     }
     .footer__title {
         margin:48px;
@@ -15,6 +16,7 @@
     .contact {
         margin-bottom: 84px;
         font-weight: 800;
+        text-align: right;
         
     }
        
