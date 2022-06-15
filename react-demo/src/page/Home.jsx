@@ -27,11 +27,10 @@ export default function Home(props) {
     const [animation, setAnimation] = useState(true);
 
     useEffect(()=>{
-        document.addEventListener('wheel', (event) => {
+        document.addEventListener('scroll', (event) => {
             setAnimation(false);
             setTimeout(() => setEnableScroll(true), 1000);
-            // document.querySelector('html').style.cssText += 'overflow-y:scroll';
-            // document.querySelector('body').style.cssText += 'overflow-y:scroll';
+  
         })
     },[])
 
@@ -59,9 +58,9 @@ export default function Home(props) {
                 </article>
                
                 <article className="card__container row-desktop">
-                    <img className='img__section' src="../picture/Mujeres/MujeresMigrantes.jpg" alt="proyecto de diseño"></img>
+                    <img className='img__section' src="./picture/Mujeres/MujeresMigrantes.jpg" alt="proyecto de diseño"></img>
                     <div className='card-text '>
-                        <StainTitle img="../picture/stain/ManchaGrafic.png" title="Diseño" subtitle="Gráfico"></StainTitle> 
+                        <StainTitle img="./picture/stain/ManchaGrafic.png" title="Diseño" subtitle="Gráfico"></StainTitle> 
                         <p className="card-description left">Proyectos de branding, manual de identidad, maquetación editorial, cartelería, folletos, etc. Descubre todos los proyectos de Diseño Grafico que he desarrollado hasta ahora.</p>
                         <ButtonsLink  to ="/grafic">Ver más</ButtonsLink>
                     </div> 
@@ -71,7 +70,7 @@ export default function Home(props) {
               
                 <article className="card__container bg-img">
                     <div className='card-text digital-design '>
-                        <StainTitle img="../picture/stain/ManchaUx.png" title="Ux/" subtitle="Ui"></StainTitle> 
+                        <StainTitle img="./picture/stain/ManchaUx.png" title="Ux/" subtitle="Ui"></StainTitle> 
                         <p className="card-description left">La experiencia de usuario es un tema muy importante en el diseño web hecha un vistazo a la metodología empleada en mis proyectos</p>
                         <ButtonsLink  to ="/ux">Ver más</ButtonsLink>
                     </div> 
@@ -82,7 +81,7 @@ export default function Home(props) {
                 <article className="card__container ">
                     <img className='img__section digital' src="../picture/about/about2.jpg" alt="proyecto about"></img>
                     <div className='card-text digital-design'>
-                        <StainTitle img="../picture/stain/ManchaFront.png" title="Front-end" subtitle="Developer"></StainTitle> 
+                        <StainTitle img="./picture/stain/ManchaFront.png" title="Front-end" subtitle="Developer"></StainTitle> 
                         <p className="card-description left">HTML, CSS, SASS, JS… son los diferentes lenguajes que he desarrollado en estos proyectos.</p>
                         <ButtonsLink  to ="/front">Ver más</ButtonsLink>
                     </div> 
@@ -92,7 +91,7 @@ export default function Home(props) {
             
 
         </main>
-        <Footer img="../picture/logo/LogoHome.jpg" ></Footer>
+        <Footer img="./picture/logo/LogoHome.jpg" ></Footer>
     </section>}
     </>  
 

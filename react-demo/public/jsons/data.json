@@ -4,7 +4,7 @@
     
     {   
         "category":"diseño-grafico",
-        "stain": "/picture/stain/ManchaGrafic.png ",
+        "stain": "./picture/stain/ManchaGrafic.png ",
         "title": "Branding",
         "secondtitle": "Monlleo ",
         "id": "branding-monlleo",
@@ -22,22 +22,22 @@
         "conclution":"Con esta marca se pretende transmitir una serie de valores tradicionales y artesanales mezclados con el diseño gráfico. Por esto se juega con diferentes técnicas en la creación de sus manchas, convirtiéndola en una marca interactiva que puede ir cambiando su aspecto, siempre siguiendo las normas de uso que se especifican en el manual de identidad. De este modo con una marca interactiva se pretende revalorizar la exclusividad de una mancha, ya que nunca habrá dos iguales. ",
         "conclution1":"Con la partición del apellido Monlleó se quiere transmitir esas raíces valencianas, ya que tanto “MON” como “LLEO” son dos palabras con significado propio en valenciano. Además, se omite el acento de la palabra, puesto que la última “O” es un elemento diferente que acentúa la identidad. Con la tipografía se contrarresta esa gestualidad y dinamismo de las manchas, proporcionándole una estabilidad y un orden.",
         "conclution2":"Se trata de una marca que integra la dualidad de la expresión manual y artesanal, con la formalidad y la seriedad del diseño gráfico.",
-        "img-main": "/picture/Monlleo/branding-Monlleo.jpg",
+        "img-main": "./picture/Monlleo/branding-Monlleo.jpg",
         "altMain": "Marca Monlleo",
-        "img-1":"/picture/Monlleo/ManualMarcaPropia.jpg",
+        "img-1":"./picture/Monlleo/ManualMarcaPropia.jpg",
         "alt1": "Manual de identidad",
-        "img-2":"/picture/Monlleo/Version-negative.jpg",
+        "img-2":"./picture/Monlleo/Version-negative.jpg",
         "alt2": "versión negativa",
-        "img-3":"/picture/Monlleo/papeleriaMonlleo.jpg",
+        "img-3":"./picture/Monlleo/papeleriaMonlleo.jpg",
         "alt3": "papeleria corporativa",
-        "img-4":"/picture/Monlleo/promocionMonlleo.jpg",
+        "img-4":"./picture/Monlleo/promocionMonlleo.jpg",
         "alt4": "elementos promocionales",
-        "logo":"/picture/logo/LogoGrafic.jpg" 
+        "logo":"./picture/logo/LogoGrafic.jpg" 
                 
     },
     {   
         "category":"diseño-grafico",
-        "stain": "/picture/stain/ManchaGrafic.png ",
+        "stain": "./picture/stain/ManchaGrafic.png ",
         "title": "Mujeres ",
         "secondtitle": "Migrantes ",
         "id": "mujeres-migrantes",
@@ -55,23 +55,23 @@
         "conclution":"Tras la gran aceptación de el diseño en la entidad, decidieron realizar unos elementos promocionales como es el Totebag o las postales, cuya entrega se realizaba a todas aquellas mujeres migrantes que asistían a su taller. También se han realizado distintas versiones de la imagen para otro tipo de eventos o folletos informativos. ",
         "conclution1":" Se trata de una imagen que nos represente a todas, sin tener en cuenta el lugar donde nacimos, la edad que tengamos, el color de nuestra piel o la situación en la que te encuentres. Representa la unión entre las mujeres, gracias a la lucha feminista y a la de tantas mujeres que se sacrifican por la causa.",
         "conclution2":"",
-        "img-main": "/picture/Mujeres/MujeresMigrantes.jpg",
+        "img-main": "./picture/Mujeres/MujeresMigrantes.jpg",
         "altMain":"Ilustracion Mujeres Migrantes",
-        "img-1":"/picture/Mujeres/Totebag.jpg",
+        "img-1":"./picture/Mujeres/Totebag.jpg",
         "alt1": "Totebag Mujeres Migrantes",
-        "img-2":"/picture/Mujeres/Postal.jpg",
+        "img-2":"./picture/Mujeres/Postal.jpg",
         "alt2": "postal Mujeres Migrantes",
-        "img-3":"/picture/Mujeres/versionLinea.jpg",
+        "img-3":"./picture/Mujeres/versionLinea.jpg",
         "alt3": "Versión 1 de la ilustración",
-        "img-4":"/picture/Mujeres/VersionAzul.jpg",
+        "img-4":"./picture/Mujeres/VersionAzul.jpg",
         "alt4": "Versión color azul",
-        "logo":"/picture/logo/LogoGrafic.jpg"           
+        "logo":"./picture/logo/LogoGrafic.jpg"           
     },
     {   
 
 
         "category":"diseño-grafico",
-        "stain": "/picture/stain/ManchaGrafic.png ",
+        "stain": "./picture/stain/ManchaGrafic.png ",
         "title": "Branding ",
         "secondtitle": "Refer ",
         "id": "marca-refer",
@@ -83,28 +83,28 @@
         "objective1":"Crear una marca donde el ecologismo y el reciclaje estén muy presentes ",
         "objective2":"Buscar un Naiming que represente los valores y filosofía de la empresa.",
         "objective3":"Realizar una breve campaña publicitaria con carteles y folletos donde los potenciales clientes puedan conocer de la existencia de este comercio.",
-        "metodologi1":" ",
-        "metodologi2":"",
-        "metodologi3":"",
-        "conclution":" ",
-        "conclution1":" ",
-        "conclution2":"",
-        "img-main": "/picture/brandRefer/REFER.png",
+        "metodologi1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+        "metodologi2":" It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "metodologi3":" It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "conclution":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+        "conclution1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+        "conclution2":"It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "img-main": "./picture/brandRefer/REFER.png",
         "altMain":"logotipo refer",
-        "img-1":"/picture/brandRefer/manual-refer.jpg",
+        "img-1":"./picture/brandRefer/manual-refer.jpg",
         "alt1": "Manual de identidad",
-        "img-2":"/picture/brandRefer/PapeleriaCorporativa.jpg",
+        "img-2":"./picture/brandRefer/PapeleriaCorporativa.jpg",
         "alt2": "Papeleria Corporativa",
-        "img-3":"/picture/brandRefer/coloresCorporativos.jpg",
+        "img-3":"./picture/brandRefer/coloresCorporativos.jpg",
         "alt3": "Versión 1 de la ilustración",
-        "img-4":"/picture/brandRefer/reticulaMarca.jpg",
+        "img-4":"./picture/brandRefer/reticulaMarca.jpg",
         "alt4": "reticula de marca", 
-        "logo":"/picture/logo/LogoGrafic.jpg" 
+        "logo":"./picture/logo/LogoGrafic.jpg" 
                     
     },
     {   
         "category":"diseño-grafico",
-        "stain": "/picture/stain/ManchaGrafic.png ",
+        "stain": "./picture/stain/ManchaGrafic.png ",
         "title": "Batecs ",
         "secondtitle": "de Barri ",
         "id": "batecs-de-barri",
@@ -122,9 +122,9 @@
         "conclution":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
         "conclution1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
         "conclution2":"It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "img-main": "/picture/Batecs/BatecsBarri2021.jpg",
+        "img-main": "./picture/Batecs/BatecsBarri2021.jpg",
         "altMain":"cartel Bateccs de Barri 2021",
-        "img-1":"/picture/brandRefer/manual-refer.jpg",
+        "img-1":"./picture/brandRefer/manual-refer.jpg",
         "alt1": "Manual de identidad",
         "img-2":"",
         "alt2": "postal Mujeres Migrantes",
@@ -132,12 +132,12 @@
         "alt3": "Versión 1 de la ilustración",
         "img-4":"",
         "alt4": "Versión 2", 
-        "logo":"/picture/logo/LogoGrafic.jpg" 
+        "logo":"./picture/logo/LogoGrafic.jpg" 
                     
     },
     {   
         "category":"diseño-grafico",
-        "stain": "/picture/stain/ManchaGrafic.png ",
+        "stain": "./picture/stain/ManchaGrafic.png ",
         "title": "Branding ",
         "secondtitle": "Banci ",
         "id": "marca-banci",
@@ -156,7 +156,7 @@
         "conclution":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
         "conclution1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
         "conclution2":"It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "img-main": "/picture/Banci/Banci.jpg",
+        "img-main": "./picture/Banci/Banci.jpg",
         "altMain":"logo banci",
         "img-1":"",
         "alt1": "Manual de identidad",
@@ -166,7 +166,7 @@
         "alt3": "Versión 1 de la ilustración",
         "img-4":"",
         "alt4": "Versión 2",
-        "logo":"/picture/logo/LogoGrafic.jpg" 
+        "logo":"./picture/logo/LogoGrafic.jpg" 
                     
     },
    
@@ -177,7 +177,7 @@
     
     {   
         "category":"ux-ui",
-        "stain":  "/picture/stain/ManchaUx.png ",
+        "stain":  "./picture/stain/ManchaUx.png ",
         "title": "Ecommercer ",
         "secondtitle": "Refer ",
         "id": "refer",
@@ -195,23 +195,23 @@
         "conclution":"Para afrontar este trabajo he hecho un gran ejercicio de introspección. Durante la maduración del proyecto he tenido que ir descartando diferentes ideas, puesto que estas no facilitaban la experiencia del usuario con la web, por lo que finalmente eliminamos toda posible distracción del usuario y dejamos simplemente lo esencial. ",
         "conclution1":"Esto se puede ver reflejado en la simplificación de los colores, la web posee un solo color de acento, el amarillo, este representa la emoción de la alegría, ya que se vincula con la luz del sol y el estado positivo.  Con el degradado se pretender romper la monotonía de los colores neutros y el amarillo, remarcando algunas partes de la web, como son las fotos y el botón de enviar mensaje. Este degradado representa mis raíces mediterráneas, por lo que empieza en el amarillo del sol y termina en el azul del mar. ",
         "conclution2":"En cuanto a la tipografía, escogí la Poppins puesto que al ser una san serif, la lectura para webs con fondos claros es óptima. Además, el ojo de las letras es muy redondeado, la cual contrasta con las líneas tan rectas que poseen muchos elementos de la web. Se trata de una Lansing page sencilla, pero con unos colores con mucha fuerza y una experiencia de usuario diseñada para consumir exactamente la información importante.",
-        "img-main": "/picture/refer/website-Refer.jpg",
+        "img-main": "./picture/refer/website-Refer.jpg",
         "altMain":"web Refer ",
         "img-1":"",
         "alt1": "Manual de identidad",
         "img-2":"",
         "alt2": "postal Mujeres Migrantes",
-        "img-3":"/picture/refer/userPersonaRefer.jpg",
+        "img-3":"./picture/refer/userPersonaRefer.jpg",
         "alt3": "user persona",
-        "img-4":"/picture/refer/siteMapRefer.jpg",
+        "img-4":"./picture/refer/siteMapRefer.jpg",
         "alt4": "site map",
 
-        "logo":"/picture/logo/LogoUx.jpg"
+        "logo":"./picture/logo/LogoUx.jpg"
                     
     },
     {   
         "category":"ux-ui",
-        "stain": "/picture/stain/ManchaUx.png ",
+        "stain": "./picture/stain/ManchaUx.png ",
         "title": "About",
         "secondtitle": "Me",
         "id": "about-me",
@@ -230,17 +230,17 @@
         "conclution":"Para afrontar este trabajo he hecho un gran ejercicio de introspección. Durante la maduración del proyecto he tenido que ir descartando diferentes ideas, puesto que estas no facilitaban la experiencia del usuario con la web, por lo que finalmente eliminamos toda posible distracción del usuario y dejamos simplemente lo esencial. ",
         "conclution1":"Esto se puede ver reflejado en la simplificación de los colores, la web posee un solo color de acento, el amarillo, este representa la emoción de la alegría, ya que se vincula con la luz del sol y el estado positivo.  Con el degradado se pretender romper la monotonía de los colores neutros y el amarillo, remarcando algunas partes de la web, como son las fotos y el botón de enviar mensaje. Este degradado representa mis raíces mediterráneas, por lo que empieza en el amarillo del sol y termina en el azul del mar. ",
         "conclution2":"En cuanto a la tipografía, escogí la Poppins puesto que al ser una san serif, la lectura para webs con fondos claros es óptima. Además, el ojo de las letras es muy redondeado, la cual contrasta con las líneas tan rectas que poseen muchos elementos de la web. Se trata de una Lansing page sencilla, pero con unos colores con mucha fuerza y una experiencia de usuario diseñada para consumir exactamente la información importante.",
-        "img-main": "/picture/about/aboutMe.jpg",
+        "img-main": "./picture/about/aboutMe.jpg",
         "altMain":"Ilustracion Mujeres Migrantes",
-        "img-1":"/picture/about/about2.jpg",
+        "img-1":"./picture/about/about2.jpg",
         "alt1": "prototipo desktop",
-        "img-2":"/picture/about/MBL_aboutMe.jpg",
+        "img-2":"./picture/about/MBL_aboutMe.jpg",
         "alt2": "prototipo movil",
-        "img-3":"/picture/about/user-persona.jpg",
+        "img-3":"./picture/about/user-persona.jpg",
         "alt3": "user persona",
-        "img-4":"/picture/about/wireframes.jpg",
+        "img-4":"./picture/about/wireframes.jpg",
         "alt4": "wireframes",
-        "logo":"/picture/logo/LogoUx.jpg" 
+        "logo":"./picture/logo/LogoUx.jpg" 
                     
     },
 
@@ -257,7 +257,7 @@
         "tools": "HTML - CSS - SASS",
         "id": "about-me",
         "alt": "Proyecto about me",
-        "img-main": "/picture/about/aboutMe.jpg",
+        "img-main": "./picture/about/aboutMe.jpg",
         "github":"https://github.com/IreneMonlleo/aboutme/tree/main/AboutMe",
         "href":"https://frontend.esatid3-2021.com/irenemonlleo/proyect-alpha/"
        
@@ -269,7 +269,7 @@
         "tools": "HTML - CSS - SASS - JS",
         "id": "about-me",
         "alt": "Proyecto Refer",
-        "img-main": "/picture/refer/website-Refer.jpg",
+        "img-main": "./picture/refer/website-Refer.jpg",
         "github":"https://github.com/IreneMonlleo/Proyecto-Beta",
         "href":"https://frontend.esatid3-2021.com/irenemonlleo/proyect-beta/"
         

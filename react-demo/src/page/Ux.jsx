@@ -18,7 +18,7 @@ export default  function Ux(props) {
     const description="Tener una buena experiencia de usuario y una web atractiva e intuitiva, es imprescindible en los tiempos que corren."
     
     return <div className="Ux">
-        <Header title="UX / " secondtitle="UI" img="../picture/stain/ManchaUx.png" description={description}></Header>
+        <Header title="UX / " secondtitle="UI" img="./picture/stain/ManchaUx.png" description={description}></Header>
         <main className="grid-container grid-ux">
         { props.data.filter((elem) => elem.category === 'ux-ui').map((info =>
             
@@ -37,6 +37,6 @@ export default  function Ux(props) {
             ))
         }
         </main>
-        <Footer img="../picture/logo/LogoUx.jpg" name="Puedes contactar conmigo en:" ></Footer>
+        <Footer img="./picture/logo/LogoUx.jpg" name="Puedes contactar conmigo en:" ></Footer>
     </div>
   }
