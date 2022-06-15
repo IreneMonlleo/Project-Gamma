@@ -33,7 +33,7 @@ export default  function Grafic(props) {
                     </Link> 
                     <div class="location-image">
                         <Link to={`/${info.category}/${info.id}`}>
-                            <img className="grid-img" src={info['img-main']} alt={info.alt} ></img>
+                            <img className="grid-img" src={info['img-main']} alt={info.altMain} ></img>
                         </Link>     
                     </div>         
                 </article>
