@@ -12,7 +12,7 @@
      setShowMobileMenu(!showMobileMenu);
    }
    return <NavContainer className='menu'>
-        <Wrapper >
+        <Wrapper className='2' >
           <Logo role="button" className='name'><Link to ="/">Irene Monlleó</Link></Logo>
           <Mobile role="button" classsName='burger' onClick ={handleClick}>
             <BurguerButton clicked={showMobileMenu} handleClick={handleClick} />
@@ -33,7 +33,10 @@
 export const NavContainer = styled.div`
   width: 100%;
   height: 70px;
- 
+  @media screen and (max-width: 700px) {
+  position:fixed;
+  z-index:2;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -45,6 +48,7 @@ export const Wrapper = styled.div`
 
   @media screen and (max-width: 700px) {
     justify-content: space-between;
+    background-color:var(--color-margin);
   }
 `;
 
