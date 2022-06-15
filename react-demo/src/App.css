@@ -57,7 +57,6 @@ img{
 
 .App {
   text-align: center;
-  overflow: hidden;
   height: 100%;
  
 }
@@ -125,6 +124,7 @@ img{
     position:fixed;
     inset:0;
     border:solid var(--color-margin) 60px;
+    z-index: 4;
     
   
   }

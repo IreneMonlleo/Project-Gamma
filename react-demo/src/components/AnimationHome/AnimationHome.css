@@ -4,6 +4,7 @@
     width:100%;
     align-items: center;
     justify-content: center;
+    position:relative;
     display:flex;
     
 }
@@ -11,10 +12,10 @@
         content: "";
         background-color: var(--color-home);
         position: absolute; 
-            top:-100px;
+            top:0px;
             left: 0;
             right: 0;
-            bottom: 0;
+            bottom: 0px;
         
         height: 100%;
 
@@ -38,6 +39,7 @@
     width:100%;
     align-items: center;
     justify-content: center;
+    position: relative;
           
 }
     .bg-animation-start::before {
@@ -73,7 +75,6 @@
         .bg-animation::before{
                 bottom: 0;
                 right:38vw;
-                margin:60px;
             animation: slide-right 2.5s ease-out ;
         }
             @keyframes slide-right {
@@ -87,7 +88,6 @@
             
             
         .bg-animation-start::before{
-            margin:60px;
                 bottom: 0;
                 right:38vw;
             animation: bg-cover-right 2.5s ease-out forwards ;
