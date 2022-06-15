@@ -20,6 +20,8 @@
     .quest{
         padding-top: 2rem;
         color:var(--color-bg);
+        max-width: 200px;
+        margin: 0 auto;
         
     }
     .quest__buttons{
@@ -41,9 +43,14 @@
 }
 .container-text-quest{
     position: relative;
+
 }
 
 @media all and (min-width:850px){
+    .quest{
+        max-width: 500px;
+        text-align: left;
+    }
     .quest__container{
         padding: 25vh 0;
     }
