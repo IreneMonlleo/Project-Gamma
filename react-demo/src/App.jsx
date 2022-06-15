@@ -21,7 +21,7 @@ function App() {
   
 
   useEffect(() => {
-    axios.get('/jsons/data.json')
+    axios.get('./jsons/data.json')
       .then(response => setDataInApp(response.data));
   }, [])
 

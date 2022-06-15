@@ -21,7 +21,7 @@ export default  function Grafic(props) {
     y requiere de una investigación y análisis previo. De este modo, podemos encontrar la solución más adecuada.`
     
     return (<div className="grafico">
-        <Header title="Diseño" secondtitle="Gráfico" img="../picture/stain/ManchaGrafic.png" description={description}></Header>
+        <Header title="Diseño" secondtitle="Gráfico" img="./picture/stain/ManchaGrafic.png" description={description}></Header>
         <main className="grid-container columns">
             
             { props.data.filter((elem) => elem.category === 'diseño-grafico').map((info =>
@@ -41,6 +41,6 @@ export default  function Grafic(props) {
         ))}
             
         </main>
-        <Footer img="../picture/logo/LogoGrafic.jpg" ></Footer> 
+        <Footer img="./picture/logo/LogoGrafic.jpg" ></Footer> 
     </div>
  ) }

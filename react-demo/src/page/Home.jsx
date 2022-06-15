@@ -45,7 +45,7 @@ export default function Home(props) {
        
         <main className="home" id="header">
                 <article className="card__container row-desktop about">
-                <img className='img__section ' src="../picture/IreneMonlleo.png" alt="Irene Monlleó"></img>
+                <img className='img__section ' src="./picture/IreneMonlleo.png" alt="Irene Monlleó"></img>
                 <div className='card-text '>
                     <h2 className='card-title'>
                         <span className='title-section'> Bienvenidos a</span>
@@ -79,7 +79,7 @@ export default function Home(props) {
                 
 
                 <article className="card__container ">
-                    <img className='img__section digital' src="../picture/about/about2.jpg" alt="proyecto about"></img>
+                    <img className='img__section digital' src="./picture/about/about2.jpg" alt="proyecto about"></img>
                     <div className='card-text digital-design'>
                         <StainTitle img="./picture/stain/ManchaFront.png" title="Front-end" subtitle="Developer"></StainTitle> 
                         <p className="card-description left">HTML, CSS, SASS, JS… son los diferentes lenguajes que he desarrollado en estos proyectos.</p>
