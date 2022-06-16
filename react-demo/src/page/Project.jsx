@@ -5,7 +5,7 @@ import CardProjects from "../components/CardProject/CardProject";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 
-import element from "../../../package.json";
+import element from "../../package.json";
 import { useEffect } from "react";
 
 
