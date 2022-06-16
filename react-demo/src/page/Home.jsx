@@ -32,6 +32,11 @@ export default function Home(props) {
             setTimeout(() => setEnableScroll(true), 1000);
   
         })
+        document.addEventListener('touchstart', (event) => {
+            setAnimation(false);
+            setTimeout(() => setEnableScroll(true), 1000);
+  
+        })
     },[])
 
      
