@@ -44,17 +44,18 @@ export default function Home(props) {
     { enableScroll === true && <section className="home__container">
        
         <main className="home" id="header">
-                <article className="card__container row-desktop about">
-                <img className='img__section ' src="./picture/IreneMonlleo.png" alt="Irene Monlleó"></img>
-                <div className='card-text '>
-                    <h2 className='card-title'>
-                        <span className='title-section'> Bienvenidos a</span>
-                        <span className='subtitle-section'>mi portfolio</span>
-                    </h2>
-                    <p className="card-description left ">Como ya sabeis me llamo Irene Monlleo. Estoy graduada en Bellas Artes en la Universidad Politécnica de Valencia. Seguidamente me especialice en Grafica Publicitaria en la EASD de Castellón y por último he dado el salto al mundodigital de la mano de ESAT
-                        Valencia con su postgrado especializado en UX/UI, Marketin digital y Desarrollo Web Front-end.</p>
-                    <ButtonA role='button' className='button-contact' href="#contact">Contacto</ButtonA>
-                </div> 
+                <article className="row-desktop about">
+                    <img className='img__section ' src="./picture/IreneMonlleo.png" alt="Irene Monlleó"></img>
+                    <div className=' about-container-text'>
+                        {/* <h2 className='card-title'>
+                            <span className='title-section'> Bienvenidos a</span>
+                            <span className='subtitle-section'>mi portfolio</span>
+                        </h2> */}
+                        <p className=" text-about left ">Desde pequeña tuve gran atención por el detalle y el simbolismo visual, por eso me gradué en Bellas Artes, lo que hizo crecer mi amor por la artesanía y mi cultura visual. Esto me abrió las puertas al diseño gráfico, en el que me adentre por completo con el Ciclo de Grafica Publicitaria. Allí descubrí que mi empatía por los demás era una pieza clave para el trabajo en equipo.<br></br><br></br>
+                            Mis ganas de seguir creciendo y desarrollándome en el campo del diseño me llevo al postgrado especializado en UX/UI, Marketing digital y Desarrollo Web Front-end de la ESAT. Donde me he sumergido en un mar de wireframes, código y palabras clave, que hace que crezca mi curiosidad y mis ganas de saber mas día tras día.
+                        </p>
+                        <ButtonA role='button' className='button-contact' href="#contact">Contacto</ButtonA>
+                    </div> 
                 </article>
                
                 <article className="card__container row-desktop">
@@ -79,7 +80,7 @@ export default function Home(props) {
                 
 
                 <article className="card__container ">
-                    <img className='img__section digital' src="./picture/about/about2.jpg" alt="proyecto about"></img>
+                    <img className=' digital website-img' src="./picture/refer/Refer-prototipe.jpg" alt="proyecto about"></img>
                     <div className='card-text digital-design'>
                         <StainTitle img="./picture/stain/ManchaFront.png" title="Front-end" subtitle="Developer"></StainTitle> 
                         <p className="card-description left">HTML, CSS, SASS, JS… son los diferentes lenguajes que he desarrollado en estos proyectos.</p>

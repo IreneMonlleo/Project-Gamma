@@ -77,7 +77,7 @@
         .bg-animation::before{
                 bottom: 0px;
                 right:44vw;
-            animation: slide-right 2.5s ease-out ;
+            animation: slide-right 2.5s ease-out forwards;
         }
             @keyframes slide-right {
                 0% {
@@ -94,7 +94,7 @@
         .bg-animation-start::before{
                 bottom: 0;
                 right:38vw;
-            animation: bg-cover-right 2.5s ease-out forwards ;
+            animation: bg-cover-right 1.5s ease-out forwards ;
         }
             @keyframes bg-cover-right {
                 0% {

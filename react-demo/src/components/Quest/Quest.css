@@ -3,7 +3,7 @@
     align-items: center;
     padding: 10vh 0;
     animation: stain 0.5s ease-out forwards;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     opacity: 0;
     
 }

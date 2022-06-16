@@ -27,11 +27,15 @@
         .title-section {
             display: block;  
         }
-
+    .text-about{
+        margin:2rem;
+    }
     .card-description{
         margin: 2em 5em;
     }
-
+    .website-img{
+        width:80vw ;
+    }
        
 
 
@@ -65,12 +69,18 @@
             padding-bottom: 24px;
             margin:0 auto;
         }
+        .website-img{
+            max-width:900px ;
+        }
         .img__section{
             display:flex;
             height: 600px;
         }
         .digital-design{
            margin:0 auto;
+        }
+        .about-container-text{
+            max-width: 500px;
         }
         .card-text{
             max-width: 360px;
