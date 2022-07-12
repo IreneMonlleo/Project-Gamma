@@ -52,10 +52,6 @@ export default function Home(props) {
                 <article className="row-desktop about">
                     <img className='img__section ' src="./picture/IreneMonlleo.png" alt="Irene Monlleó"></img>
                     <div className=' about-container-text'>
-                        {/* <h2 className='card-title'>
-                            <span className='title-section'> Bienvenidos a</span>
-                            <span className='subtitle-section'>mi portfolio</span>
-                        </h2> */}
                         <p className=" text-about left ">Desde pequeña tuve gran atención por el detalle y el simbolismo visual, por eso me gradué en Bellas Artes, lo que hizo crecer mi amor por la artesanía y mi cultura visual. Esto me abrió las puertas al diseño gráfico, en el que me adentre por completo con el Ciclo de Grafica Publicitaria. Allí descubrí que mi empatía por los demás era una pieza clave para el trabajo en equipo.<br></br><br></br>
                             Mis ganas de seguir creciendo y desarrollándome en el campo del diseño me llevo al postgrado especializado en UX/UI, Marketing digital y Desarrollo Web Front-end de la ESAT. Donde me he sumergido en un mar de wireframes, código y palabras clave, que hace que crezca mi curiosidad y mis ganas de saber más día tras día.
                         </p>
