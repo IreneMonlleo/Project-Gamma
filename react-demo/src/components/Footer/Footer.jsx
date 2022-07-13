@@ -11,7 +11,8 @@ export default function Footer(props) {
       <h2 className="footer__title">Puedes contactar <br></br>conmigo en:</h2>
       <div className="contact">
         <a className="footer__email" href="mailto:irene.monlleo@gmail.com" >irene.monlleo@gmail.com</a>
-        <a className="footer__rrss" href="https://www.instagram.com/mon_lleo/">@Mon_lleo</a>
+        <a className="footer__rrss" href="https://www.instagram.com/mon_lleo/">Instagram</a>
+        <a className="footer__rrss-in" href="https://www.linkedin.com/in/irene-monlleo-7b3655211/">Linkedin</a>
       </div>
     </div>
   }
