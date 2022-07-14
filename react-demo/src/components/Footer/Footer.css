@@ -15,14 +15,19 @@
      
     .contact {
         margin-bottom: 84px;
-        font-weight: 800;
+      
+        
         
         
     }
-       
+       .footer__rrss{
+        display: block;
+        padding-bottom: 12px;
+       }
         .footer__email {
             display:block;
             padding-bottom: 24px;
+            font-weight: 800;
         }
         .footer__email:hover {
             color:var(--color-home);
